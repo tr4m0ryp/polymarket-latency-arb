@@ -1,0 +1,85 @@
+{
+ "microprice taker, selective (60 sh)": {
+  "name": "mic_w0.05_t0.5_b0.01-0.99_l30_r0.2",
+  "kind": "micro",
+  "needs": "perp",
+  "params": {
+   "win": 0.05,
+   "thr": 0.5,
+   "refr": 0.2,
+   "band": [
+    0.01,
+    0.99
+   ],
+   "tleft": 30.0,
+   "fav_max": 0.9,
+   "shares": 60.0,
+   "slip": 0.02
+  }
+ },
+ "microprice trigger + fair-value filter": {
+  "name": "micf_pzm_m0.01_t0.002",
+  "kind": "micro",
+  "needs": "perp",
+  "params": {
+   "model": "pzm",
+   "margin": 0.01,
+   "win": 0.1,
+   "thr": 0.002,
+   "refr": 0.2,
+   "band": [
+    0.05,
+    0.95
+   ],
+   "tleft": 20.0,
+   "fav_max": 0.97,
+   "shares": 60.0,
+   "slip": 0.02
+  }
+ },
+ "fair taker refit on v2 candidates": {
+  "name": "fair_pz2_m0.08_r0.25_s300",
+  "kind": "fair",
+  "needs": "perp",
+  "params": {
+   "model": "pz2",
+   "margin": 0.08,
+   "m_fill": 0.0,
+   "refr": 0.25,
+   "base": 300.0,
+   "max_sh": 300.0
+  }
+ },
+ "fair taker + microprice lag buckets": {
+  "name": "fair_pzm_m0.08_r0.25_s300",
+  "kind": "fair",
+  "needs": "perp",
+  "params": {
+   "model": "pzm",
+   "margin": 0.08,
+   "m_fill": 0.0,
+   "refr": 0.25,
+   "base": 300.0,
+   "max_sh": 300.0
+  }
+ },
+ "maker, fair quotes pulled on microprice moves": {
+  "name": "mkm_h0.05_p0.01_w0.5",
+  "kind": "maker",
+  "needs": "perp",
+  "params": {
+   "model": "pzm",
+   "half": 0.05,
+   "band": [
+    0.1,
+    0.9
+   ],
+   "tleft": 30.0,
+   "pull_bp": 0.01,
+   "pull_win": 0.5,
+   "pull_src": "pmic",
+   "size": 60.0,
+   "max_open": 300.0
+  }
+ }
+}

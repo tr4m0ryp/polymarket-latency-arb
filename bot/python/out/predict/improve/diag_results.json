@@ -1,0 +1,460 @@
+[
+ {
+  "lens": "THE PHENOMENON AND THE LITERATURE: what the follower (Polymarket 5m book) does when the leader (Binance perp) is busy, measured on allowed windows only (select, dev3, test3 run 1, ext to 17:50; every script asserts max(start) < 1791744900; the 18:00 hour file is never opened). I also audited how the incumbent models diverge from this venue (150 ms taker hold, 1 c tick, binary settlement). This second pass checks and corrects the first pass written to the same file at 12:07.",
+  "findings": [
+   {
+    "claim": "Polymarket makers do NOT reprice faster when Binance is busy. Requote lag is flat across perp message-rate deciles, and once level size is held fixed busy hours show no speed-up at all.",
+    "evidence": "Event study of 2,706 Binance perp moves worth >= 1 c of fair value, timed on venue clocks, with market-bootstrap CIs. Requote is the time until the stale best level is gone. Files: dec_requote_pmsg10.csv and calm_busy_by_size.csv.",
+    "numbers": "Median requote: D1 233 ms [216, 239], D10 197 [178, 244]. P(gone < 150 ms): 0.24-0.35. Busy (D8-10) minus calm (D1-3) at fixed level-size tercile: -12 [-39, +10], -3 [-36, +21], +8 [+2, +20] ms. Log level size moves requote by +93 ms per SD."
+   },
+   {
+    "claim": "When Binance is busy, stale quotes are slightly MORE likely to still be resting when our L=0 order matches, and makers split into two groups: some get faster, more stop reacting.",
+    "evidence": "Alive at match (T + feed lag + 150 ms) by decile. A linear probability model of alive includes level size, surprise and the previous event. Files: dec_race_pmsg10.csv, memory_ols.csv, selection_alive_gone.csv.",
+    "numbers": "Alive at match: 0.22 (D1) to 0.27 (D10). Busy minus calm at fixed size: +0.06 to +0.09. Alive rises +3.4 pp per log unit of msgs/s [+1.3, +5.7]. Levels gone < 150 ms: 0.26 to 0.32. Levels left > 1 s: 0.05 to 0.12."
+   },
+   {
+    "claim": "Correction to the first pass (its M3). Our real race is against the maker's cancel, not against rival takers, and rivals act LESS per event when Binance is busy. The first pass's 'ended by trade 0.36 to 0.54' mostly counted partial hits and background prints.",
+    "evidence": "Each level's end is split into maker cancel vs consumed by trades (>= 80% of the level traded). Rival intensity is measured as the excess over matched quiet placebo instants. Files: dec_race_pmsg10.csv, race/cause.py.",
+    "numbers": "Ends: cancel 68-84%, eaten 1-6%. Among levels hit by a trade, the median traded share is 17% of the level, and the level disappears 112 ms after the first print. Excess rival prints toward the move at 200-500 ms: +30.0/s (D1) to +13.6/s (D10). Excess hazard of a first stale-price print: only +0.46 to +0.98/s."
+   },
+   {
+    "claim": "Rival takers scale with surprise; makers do not. Surprise here means move size over the last 30 s of fair-value churn. Rivals behave like Foucault-Kozhan-Tham informed arbitrageurs. Maker speed is a level-size trait, and weakly a per-maker trait.",
+    "evidence": "Race and requote tables by surprise decile, plus a test of whether the previous event's fate in the same market predicts this one. Files: dec_race_surprise.csv, dec_requote_surprise.csv, memory_pairs.csv.",
+    "numbers": "Rival prints toward the move at 200-500 ms: 18.3/s (lowest surprise decile) to 34.3/s (highest), on a 3-6/s background. Requote shows no trend across surprise deciles (197-235 ms). If the previous event's level was alive, alive now rises by 6 pp [+1.5, +10]. Our value rises by +0.7 c [0.0, +1.4]."
+   },
+   {
+    "claim": "A busy Binance does not mean a busy race; a busy Polymarket book does. When the follower's own book message rate is high, the race does heat up.",
+    "evidence": "Deciles of Polymarket book messages/s (dec_requote_pmupd10.csv, dec_race_pmupd10.csv). Spearman correlation with perp msgs/s is 0.65.",
+    "numbers": "Top decile of Polymarket book msgs/s: requote 178 ms [160, 200] vs 234 in D1. Level eaten 11% vs 2%. Excess stale-price hazard +1.5/s. Median level size 69 sh."
+   },
+   {
+    "claim": "Busy hours kill the value of the move, not the makers' speed. Value at the price we saw, and our post-hold value, fall to zero across activity deciles.",
+    "evidence": "Value at seen price and L=0 1 s value per decile (dec_value_pmsg10.csv). Best level, no competition window.",
+    "numbers": "Value at seen price: +10.5 c (D1) to +1.1 c (D10). Our L=0 1 s value: +4.6 c [+3.0, +6.3] to -0.9 c [-1.6, -0.2]."
+   },
+   {
+    "claim": "The frozen v1_L0 model's busy-hour failure is an information-dilution failure. Low-surprise rows are over-predicted everywhere, and busy hours are almost all low or mid surprise. Busy rows that carry a real unpriced Binance move are still under-predicted. Select (Saturday) shows the low-surprise bias but NOT the busy collapse, so a busy-specific rule cannot be chosen on select.",
+    "evidence": "Calibration of the frozen model on its own firing rows (pred >= 2 c), by perp msgs/s bin x surprise bin with fixed round edges. Unseen windows are a post hoc diagnostic; select is the legitimate selection window. Files: calib_busy_x_surprise.csv, calib_select_busy_x_surprise.csv, race/surprise.py.",
+    "numbers": "Unseen real/pred, surprise < 0.05: 0.59 / 0.39 / 0.05 at <=100 / 100-300 / >300 msgs/s. Busy (>300 msgs/s), surprise 0.05-0.5: 0.22. Busy, surprise >= 0.5: 3.28 (only 52 rows, 7 markets). Select, surprise < 0.05: 0.58-0.69 in every activity bin; busy mid-surprise on select: 2.86. Spearman(surprise, msgs/s) = -0.43 unseen. The 1 s taker's median fill has surprise ~0."
+   },
+   {
+    "claim": "A surprise gate on the deployed arms lost a comparison. It doubles to quadruples c/$ but cuts $/day and the gain over micf, on select as well as unseen. The signal belongs in sizing or in the model, not in a filter. No post hoc gate closes the L=0 CI.",
+    "evidence": "The arms' own frozen fills, filtered without re-simulation, with paired market-bootstrap gain vs ungated micf. Files: gate_surprise.csv, gates_posthoc_unseen.csv.",
+    "numbers": "Select, 1 s taker L=0: frozen +14.3 c/$, $2,082/day, gain +1,266 [+303, +2,406]. With surprise >= 0.05: +52.8 c/$, $979/day, gain +163 [-505, +812]. Unseen, same arm: frozen +15.9 c/$, gain +835 [-130, +1,993]. Gated: +28.0 c/$, gain -144 [-512, +230]. Veto L=-40 unseen: frozen gain +854 [+395, +1,306], gated +431 [+69, +809]."
+   },
+   {
+    "claim": "Survival to our match may carry opposite information in calm and busy hours: the 150 ms hold acting as a venue-wide 'last look' whose sign flips with the regime. Evidence is weak; the CI crosses 0.",
+    "evidence": "Value at the seen price for quotes alive vs gone at our match, by activity tercile, plus an OLS with an alive x busy interaction that holds level size, surprise and spread fixed. Files: selection_alive_gone.csv, selection_ols.csv.",
+    "numbers": "Alive minus gone, value at seen price 1 s: calm +1.8 c [-0.7, +4.5], busy -0.5 [-1.8, +0.7]. OLS alive x busy: -2.1 c [-4.8, +0.3]."
+   },
+   {
+    "claim": "The feed's trade-direction labels (last_trade_price side) are usable here, unlike the ~59% agreement Dubach 2026 reports for feed-inferred direction on Polymarket. They do attenuate direction-based counts by about 20%.",
+    "evidence": "58,038 prints on 48 allowed markets, checked against the venue book 5 ms before each print (trade_side_check.csv, race/sidecheck.py).",
+    "numbers": "Label agrees with the book-price test on 90.2% of classifiable prints (78.1% size-weighted, 91.3% at a 1-tick spread). 94% of prints are classifiable."
+   },
+   {
+    "claim": "Fidelity audit. Every incumbent values a stale quote from the source move and the speed gap, and assumes makers beat a taker-only delay. Here the 150 ms hold protects only the fastest quarter to third of makers. A 1 c tick carries ten times more information in a calm book than in a busy one. Because settlement is binary, the arms earn in high cents-space churn, not in high BTC message rate. Shared omission: none conditions on the move's surprise relative to the follower's churn, and none models the maker-cancel hazard against a fixed taker hold.",
+    "evidence": "Literature verified this session via Crossref and arXiv: Shkilko-Sokolov 2020 JF 10.1111/jofi.12969; Wyart et al. 2008 QF 10.1080/14697680701344515; Hasbrouck-Saar 2013 JFM 10.1016/j.finmar.2013.05.003; Brogaard et al. 2015 RFS 10.1093/rfs/hhv045; Weller 2013 SSRN 10.2139/ssrn.2355825; Aldrich-Friedman 2023 MS 10.1287/mnsc.2022.4370; Khapko-Zoican 2021 JFM 10.1016/j.finmar.2020.100601; Dayri-Rosenbaum 2015 MML 10.1142/s2382626615500033; Foucault-Kozhan-Tham RFS 10.1093/rfs/hhw103; Menkveld-Zoican RFS 10.1093/rfs/hhx006; Easley-LdP-O'Hara RFS 10.1093/rfs/hhs053; Andersen-Bondarenko JFM 10.1016/j.finmar.2013.05.005; Corwin-Coughenour JF 10.1111/j.1540-6261.2008.01420.x; Ane-Geman JF 10.1111/0022-1082.00286; Moallemi-Saglam OR 10.1287/opre.2013.1165; Cartea-Sanchez-Betancourt SIFIN 10.1137/19m1258888; Cartea-Jaimungal-Walton MAFE 10.1007/s11579-018-0218-3; Baldauf-Mollner JF 10.1111/jofi.12882; Rothschild-Sethi JPM 10.5750/jpm.v10i1.1179; Dubach arXiv 2604.24366; Chen-Long-Su arXiv 2609.17902. Budish-Cramton-Shim and Aquilina-Budish-O'Neill carry over from the first pass and were not re-checked.",
+    "numbers": "Stale levels gone within the 150 ms hold: 24-35%. Still resting at our match: 13-27%. Fills in the top fair-churn quintile: +33.8 c/$ (1 s taker, L=0, unseen). Busy fills (> 313 msgs/s): +1.8 c/$ [-4.2, +8.0]."
+   },
+   {
+    "claim": "Mechanisms carried over from the first pass and still valid: out-of-support regime (covariate shift) and a stale replay feed.",
+    "evidence": "feature_support.csv, calib_pmsg10.csv, hours_regime.csv, fills_compressed.csv.",
+    "numbers": "Model sigma input above the train p99 on 35% of ext rows. Realized/pred falls 1.22 to 0.16 across msgs/s quintiles. Perp receipt lag > 0.5 s in 18-41% of some hours. Compressed-backlog fills, 1 s taker L=0: -0.4 c/$ (28 fills) vs +17.1 c/$ normal."
+   }
+  ],
+  "hypotheses": [
+   {
+    "name": "H1 surprise-normalized value model",
+    "mechanism": "Information dilution. A fixed-cent move is a jump in a calm book and noise in a busy one; rivals already price this, the model does not. The model over-predicts low-surprise rows (0.58-0.69x on select) and collapses in busy hours.",
+    "test": "Retrain v1 on train with surprise (side-signed staleness c / 30 s fair churn), dmic and OFI over 30 s path length, and per-N-message decays. Compare select calibration by msgs/s x surprise bin, then pre-register against frozen v1 on data after the end of run 3.",
+    "predicted_effect": "Low-surprise real/pred moves from ~0.6 toward 1. Busy-tercile post-match AUC +0.02. Busy markout c/$ no longer ~0."
+   },
+   {
+    "name": "H2 maker-cancel race inputs",
+    "mechanism": "The binding competitor under the 150 ms hold is the maker's cancel (68-84% of ends), and its timing is a level and maker trait: +93 ms per SD of log size; previous-event survival in the same market adds +6 pp.",
+    "test": "Add stale-level size, level age, the last event's survival and requote lag in this market, and Polymarket book messages/s. Measure AUC of alive-at-match and post-match AUC on select, then on post-run-3 data.",
+    "predicted_effect": "Alive-at-match AUC above a size-only model; post-match AUC +0.01; fills skewed toward large, old levels (+2.4 c vs +1.3 c in the first pass)."
+   },
+   {
+    "name": "H3 surprise-scaled size instead of a gate",
+    "mechanism": "High-surprise fills earn +53 c/$ on select but are only ~20% of fills. Gating loses dollars; sizing up keeps the low-surprise fills that still pay.",
+    "test": "60 sh base, 120-150 sh at surprise >= 0.25 (threshold chosen on select). Re-simulate with the depth-limited strategy simulator (dropping fills is not enough). Paired gain vs micf and vs the frozen arm.",
+    "predicted_effect": "$/day up at flat or higher c/$; paired gain over the frozen arm positive on select."
+   },
+   {
+    "name": "H4 low-surprise margin",
+    "mechanism": "Low-surprise rows realize 0.58-0.69x of prediction on select, so the 3 c margin is under-set for them.",
+    "test": "Margin 5 c (3 c / 0.6) when surprise < 0.05, 3 c otherwise. Chosen on select, pre-registered for post-run-3 data, with the frozen vt_v1_m0.03_any in the same table.",
+    "predicted_effect": "c/$ up, $/day about flat; busy low-surprise fills (unseen +1 c) mostly dropped; smaller drawdown under the 50 ms competition sensitivity."
+   },
+   {
+    "name": "H5 follower-load race intensity",
+    "mechanism": "A busy Binance halves the rival wave, but a busy Polymarket book heats the race: requote 178 ms, 11% of levels eaten, rival excess hazard +1.5/s.",
+    "test": "Join the arms' fills to Polymarket book messages/s and to prints toward the side in [t-0.3, t) minus the 30 s background; markout by tercile. Then add both as model inputs.",
+    "predicted_effect": "Top-tercile fills' markout below half of the bottom tercile."
+   },
+   {
+    "name": "H6 busy training data",
+    "mechanism": "Covariate shift: sigma above the train p99 on 35% of ext rows; the busy slope is 0.51.",
+    "test": "Add busy weekday hours recorded after the prereg2 segment to training. Compare against frozen v1 on the next unseen block.",
+    "predicted_effect": "Busy-state slope of realized on predicted from ~0.5 toward 1."
+   },
+   {
+    "name": "H7 feed-health gate",
+    "mechanism": "Replayed Binance backlog compresses bursts on the receipt clock; compressed fills sit near zero.",
+    "test": "Gate all arms, micf included, at receipt - T > 0.5 s or compression > 1.5. Measure the Dublin paper bot's own lag distribution.",
+    "predicted_effect": "Veto L=-40 gain over micf from +854 to about +1,028 $/day (post hoc look); live relevance depends on Dublin's lag tail."
+   },
+   {
+    "name": "H8 regime-dependent last look",
+    "mechanism": "Under the hold, quotes that survive are slow makers in calm hours (worth more) and judged-noise quotes in busy hours (worth less).",
+    "test": "Re-measure alive-minus-gone value at the seen price by activity regime on new hours, with level size fixed.",
+    "predicted_effect": "Alive x busy interaction CI below 0 (currently -2.1 c [-4.8, +0.3]). If confirmed, add alive-probability x regime to the target."
+   },
+   {
+    "name": "H9 sibling-market maker consensus (never tested)",
+    "mechanism": "Makers quote many BTC markets at once. Whether the 15m and hourly books have already repriced on the same Binance move shows the makers' judgment of noise vs news before our decision.",
+    "test": "Requires recording the 15m BTC book in a separate recorder process; do not touch the running one. Then add the sibling book's reaction since T as a feature.",
+    "predicted_effect": "Separates busy-hour moves worth trading; post-match AUC gain in the busy tercile."
+   }
+  ],
+  "artifacts": [
+   "<REPO>/data/out/predict/improve/diag-mechanism-literature.md",
+   "<REPO>/data/out/predict/improve/diag-mechanism-literature/",
+   "<REPO>/research/predict/improve/diag/mechanism-literature/race/deciles.py",
+   "<REPO>/research/predict/improve/diag/mechanism-literature/race/cause.py",
+   "<REPO>/research/predict/improve/diag/mechanism-literature/race/selection.py",
+   "<REPO>/research/predict/improve/diag/mechanism-literature/race/memory.py",
+   "<REPO>/research/predict/improve/diag/mechanism-literature/race/surprise.py",
+   "<REPO>/research/predict/improve/diag/mechanism-literature/race/gate.py",
+   "<REPO>/research/predict/improve/diag/mechanism-literature/race/sidecheck.py",
+   "<REPO>/data/cache/predict/improve/mechanism-literature/calib_select.pkl"
+  ]
+ },
+ {
+  "lens": "LOSS ANATOMY: decision-time state of losing fills and worst markets for vt_v1_m0.03_any (taker1s), vt_v1_m0.02_trigger (veto) and micf at L = 0 and -40 on select, dev3, test3 run 1 and ext (8,248 frozen fills, 395 markets; no re-simulation; sealed prereg2 segment never opened)",
+  "findings": [
+   {
+    "claim": "Losers are post-match reversals, not costs. Winners and losers pay the same half spread, book walk, fee and hold drift, so no execution-side change (limit, size, slippage) can separate them.",
+    "evidence": "data/out/predict/improve/loss-anatomy/decomp.csv: per-share split of each fill's 10 s markout using the venue book at the match",
+    "numbers": "taker1s L0: d_move +19.2 (winners) vs -6.3 c/sh (losers); half spread -0.82/-0.87, walk -0.56/-0.45, fee -1.32/-1.24, hold -0.75/-0.68. Same pattern for veto, micf and L-40"
+   },
+   {
+    "claim": "The settlement delta (cents of the bought token per bp of BTC, model/derive.py) is the one separator that holds everywhere. Low-delta fills lose, high-delta fills carry the edge.",
+    "evidence": "auc.csv, delta_bins.csv. Market-bootstrap AUC for 'fill loses', checked per window",
+    "numbers": "AUC 0.40 [0.32,0.46] taker1s L0, 0.31 [0.26,0.38] veto L0, 0.40 [0.37,0.44] taker1s L-40, 0.38 [0.35,0.41] veto L-40, below 0.5 in all 24 arm x L x window cells. delta <= 3 c/bp: -10.8 (taker1s L0), -9.9 (veto L0), -7.0, -3.7 c/$ with 62-78% losers. delta > 12: +10 to +28 c/$"
+   },
+   {
+    "claim": "The 1 s model's prediction is nearly flat across delta while realized value is not. In the busy extension it over-predicts in every delta bin, worst at low delta. In quiet hours it under-predicts at high delta.",
+    "evidence": "Fill level: delta_bins.csv. Row level, every decision row with pred >= 3 c, best level, no simulator: calib_regime.csv (data/calib.py, 146,926 candidate rows)",
+    "numbers": "At the fills, pred is 2.4-4.9 c/sh in every delta bin while realized 10 s runs -2.2 to +16.2 c/sh. Row level L0: ext delta <= 3 pred 4.2 vs realized 1 s -0.7 c; quiet delta >= 8 pred 5.8-7.3 vs realized 8.5-10.6 c; quiet delta <= 3 pred 6.2 vs 7.4 (14 markets, not over-predicted)"
+   },
+   {
+    "claim": "The busy extension is a low-delta regime, and the fire-rate jump there is mostly low-delta fills. That is what activity jumps do to the deployed arms.",
+    "evidence": "delta_windows.csv, hour.csv",
+    "numbers": "Median fill delta in ext 5.6-8.5 c/bp vs 15-62 elsewhere. Share of fills below 5 c/bp: 26-41% in ext vs 0-8% elsewhere. veto L0 in ext: 1,428 fills/day, of which 588 are low-delta (201-463 fills/day elsewhere). ext 16:00 hour: median delta 5-6, taker1s +2.5 c/$, veto +2.9 c/$"
+   },
+   {
+    "claim": "No gate chosen on select can find the losing states, because select has almost none of them. A delta floor picked on select + dev3 (dev3 has 6-8% low-delta fills) and read on test3 run 1 + ext is positive in 4 of 4 arm x L, with a CI above 0 in one. This is a fill-drop approximation, not a re-simulation.",
+    "evidence": "screen_select.csv (52 variables x 4 arm-L, 10-30% tail cuts picked on select, read on dev3 + test3r1 + ext), delta_grid.csv, rules.csv",
+    "numbers": "Select-picked cuts: 20 of 208 add any markout on select, 0 of 208 have an unseen CI above 0. Delta floor: taker1s L-40 thr 3 +$269/day [+2, +642]; taker1s L0 thr 3 +$61 [-45, +217]; veto L0 thr 4 +$154 [-67, +467]; veto L-40 thr 6 +$328 [-83, +769]. delta < 3 drops 0 fills in select and test3r1. In ext alone: veto L0 +$522 [+13, +1,342], veto L-40 +$767 [+31, +1,671]"
+   },
+   {
+    "claim": "The other candidate separators are weak or two-faced, so none of them gives a usable gate. Price level predicts how often a fill loses, not dollars. Polymarket staleness (pm_stale) is where the taker's early-entry edge lives. Burst position and own history flip sign by window.",
+    "evidence": "auc.csv, deciles.csv, rules.csv",
+    "numbers": "seen AUC 0.37-0.38 (4/4 windows), but seen < 0.21 earns +48.9 c/$ (taker1s L0). Requiring pm_stale > 0 costs the 1 s taker $300-920/day in every window. rv60 > 4 bp helps ext (+$121 to +$1,150) but costs $18-196/day in select and dev3. Burst/own-history AUC 0.42-0.60 with sign flips. Adding to a losing fill earns +6 to +20 c/$ outside ext. Binance message rate (rows10) 0.52-0.62, only through vol"
+   },
+   {
+    "claim": "Under the 50 ms competition sensitivity, the taker's high-delta fills are the ones that collapse. Rivals take the best stale quotes first. The veto's fills survive.",
+    "evidence": "delta_comp (analyze/delta.py comp_check): final vs final_comp fills on test3 run 1, L = 0",
+    "numbers": "taker1s delta > 40: +13.6 c/$ (58 fills) -> -0.3 c/$ (49 fills); delta 12-40: +16.1 -> +11.7. veto 12-40: +31.4 -> +25.2. micf > 40: +20.9 -> +10.6"
+   },
+   {
+    "claim": "The worst markets are one-offs, not a regime. Bad markets are only partly shared across arms, and whole-market regime separates losing markets weakly. The single worst market is a pinned BTC with the strike at spot, where the model faded a falling Polymarket book with no Binance signal.",
+    "evidence": "tails.csv, shared.csv, regime_auc.csv, worst_taker_L0.csv; fills of market 491 (test3r1, 10:40 UTC) inspected against the raw perp and spot streams of hour 10",
+    "numbers": "taker1s L0 bottom 5 markets -$296 on 19 fills (top 5 +$764). Per-market Spearman across arms 0.41-0.69. Regime AUC <= 0.64. Market 491: perp mid unchanged for 5 min, spot moved ~1 bp, delta 200-280 c/bp. Five Up buys in 1.4 s at 62 s to expiry with p_dmic0.1 = 0 and pm_stale = 0, while the Up mid fell 0.77 -> 0.07: -$144 (L0), -$200 (L-40)"
+   },
+   {
+    "claim": "The two-side gap ranks losers better than pred alone, but cutting fills on it loses money, so it is only worth trying as a constraint inside the model. A side's value is pred; pred_other is the model's value for the opposite side.",
+    "evidence": "auc.csv (pred_gap vs pred), rules.csv",
+    "numbers": "pred_gap AUC is further from 0.5 than pred in 6/6 arm x L: veto L0 0.37 vs 0.41, taker1s L-40 0.42 vs 0.45, micf L0 0.29 vs 0.33. A select-q20 cut loses money in 11 of 16 window reads"
+   }
+  ],
+  "hypotheses": [
+   {
+    "name": "Delta-aware value model (recalibration)",
+    "mechanism": "The model's output barely moves with delta, while the cents a BTC lead is worth scale with delta. In busy hours, low-delta rows get predicted 4-5 c but realize about 0. In quiet hours, high-delta rows realize 2-4 c more than predicted. A monotone recalibration of pred on (pred, delta, busy state), fitted on train + select + dev3 rows so it sees low-delta states, fixes both ends.",
+    "test": "Fit the calibration on decision rows of train + select + dev3 (data/calib.py style). Apply margin 3 c / 2 c to the calibrated value. Re-simulate on test3 run 1 + ext with paired 10 s markout gain vs frozen vt_v1_m0.03_any and vt_v1_m0.02_trigger at L = 0 and -40. Then test on hours after the prereg2 segment.",
+    "predicted_effect": "Gain concentrated in busy hours: the floor screen alone is +$61 to +$328/day on test3r1 + ext. Some upside from extra high-delta fills in quiet hours, capped by competition."
+   },
+   {
+    "name": "Delta floor gate (cheapest form)",
+    "mechanism": "Below about 3-6 c/bp, even a full Binance lead is worth less than half spread plus fee in the token. Fills there lose in the busy regime, and quiet hours almost never reach that state, so a floor removes losers without touching the quiet-hour edge.",
+    "test": "Re-simulate the frozen arms plus 'no order when delta < d0', with d0 picked on select + dev3 from {2,3,4,5,6,8}. Read on test3r1 + ext, and every allowed window, with a paired market-bootstrap CI. Falsified if the gain disappears once knock-on fills (refractory, depth memory) are simulated, or if quiet windows lose.",
+    "predicted_effect": "About $0 in select and test3r1. ext +$167 to +$767/day per arm x L at d0 = 3. Pooled test3r1 + ext +$61 to +$328/day, CI above 0 at least for taker1s L-40."
+   },
+   {
+    "name": "Busy-window selection rule",
+    "mechanism": "Select has 0-2% low-delta fills, so a gate selected there sees only tails that are net positive. Any regime-dependent margin, including the report's suggested volatility-scaled margin, must be selected on a window that contains busy hours.",
+    "test": "Pick the same gate family (delta floor, volatility-scaled margin) once on select alone and once on select + dev3. Read both on ext and test3r1.",
+    "predicted_effect": "The select-alone pick keeps failing in busy hours (0 of 208 select-picked cuts had an unseen CI above 0). The select + dev3 pick holds."
+   },
+   {
+    "name": "The ext shift is partly competition, not only delta",
+    "mechanism": "In ext the model over-predicts in every delta bin, by 1-5 c at the 1 s mark, consistent with rivals repricing the Polymarket book faster when activity jumps. Delta explains the worst bin, not the whole shift.",
+    "test": "Add the Polymarket top-change rate (pm_chg10) or rival taker flow as a calibration input. Check whether the ext residual (pred minus realized) by delta bin shrinks while the select residual stays flat. Cross-check with the competition lens.",
+    "predicted_effect": "Residual over-prediction in ext falls from 1-5 c to about 1 c per bin. The gain is on top of the delta floor."
+   },
+   {
+    "name": "Conditional size on high-value, high-delta states",
+    "mechanism": "GBDT shrinkage compresses the top predictions. At pred >= 6 c and delta >= 12 c/bp in quiet hours, realized 1 s value is 1.2-1.5 times pred, so a fixed 60 sh leaves money on the best decisions.",
+    "test": "Re-simulate with 150 sh when pred >= 6 c and delta >= 12, and 60 sh otherwise, at J = 0.01 and J = 0.05 (the 50 ms sensitivity). Compare paired vs the frozen arm.",
+    "predicted_effect": "More $/day at J = 0.01. Under J = 0.05 the gain may vanish, because the taker's delta > 40 fills drop from +13.6 to -0.3 c/$ when rivals take depth first."
+   },
+   {
+    "name": "Two-side coherence constraint",
+    "mechanism": "Buying Up and buying Down at the match are worth exactly -(spread + both fees) together, whatever the mark. The two predictions drift from that identity, and the drift is model error. Scoring on the antisymmetric part (pred - pred_other)/2, or training both sides jointly under the identity, removes it.",
+    "test": "Retrain or post-process with the identity. Compare AUC for 'fill loses' and re-simulated paired markout vs pred alone on test3r1 + ext.",
+    "predicted_effect": "A small AUC gain (pred_gap beats pred in 6/6 arm x L, by 0.004-0.04). Gains in dollars are uncertain, because a plain cut on the gap lost money in 11 of 16 window reads."
+   }
+  ],
+  "artifacts": [
+   "<REPO>/data/out/predict/improve/diag-loss-anatomy.md",
+   "<REPO>/data/out/predict/improve/loss-anatomy/",
+   "<REPO>/data/out/predict/improve/loss-anatomy/auc.csv",
+   "<REPO>/data/out/predict/improve/loss-anatomy/delta_bins.csv",
+   "<REPO>/data/out/predict/improve/loss-anatomy/calib_regime.csv",
+   "<REPO>/data/out/predict/improve/loss-anatomy/delta_grid.csv",
+   "<REPO>/data/out/predict/improve/loss-anatomy/rules.csv",
+   "<REPO>/data/out/predict/improve/loss-anatomy/fills_state.pkl",
+   "<REPO>/data/out/predict/improve/loss-anatomy/calib_rows.pkl",
+   "<REPO>/research/predict/improve/diag/loss-anatomy/",
+   "<REPO>/research/predict/improve/diag/loss-anatomy/data/guard.py",
+   "<REPO>/research/predict/improve/diag/loss-anatomy/data/calib.py",
+   "<REPO>/research/predict/improve/diag/loss-anatomy/analyze/run.py"
+  ]
+ },
+ {
+  "lens": "MODEL CALIBRATION AND REGIME DRIFT (frozen v1_L0 / v1_L-40, v3p_L0 for contrast). All on allowed markets only (train 143, select 144, dev3 120, test3 run 1 83, ext 48); every entry point asserts max(market start) < 1791744900. TL;DR: the 1 s model goes from under-predicting (run 2, dev3) to over-predicting (busy ext), but fixing the prediction does not beat the frozen arm. Fixing the margin by activity regime does: 2.5 c in normal activity, 3 c in extreme activity. Picked on select only, it gains about +$300/day on the 251 unseen markets, which does NOT count as a clean test.",
+  "findings": [
+   {
+    "claim": "The model's error flips sign across windows: it under-predicts in run 2 and dev3, is about calibrated in test3 run 1, and over-predicts in the busy extension.",
+    "evidence": "Rows where the model's chosen side has pred >= 3 c (best level). Gap = realised 1 s value minus prediction, market-bootstrap CI. data/out/predict/improve/calibration/calib_overall.csv, calib.md",
+    "numbers": "v1_L0 gap: train +3.6 [+2.4,+4.8], select +4.6 [+0.6,+8.5], dev3 +3.8 [+0.6,+7.3], final -0.8 [-3.4,+1.6], ext -2.2 [-3.2,-1.0] c/sh. Calibration slope 1.55 / 2.10 / 1.85 / 0.97 / 0.75. Firing rows per hour 812 / 489 / 601 / 533 / 1,008. v1_L-40 in ext: -2.4 [-3.1,-1.4], slope 0.79, 2,739 rows/h. Deciles 0-8 are calibrated within 0.1 c everywhere; only the top 2 deciles of ext over-predict (0.6 and 1.6 c)."
+   },
+   {
+    "claim": "In the busy hours the error is an additive shift of about -2 c at every prediction level. At the fill level the deployed taker stays calibrated; each fill is worth a third of what it was, and there are twice as many fills.",
+    "evidence": "Fixed prediction bins per window, and the frozen simulator fills joined to their predictions (trades.md)",
+    "numbers": "ext 1 s gap is about -2.1 c in every bin from 2 to 5 c. vt_v1_m0.03_any at L=0, ext: 38.8 fills per market-hour vs 16.9-23.8 elsewhere; realised 3.59 c/sh vs pred 3.74 (gap -0.2 [-2.7,+3.1]); +7.8 c/$ [+1.5,+15.5]. The veto in ext: 56.5 fills per market-hour, gap -1.2 [-3.0,+1.1] c/sh, +3.8 c/$ [-1.6,+9.5]."
+   },
+   {
+    "claim": "The extension is a different regime on every activity measure. Test3 run 1 looks like train on activity yet its calibration had already shifted, so part of the drift is not activity.",
+    "evidence": "Median regime columns per decision row (rows/regime.py, computed only from data at or before the decision)",
+    "numbers": "ext vs train: perp msgs/s 232 vs 80, spot msgs/s 69.7 vs 18.5, 60 s volatility 0.167 vs 0.050 bp/sqrt(s), Polymarket book msgs/s 1,124 vs 698, top changes/s 2.0 vs 1.0, Polymarket trades/s 5.1 vs 3.1. 85% of ext rows fall in train's busy tertile. Test3 run 1 is within 15% of train except Polymarket trades/s (+27%)."
+   },
+   {
+    "claim": "Within a window, the only consistent regime discriminator is the Polymarket trade rate (rivals' taker activity), not Binance message rate or volatility.",
+    "evidence": "Firing-region gap by tertile, cutpoints fixed on train (calib_regime.csv)",
+    "numbers": "Top tertile of Polymarket trade rate, 1 s gap: dev3 -1.4 [-3.7,+1.2] vs +8.8 in the mid tertile; final -3.2 [-6.6,-0.3]; ext -2.3 [-3.6,-1.0]. Binance-rate and volatility tertiles overlap across windows."
+   },
+   {
+    "claim": "Covariate shift: mild in the quiet windows, large in ext, carried by the settlement-scale and spot-book feature groups.",
+    "evidence": "Domain classifier on random rows (train vs window, folds split by market) with grouped permutation; PSI per feature (shift.md)",
+    "numbers": "Domain AUC: select 0.648, dev3 0.654, final 0.681, ext 0.855. PSI in ext: perp msgs 1.84, sigma 1.58, rv60 1.50, lzs 1.08, delta 0.91, s_lq 0.85, p_tsm 0.84. AUC drop from shuffling the group in ext: settlement scale 0.160, spot book 0.109."
+   },
+   {
+    "claim": "The busy-hour prediction inflation comes from the spot-book features. A wider volatility (smaller cents-per-bp scale, delta) partly offsets it. The miscalibration cannot be predicted from features across markets.",
+    "evidence": "Each feature group of ext quantile-mapped onto its train distribution, then re-predicted. Residual model with folds split by market (attrib.md, attrib_ext_features.csv)",
+    "numbers": "Mean prediction of firing rows 4.82 c as observed; 3.00 c with only the spot book mapped back; 2.97 c with all features mapped. Firing share 0.83% -> 0.42%. Per feature: spot queue depletion toward the side -0.45 c, 50 ms spot microprice change -0.40, 100 ms change -0.20, spot touch size -0.26, spot time-to-depletion -0.17 (log median 3.2 vs 5.6). delta 8.9 vs 18.6 c/bp (+0.42 c if mapped back). Residual model held-out R2 = -0.04."
+   },
+   {
+    "claim": "Is the 3 c margin too loose in busy hours and too tight in quiet ones? At L=0 it is too tight in normal hours and right in busy hours. At L=-40 it is too tight in normal hours and too loose in busy hours.",
+    "evidence": "Margin sweep m2-m5 in the unchanged replay simulator; the rebuilt frozen arms reproduce the frozen agg files to the cent (sim_recal.md)",
+    "numbers": "L=0, gain vs frozen: dev3 m2 +963 [+14,+2,310]; final m2.5 +393 [+36,+795]; ext m2.5 -655 [-1,424,+51], m3.5 -528 [-1,178,+51], m2 -1,805 [-3,942,-157]. L=-40: dev3 m2 +1,091 [+244,+2,150]; ext m3.5 +828 [-155,+1,831]. Raising the margin in the busy tertile at L=0 loses on the 251 unseen markets: 4.5 c in the busy tertile -494 [-890,-122]; 4 c in the top Polymarket-trade-rate tertile -595 [-1,170,-153]."
+   },
+   {
+    "claim": "Recalibrating the prediction toward its target does not beat the frozen arm: isotonic (global or per regime), online bias or ratio from delayed labels, and a 25th-percentile lower-bound model.",
+    "evidence": "Simulator, paired 10 s markout $/day vs frozen; the lower-bound model was tested at row level only (recal_rows.md)",
+    "numbers": "L=0, 251 unseen markets vs frozen: isotonic +122 [-228,+498] (ext -810 [-1,490,-187]); isotonic per busy tertile -237 [-855,+380]; online 10 s-mark bias, 90 min -50 [-747,+714] (ext -1,178 [-2,079,-429]); online 1 s ratio, 90 min -161 [-1,055,+585]. The 25th-percentile model in ext (row level): -3,101 [-9,711,+1,537]. Why: select under-predicts, so the select-fit map inflates exactly where ext over-predicts, and online correction cuts marginal fills that are still profitable."
+   },
+   {
+    "claim": "A regime-scaled margin picked on select beats the frozen arm and micf on the 251 unseen markets. This is NOT a clean test: the regime-margin family was proposed after the margin sweep had been read on these windows.",
+    "evidence": "rm_Q_B = Q c when the busy index (mean of train-standardised log perp message rate, 60 s volatility and Polymarket trade rate) is below 1.0, B c at or above it (11.6% of train rows, 62.6% of ext). Grid of 9 picked on select (rm_choice.json, 12:14:58 UTC), then simulated on the unseen windows (sim_rm.md)",
+    "numbers": "L=-40 pick rm_2.5_3: +$3,206/day; vs frozen +315 [+55,+618]; vs micf +1,675 [+586,+2,895] (frozen vs micf +1,360 [+360,+2,461]). L=0 pick rm_2.5_3.5: +227 [-99,+574] (P<=0 = 0.10) vs frozen; vs micf +1,076 [+155,+2,106] (frozen vs micf +849 [-51,+1,879]). Neighbouring rm_2.5_3 at L=0: +314 [+21,+651], ext +37 [-242,+357]."
+   },
+   {
+    "claim": "The regime margin survives the 50 ms competition sensitivity; the static 2.5 c margin does not.",
+    "evidence": "Race window J = 50 ms, half of each level, compared with the frozen arm under the same conditions (sim_rmcomp.md)",
+    "numbers": "Unseen markets vs frozen. L=0: rm_2.5_3 +253 [+3,+570]; rm_2.5_3.5 +248 [-14,+578]; static m2.5 +125 [-185,+477] but ext -838 [-1,482,-247]. L=-40: rm_2.5_3.5 +322 [+75,+591]; rm_2.5_3 +152 [-27,+372]; m2.5 -112, ext -1,557 [-2,467,-737]. Under this sensitivity the frozen taker itself makes $946/day at L=0 and $839 at L=-40, and -$540/day in ext at L=-40."
+   },
+   {
+    "claim": "Recalibrating the veto does not help. Its busy-hour weakness is how often the leaders' trigger fires, not its margin.",
+    "evidence": "Veto rebuilt with a 3 c margin and with the online 10 s bias",
+    "numbers": "L=-40, unseen vs frozen veto: 3 c margin -192 [-501,+73]; online bias -335 [-660,-55]. L=0 online bias -269 [-498,-67]."
+   }
+  ],
+  "hypotheses": [
+   {
+    "name": "Regime margin rm_2.5_3 as a registered arm",
+    "mechanism": "Outside extreme activity the model under-predicts (calibration slope 1.5-2.1), so the 3 c margin leaves 2.5-3 c rows that realise 3-5 c/sh. In extreme activity, spot-signal inflation and contested depth make extra fills lose, so 3 c is right.",
+    "test": "Freeze rm_2.5_3 (busy index 1.0 threshold, train-standardised) and register it on hours nobody has opened: the sealed prereg2 segment or hours after run 3. Criterion: paired 10 s gain vs the frozen vt_v1_m0.03_any with CI above 0 at L=-40 and the same sign at L=0, also under J=50 ms with half depth.",
+    "predicted_effect": "+$250-320/day vs frozen at both L; about +$150-320 under the competition sensitivity"
+   },
+   {
+    "name": "Continuous activity-scaled margin",
+    "mechanism": "The best margin rises with activity (L=-40: 2 c in dev3, 3.5 c in ext), so a smooth slope avoids the step and captures the L=-40 busy-hour gain.",
+    "test": "margin = clip(2.5 c + s * max(busy_index, 0), 2.5, 3.5) with s chosen on select+dev3, scored on final+ext and on fresh hours vs rm_2.5_3 and frozen.",
+    "predicted_effect": "Matches rm_2.5_3 in quiet hours; adds part of m3.5's +$828/day in ext at L=-40"
+   },
+   {
+    "name": "Spot-signal base-rate normalisation",
+    "mechanism": "The busy-hour inflation comes from the spot book alone: depletion, 50-100 ms microprice change and time-to-depletion fire at about twice their base rate while makers reprice twice as fast. Dividing each by its trailing 10-30 min base rate should remove the shift without losing the quiet-hour signal.",
+    "test": "Retrain v1 on train with normalised spot features. Pass: ext firing-region 1 s gap moves from -2.2 c toward 0 and the domain AUC drop for the spot book falls, while the select top-2% value and the post-match AUC do not degrade. Then a simulator run vs frozen on all allowed windows.",
+    "predicted_effect": "Ext firing rows per hour falls about 2x; calibration slope in ext moves from 0.75 toward 1"
+   },
+   {
+    "name": "Online marginal-fill-value margin",
+    "mechanism": "Correcting p toward its own target fails because over-predicted marginal rows are still profitable. The right online statistic is the realised 10 s value of the most recent would-be fills in the 2.5-4 c band under live fill logic: raise the margin only when that goes <= 0.",
+    "test": "Causal replay over train..ext with the simulator's fill logic per decision. Pass: matches rm_2.5_3 on dev3 and beats it in ext.",
+    "predicted_effect": "Recovers the regime margin without a hand-set threshold, and adapts to regimes not seen in train"
+   },
+   {
+    "name": "Busy-hour fire-rate cap for the veto",
+    "mechanism": "In ext the veto lets the leaders' trigger through 56 times per market-hour at about zero markout per share; a stricter margin removes good and bad fills alike (-192 / -335). A burst cap active only when the busy index >= 1.0 targets the over-firing.",
+    "test": "Veto with at most N orders per 5 s window when busy index >= 1.0 (N chosen on select). Pass: ext gain vs the frozen veto > 0 with dev3 and final unchanged.",
+    "predicted_effect": "Recovers part of the veto's busy-hour loss: ext +3.5 c/$ at L=0, +1.0 c/$ at L=-40 today"
+   }
+  ],
+  "artifacts": [
+   "<REPO>/data/out/predict/improve/diag-calibration.md",
+   "<REPO>/data/out/predict/improve/calibration/calib.md",
+   "<REPO>/data/out/predict/improve/calibration/calib_overall.csv",
+   "<REPO>/data/out/predict/improve/calibration/trades.md",
+   "<REPO>/data/out/predict/improve/calibration/shift.md",
+   "<REPO>/data/out/predict/improve/calibration/attrib.md",
+   "<REPO>/data/out/predict/improve/calibration/attrib_ext_features.csv",
+   "<REPO>/data/out/predict/improve/calibration/recal_rows.md",
+   "<REPO>/data/out/predict/improve/calibration/sim_recal.md",
+   "<REPO>/data/out/predict/improve/calibration/sim_rm.md",
+   "<REPO>/data/out/predict/improve/calibration/sim_rmcomp.md",
+   "<REPO>/data/out/predict/improve/calibration/rm_choice.json",
+   "<REPO>/research/predict/improve/diag/calibration/__init__.py",
+   "<REPO>/research/predict/improve/diag/calibration/safe.py",
+   "<REPO>/research/predict/improve/diag/calibration/rows/build.py",
+   "<REPO>/research/predict/improve/diag/calibration/rows/regime.py",
+   "<REPO>/research/predict/improve/diag/calibration/analyze/common.py",
+   "<REPO>/research/predict/improve/diag/calibration/analyze/calib.py",
+   "<REPO>/research/predict/improve/diag/calibration/analyze/trades.py",
+   "<REPO>/research/predict/improve/diag/calibration/analyze/shift.py",
+   "<REPO>/research/predict/improve/diag/calibration/analyze/attrib.py",
+   "<REPO>/research/predict/improve/diag/calibration/analyze/groups.py",
+   "<REPO>/research/predict/improve/diag/calibration/recal/forms.py",
+   "<REPO>/research/predict/improve/diag/calibration/recal/registry.py",
+   "<REPO>/research/predict/improve/diag/calibration/recal/rows.py",
+   "<REPO>/research/predict/improve/diag/calibration/recal/arms.py",
+   "<REPO>/research/predict/improve/diag/calibration/recal/sim.py",
+   "<REPO>/research/predict/improve/diag/calibration/recal/score.py",
+   "<REPO>/research/predict/improve/diag/calibration/recal/choose.py"
+  ]
+ },
+ {
+  "lens": "COMPETITION AND FILL REALISM (round 2). This round adds race-label, value-capped-limit and value-keyed-size tests, a latency-jitter fill model, losing-fill anatomy and a rival timing cadence check. Allowed windows only: select 144, dev3 120, test3 run 1 83 and ext 48 markets. Every script asserts max(start) < 1791744900. The instrumented simulator reproduces the frozen fills exactly. The race-label refit reproduces the frozen v1_L0 predictions to 0.0.",
+  "findings": [
+   {
+    "claim": "Rivals and makers clearing depth during the 150 ms hold do not explain the losing fills. Losers are reversals that build 1-10 s after the match.",
+    "evidence": "research/predict/improve/diag/competition/report/losers.py, data/out/predict/improve/diag-competition-extra.md and diag-competition-losers.csv. Each filled order is split into hold slippage (VWAP minus the seen ask) and the move after the match.",
+    "numbers": "Hold slippage share of the losers' loss: 1 s taker quiet -6%, busy +6%; veto quiet +8%, busy +12%; micf +3% to +9%; veto L=-40 +12%. Loser markout at 1 / 3 / 10 s (c/sh): 1 s taker quiet -1.7 / -3.9 / -11.9. The veto's quiet-hour losers were still positive at 1 s and 3 s (+0.8 / +0.7) and ended at -4.6."
+   },
+   {
+    "claim": "Competition acts as adverse selection on the winning fills. Competition-aware fill models remove a much larger share of the winners' dollars than of the losers'. Realism shrinks the edge without flipping its sign.",
+    "evidence": "losers.py compares base vs comp (J 50 ms, half of each level) vs e+25 per fill group. The round-1 exposure table shows 85-95% of the hold-time depth drop at our levels is maker cancels. The leaders account for 0-12% of the same-side prints in our hold.",
+    "numbers": "Under comp, winners keep 54-66% of their dollars and losers keep 75-90%. At e+25 in busy hours, 1 s taker winners keep 79% and losers keep 95%. In quiet hours a rival print in our hold flags a loser (1 s taker: 59% of losers vs 37% of winners; micf 69% vs 43%). In busy hours it does not (37% vs 39%)."
+   },
+   {
+    "claim": "Symmetric latency jitter costs nothing because the race curve is convex near e = 0. A systematic late bias does cost money, mostly in busy hours.",
+    "evidence": "research/predict/improve/diag/competition/report/jitter.py mixes the simulated e-grid with trapezoid weights. Paired gains vs micf use the same mixture.",
+    "numbers": "L=0, unseen, $/day for base / U(-25,+25) / U(0,+25) / U(0,+50): 1 s taker 1,850 / 1,841 / 1,667 / 1,574; veto 1,288 / 1,342 / 1,176 / 1,121. The 1 s taker's busy hours fall from 1,450 to 790 under U(0,50). Veto L=-40 gain vs micf: +875 base to +504 [+42, +889] under U(0,50). Veto L=-40 busy goes from +1,081 to -117."
+   },
+   {
+    "claim": "Sizing by predicted value is the one competition-robust improvement. On unseen hours it beats the deployed 60 sh under base, e+25 and comp for all three deployed arms. In busy hours it is flat at L=0 and slightly negative at L=-40, with CIs crossing 0.",
+    "evidence": "research/predict/improve/diag/competition/report/sizesel.py pools 12 fixed and value-keyed sizes. The pick is the largest comp-gain CI lower bound on select. Tables: data/out/predict/improve/diag-competition-sizesel.md and the -robust.csv. Realized markout per share rises with predicted value (diag-competition-extra.md). The rule was written after the size tables had been printed, so the unseen read is not blind.",
+    "numbers": "1 s taker L=0, shares = 2000 x value (30-200), vs deployed: +448 [+160, +773] base, +389 [+127, +695] e+25, +132 [+2, +269] comp. The same rule vs micf in base: +1,297 [+266, +2,430]; frozen arm +849 [-51, +1,879]. Veto L=0, 3000 x value (100-300), vs deployed: +801 [+427, +1,258], +671 [+329, +1,078], +220 [+7, +452]. The same veto rule vs micf under comp: +444 [+12, +843]; frozen +224 [-99, +511]. Veto L=-40, 3000 x value (60-300): +1,472 / +987 / +424 [+92, +755]. Busy hours, L=0: +147 / +79 / +45 (1 s) and +144 / +4 / -58 (veto). Busy hours, veto L=-40: -158 / -315 / -347, CIs crossing 0. Fixed 300 sh for the veto loses $1,034/day under comp in busy hours."
+   },
+   {
+    "claim": "Chasing depth with a value-capped limit (seen + predicted value, up to 10 c) lost a comparison to the value-keyed size at seen + 2 c. It is fragile to competition in busy hours.",
+    "evidence": "research/predict/improve/diag/competition/sim/vlim.py and report/vlim.py, tables in data/out/predict/improve/diag-competition-vlim.md. Comparisons are net of size: paired vs the same value-keyed size at + 2 c.",
+    "numbers": "Select, comp: +621 (1 s), +543 (veto), +707 (L=-40). Unseen: +319 [-120, +736] base and +109 [-278, +464] comp (1 s); +231 base and +87 comp (veto). Busy, veto L=-40: -1,837 [-3,145, -593] base, -1,908 e+25, -3,246 [-4,399, -2,170] comp. A tighter limit at small values (floor 2 c) went positive in busy hours at L=-40 (+692 [-89, +1,601] comp)."
+   },
+   {
+    "claim": "The race-aware value label (round-1 hypothesis 1) lost a comparison to the frozen v1 at the same margin under every fill model. It penalizes the contested rows, which carry the edge.",
+    "evidence": "research/predict/improve/diag/competition/race/label.py: same rows, features and learner as v1_L0, with a control refit that matches the frozen predictions to 0.0. Results in report/race.py and data/out/predict/improve/diag-competition-race-label.md.",
+    "numbers": "Same margin, unseen, vs frozen sibling, base / e+25 / comp: ravg 3 c any -335 / -159 / -5; rmin 3 c any -1,340 / -1,082 / -720 [-1,263, -298]; ravg 2 c trigger -180 / -143 / -61; rmin 2 c trigger -613 / -516 / -300. The select pick (ravg at 2 c, +669 [+163, +1,247] under e+25 on select) won only through its lower margin. On unseen it read -113 [-1,219, +1,020], and -641 in busy hours."
+   },
+   {
+    "claim": "Rival takers have a 100 ms timing cadence, which points to a population keyed to a 100 ms clock rather than batched matching. It does not affect our simulated fills.",
+    "evidence": "research/predict/improve/diag/competition/report/cadence.py, data/out/predict/improve/diag-competition-cadence.md. It measures distinct venue print ms modulo 100, and our orders' outcomes by match-time phase.",
+    "numbers": "Prints at 90-99 ms within each 100 ms run at 1.42x the mean in test3 run 1 and 1.09-1.12x in dev3 and ext. Across phases our orders show fill rate 0.52-0.57, rival print within 25 ms after the match 0.16-0.22 and markout 6.0-8.4 c/$, with no pattern by phase."
+   }
+  ],
+  "hypotheses": [
+   {
+    "name": "Value-keyed size as a pre-registered secondary arm",
+    "mechanism": "Realized markout per share rises with predicted value. High-value orders sit on the thin, contested stale quotes, so taking more of the depth we saw at seen + 2 c captures value a rival would otherwise take, without chasing repriced levels.",
+    "test": "On the next unseen window after prereg2, pre-register shares = 2000 x value (30-200) for vt_v1_m0.03_any and 3000 x value (100-300) for vt_v1_m0.02_trigger. Read each against the same arm at 60 sh under the base, e+25 and comp fill models with a market bootstrap. In the Dublin paper run, check that the realized would-be fill fraction for orders above 60 sh is within 25% of the simulator.",
+    "predicted_effect": "Gain vs 60 sh > 0 under base and e+25, comp CI lower bound >= 0, busy hours within +/-$300/day. Fails if the comp read is < 0."
+   },
+   {
+    "name": "Competition is adverse selection on winners",
+    "mechanism": "Rivals and fast makers race for the stale quotes that make the winning fills. The losing fills are uncontested reversals, so any real competition removes winners before losers.",
+    "test": "On any new window and in the paper run, compare the realized-vs-simulated shortfall in winners' and losers' dollars. Also compare it in the high-value bins (7 c and up) against the 3-4 c bin.",
+    "predicted_effect": "Kept-dollar share for winners is at least 15 points below the share for losers. The paper-run shortfall concentrates in high-value orders."
+   },
+   {
+    "name": "Latency bias, not jitter, sets the shortfall",
+    "mechanism": "The race curve is convex near e = 0, so symmetric jitter averages out and a systematic late offset does not. Busy hours are about 3x more sensitive to that offset.",
+    "test": "In the Dublin paper run, regress markout per order on the measured receipt-to-CLOB offset, split by book message rate. Then compare the mean offset with its spread as predictors of the shortfall against the simulator.",
+    "predicted_effect": "The mean offset explains the shortfall and its spread does not. A late bias of about 25 ms costs about 10% of quiet-hour dollars and 35-45% of busy-hour dollars."
+   },
+   {
+    "name": "Chasing loses in busy hours, a tighter limit wins there",
+    "mechanism": "In busy hours, levels above the seen ask have already been repriced by rivals. A larger walk-up buys exactly what they priced out, while a limit tied to predicted value (floor 2 c) avoids it.",
+    "test": "Once a busy selection window exists (from data after the sealed segment, never prereg2), select between seen + clip(value - 2 c, 0, 10 c) and seen + 2 c at L = -40. Read the choice on a later busy window under comp.",
+    "predicted_effect": "The tighter rule beats + 2 c in busy hours under comp (ext hint: +692 [-89, +1,601]) and is neutral in quiet hours. The looser rule stays negative in busy hours."
+   },
+   {
+    "name": "Race-aware label only pays if Dublin is late",
+    "mechanism": "Labelling with min or mean of the value at L = 0 and L = 50 down-weights contested rows. That helps only when we lose most of the races within 50 ms.",
+    "test": "If the paper run measures a mean offset of 50 ms or more, re-read ravg vs v1 at the same margin under e+50 and the measured-offset mixture. Otherwise the idea stays closed.",
+    "predicted_effect": "At a mean offset of 50 ms or more, ravg at 3 c reaches parity or better against v1 at 3 c. Near L = 0 it keeps losing (-$159/day under e+25)."
+   },
+   {
+    "name": "100 ms rival cadence",
+    "mechanism": "A rival group appears to trade off a 100 ms-batched feed, such as Binance @100ms streams, so its prints land at 90-99 ms of each cycle. Our real-time bookTicker trigger should then stay ahead of it.",
+    "test": "Measure the strength of the 90-99 ms print cluster against Binance message rate and BTC volatility per hour. Check whether prints in the cluster follow Binance @100ms boundaries at a fixed lag.",
+    "predicted_effect": "The cluster ratio rises with activity. Our markout keeps showing no phase dependence."
+   }
+  ],
+  "artifacts": [
+   "<REPO>/data/out/predict/improve/diag-competition.md",
+   "<REPO>/data/out/predict/improve/diag-competition-extra.md",
+   "<REPO>/data/out/predict/improve/diag-competition-sizesel.md",
+   "<REPO>/data/out/predict/improve/diag-competition-sizesel-robust.csv",
+   "<REPO>/data/out/predict/improve/diag-competition-vlim.md",
+   "<REPO>/data/out/predict/improve/diag-competition-race-label.md",
+   "<REPO>/data/out/predict/improve/diag-competition-cadence.md",
+   "<REPO>/data/out/predict/improve/diag-competition-losers.csv",
+   "<REPO>/data/out/predict/improve/models/v1ravg_L0.pkl",
+   "<REPO>/data/out/predict/improve/models/v1rmin_L0.pkl",
+   "<REPO>/research/predict/improve/diag/competition/race/label.py",
+   "<REPO>/research/predict/improve/diag/competition/sim/vlim.py",
+   "<REPO>/research/predict/improve/diag/competition/report/jitter.py",
+   "<REPO>/research/predict/improve/diag/competition/report/losers.py",
+   "<REPO>/research/predict/improve/diag/competition/report/sizesel.py",
+   "<REPO>/research/predict/improve/diag/competition/report/vlim.py",
+   "<REPO>/research/predict/improve/diag/competition/report/race.py",
+   "<REPO>/research/predict/improve/diag/competition/report/extra.py",
+   "<REPO>/research/predict/improve/diag/competition/report/cadence.py"
+  ]
+ }
+]

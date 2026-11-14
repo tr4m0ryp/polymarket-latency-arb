@@ -1,0 +1,15 @@
+# Live-test extras on top of the paper kit's pins. Install: pip install -r btclat/trade/deploy/requirements.txt
+-r ../../paper/deploy/requirements.txt
+# Official Polymarket CLOB V2 client (EIP-712 order signing, L1/L2 auth headers); exchange version 2.
+py-clob-client-v2==1.2.0
+py-order-utils==0.3.2
+poly_eip712_structs==0.0.1
+eth-account==0.14.0
+eth-abi==6.0.0
+eth-utils==6.0.0
+eth-keys==0.8.0
+# libsecp256k1 backend for eth_keys: signing 11.6 ms -> 1.4 ms (research/infra/sign_bench.py)
+coincurve==21.0.0
+# one warm HTTP/2 session to clob.polymarket.com
+httpx[http2]==0.28.1
+h2==4.4.1

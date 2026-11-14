@@ -1,0 +1,7 @@
+{
+ "note": "p50 / p90 delivery lag (ms) of each connection vs the first arrival of the same trade id, Scaleway Paris host, 2026-10-10 UTC; run 3 full output in binance_probe.json",
+ "run1_about_1848utc_180s": {"spot_raw_a": [96.86, 117.3], "spot_raw_b": [0.0, 0.88], "spot_combined": [99.76, 351.5], "spot_vision": [0.72, 1.59], "perp_public_a": [0.0, 0.0], "perp_public_b": [0.68, 109.14]},
+ "run2_about_1853utc_150s": {"spot_raw_a": [0.94, 1.17], "spot_raw_b": [0.0, 0.21], "spot_raw_c": [94.89, 115.07], "spot_raw_d": [96.94, 117.85], "spot_combined": [94.79, 115.4], "spot_vision": [0.15, 1.09], "perp_public_a": [100.34, 118.62], "perp_public_b": [0.0, 0.18], "perp_public_c": [0.13, 0.42], "perp_public_d": [99.26, 115.27]},
+ "run3_about_1905utc_120s": {"spot_raw_a": [103.21, 570.52], "spot_raw_b": [1.57, 102.99], "spot_raw_c": [106.75, 578.06], "spot_raw_d": [104.31, 612.17], "spot_combined": [105.96, 551.28], "spot_vision": [0.0, 44.23], "perp_public_a": [357.56, 657.47], "perp_public_b": [0.68, 198.44], "perp_public_c": [253.84, 704.66], "perp_public_d": [0.88, 17.48]},
+ "gateway_ips": {"run2": {"spot": "52.198.240.72 (all raw + combined)", "perp": "16.76.53.143 (all)"}, "run3": {"spot": "18.177.110.204", "perp": "13.197.66.214"}}
+}

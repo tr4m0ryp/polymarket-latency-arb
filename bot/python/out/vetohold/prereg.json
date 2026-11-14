@@ -1,0 +1,76 @@
+{
+ "frozen_utc": "2026-10-14 15:32:40",
+ "split": 1791849600.0,
+ "selection_orders": 4387,
+ "selection_markets": 286,
+ "plain_sel_usd_day": 253.83528623849762,
+ "params": {
+  "surv": {
+   "tau": 0.0
+  },
+  "fixed": {
+   "i": 0.0
+  },
+  "istar": {
+   "tau": 0.01,
+   "pad": 0.0
+  },
+  "size": {
+   "frac": 0.5
+  },
+  "fresh": {
+   "tau": 0.02
+  },
+  "ev": {
+   "tau": -0.02
+  },
+  "surv_size": {
+   "tau": 0.0,
+   "frac": 0.5
+  }
+ },
+ "min_sent": 0.05,
+ "features": [
+  "f_age",
+  "f_best_gap",
+  "f_bid_dep",
+  "f_cancel_1",
+  "f_dask_0.25",
+  "f_dask_1.0",
+  "f_ddep_0.25",
+  "f_ddep_1.0",
+  "f_dep0",
+  "f_dep2",
+  "f_dep5",
+  "f_edge",
+  "f_fair_edge",
+  "f_fresh",
+  "f_hour",
+  "f_lag",
+  "f_left",
+  "f_nev_0.25",
+  "f_nev_1.0",
+  "f_onset",
+  "f_perp_0.1",
+  "f_perp_0.25",
+  "f_perp_0.5",
+  "f_perp_1.0",
+  "f_perp_3.0",
+  "f_pred_opp",
+  "f_rlag",
+  "f_rlag50",
+  "f_seen",
+  "f_spot_0.1",
+  "f_spot_0.25",
+  "f_spot_0.5",
+  "f_spot_1.0",
+  "f_spot_3.0",
+  "f_spread",
+  "f_src",
+  "f_trd_1",
+  "f_value",
+  "f_vol30"
+ ],
+ "models_sha256": "806a75f1fff930c8e83dff996455322c2112ec2c07d3089057b119d3655a1f9d",
+ "scoring": "test hours (t >= split), veto orders, real hold, paired market bootstrap vs plain"
+}

@@ -61,6 +61,16 @@ We have not found a way to reach that volume without losing money on the way up,
 
 Reproduce the figure and the table with `python figures/make.py`.
 
+## What is in this repository
+
+- `study/`: the analysis of the wallets that already run this trade, from public on-chain fills.
+- `recorder/`: the live capture of the exchange feeds and the Polymarket book.
+- `latency/`: lead-lag, co-location and network measurements.
+- `bot/python/`, `bot/rust/`: the paper bot and the taker bot.
+- `reports/`, `notes/`: the write-ups and the dated project log.
+
+The code is a snapshot of an abandoned approach. Recorded data, model files and credentials are not included, so the bots do not run as shipped.
+
 ## License
 
 polymarket-latency-arb is **source-available**, licensed under the [PolyForm Noncommercial License 1.0.0](./LICENSE), **not** an OSI open-source license.

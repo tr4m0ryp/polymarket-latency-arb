@@ -1,0 +1,59 @@
+{
+ "arm": "c5:var1:rf_bal_m2 ['rf_bal_m2']",
+ "folds": {
+  "A": {
+   "chosen": "rf_bal_m2",
+   "key": "A|rf_bal_m2",
+   "retrained": true,
+   "criterion": null,
+   "variants": 1,
+   "choose": [
+    "select",
+    "dev3"
+   ],
+   "evaluate": [
+    "test3r1",
+    "ext"
+   ]
+  },
+  "B": {
+   "chosen": "rf_bal_m2",
+   "key": "B|rf_bal_m2",
+   "retrained": true,
+   "criterion": null,
+   "variants": 1,
+   "choose": [
+    "test3r1",
+    "ext"
+   ],
+   "evaluate": [
+    "select",
+    "dev3"
+   ]
+  }
+ },
+ "sets": {
+  "A:test3r1": 83,
+  "A:ext": 48,
+  "A:eval": 131,
+  "A:busy15": 12,
+  "A:busyQ": 47,
+  "B:select": 144,
+  "B:dev3": 120,
+  "B:eval": 264,
+  "B:busyQ": 60,
+  "CV:all": 395,
+  "CV:busyQ": 107,
+  "unseen251": 251
+ },
+ "secs_total": 10.358300685882568,
+ "secs_refs": 0.0,
+ "secs_sim": 983.4237048625946,
+ "models": {
+  "v1_L0": "570a9c1015c555c5",
+  "v1_L-40": "8b1fd3f3662c7648"
+ },
+ "max_start": 1791744600.0,
+ "n_markets": 395,
+ "fold_invariant": false
+}

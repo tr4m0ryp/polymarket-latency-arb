@@ -1,0 +1,9 @@
+{"k": "send", "t": 1791799900.0, "oid": "sig0"}
+{"k": "fill", "slug": "m1", "token": "UP", "up": true, "end": 1791800200.0, "sh": 5, "cost": 2.5, "fee": 0.08750000000000001}
+{"k": "send", "t": 1791799910.0, "oid": "sig1"}
+{"k": "fill", "slug": "m2", "token": "DN", "up": false, "end": 1791800200.0, "sh": 5, "cost": 2.25, "fee": 0.08662500000000004}
+{"k": "send", "t": 1791799920.0, "oid": "sig2"}
+{"k": "fill", "slug": "m3", "token": "UP", "up": true, "end": 1791800200.0, "sh": 5, "cost": 2.75, "fee": 0.08662500000000001}
+{"k": "send", "t": 1791799930.0, "oid": "sig3"}
+{"k": "fill", "slug": "m1", "token": "UP", "up": true, "end": 1791800200.0, "sh": 5, "cost": 2.6, "fee": 0.08736000000000001}
+{"k": "resolve", "slug": "m3", "outcome": 0.0}

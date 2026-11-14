@@ -1,0 +1,63 @@
+{
+ "hours": [
+  497662,
+  497663,
+  497664,
+  497665,
+  497666,
+  497667,
+  497668,
+  497669,
+  497670,
+  497671,
+  497672,
+  497673,
+  497674,
+  497675,
+  497676,
+  497677,
+  497678,
+  497679,
+  497680,
+  497681
+ ],
+ "spot_bursts": 510,
+ "by_thr": {
+  "0.5": {
+   "perp_seen_share": 0.882,
+   "perp_first_share": 0.7,
+   "lead_ms_p25_p50_p75_p90": [
+    -2.0,
+    23.0,
+    227.5,
+    784.2
+   ],
+   "perp_onsets_per_h": 74.6,
+   "false_alarm_share": 0.725
+  },
+  "0.75": {
+   "perp_seen_share": 0.784,
+   "perp_first_share": 0.652,
+   "lead_ms_p25_p50_p75_p90": [
+    -4.0,
+    4.5,
+    125.2,
+    558.5
+   ],
+   "perp_onsets_per_h": 51.0,
+   "false_alarm_share": 0.629
+  },
+  "1.0": {
+   "perp_seen_share": 0.69,
+   "perp_first_share": 0.534,
+   "lead_ms_p25_p50_p75_p90": [
+    -6.0,
+    1.0,
+    57.3,
+    409.1
+   ],
+   "perp_onsets_per_h": 35.0,
+   "false_alarm_share": 0.51
+  }
+ }
+}

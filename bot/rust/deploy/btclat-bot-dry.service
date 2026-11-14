@@ -1,0 +1,30 @@
+# btclat-bot --dry: live feeds, the veto engine, would-be orders logged; NO keys, NO orders.
+#   sudo systemctl start btclat-bot-dry   ; journalctl -fu btclat-bot-dry
+# Logs: /opt/btclat/data/trade/<run>/bot-<hour>.jsonl.gz ; report: python3 -m btclat.trade.report.rust --run <run>
+[Unit]
+Description=btclat-bot dry run (no orders)
+After=network-online.target chrony.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=btclat
+WorkingDirectory=/opt/btclat
+Environment=BTCLAT_HOME=/opt/btclat
+Environment=BTCLAT_CONFIG=/opt/btclat/.config/btclat
+# bot.env (written by setup-bot.sh, edit per run): HOURS, TAG, MODEL, MODEL_SHA256, EXTRA
+EnvironmentFile=/opt/btclat/.config/btclat/bot.env
+ExecStart=/opt/btclat/bin/btclat-bot run --dry --hours ${HOURS} --run dublin-botdry-${TAG} --model ${MODEL} --model-sha256 ${MODEL_SHA256} --reserve ${RESERVE} $EXTRA
+Nice=-5
+MemoryMax=1G
+Restart=no
+TimeoutStopSec=30
+KillSignal=SIGTERM
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/btclat/data/trade
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

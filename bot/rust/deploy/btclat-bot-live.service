@@ -1,0 +1,35 @@
+# btclat-bot LIVE: SENDS REAL ORDERS (taker + model veto, limit = seen ask + i, i = 0, sized from
+# balance - RESERVE with the bankroll caps of reports/bankroll-caps.md).
+# Installed by setup-bot.sh, never enabled by it. Start only with the user's explicit approval:
+#   sudo systemctl start btclat-bot-live   ; journalctl -fu btclat-bot-live
+# Stop: sudo -u btclat touch /opt/btclat/.config/btclat/KILL (cancel-all, blocks restarts) or
+# systemctl stop (SIGTERM: cancel-all, log flushed and gzipped, then exit). Never run next to
+# btclat-trade@* (each run's cancel-all would cancel the other's orders).
+[Unit]
+Description=btclat-bot LIVE (real Polymarket orders, hard risk caps)
+After=network-online.target chrony.service
+Wants=network-online.target
+Conflicts=btclat-trade@micro.service btclat-trade@maker.service
+
+[Service]
+Type=simple
+User=btclat
+WorkingDirectory=/opt/btclat
+Environment=BTCLAT_HOME=/opt/btclat
+Environment=BTCLAT_CONFIG=/opt/btclat/.config/btclat
+EnvironmentFile=/opt/btclat/.config/btclat/bot.env
+ExecStart=/opt/btclat/bin/btclat-bot run --i-approve --hours ${HOURS} --run dublin-bot-${TAG} --model ${MODEL} --model-sha256 ${MODEL_SHA256} --reserve ${RESERVE} $EXTRA
+Nice=-5
+MemoryMax=1G
+# A stop is deliberate (kill file, loss cap, venue error): a human looks before the next start.
+Restart=no
+TimeoutStopSec=30
+KillSignal=SIGTERM
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/btclat/data/trade /opt/btclat/.config/btclat/state
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

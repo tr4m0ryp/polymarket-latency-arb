@@ -1,0 +1,554 @@
+[
+ {
+  "build": "A Tokyo single host",
+  "trigger": "spot onset",
+  "hold_ms": 150,
+  "arrival_ms": 123.0,
+  "fill_after_T0_ms": 273.0,
+  "first_share": 0.293,
+  "edge_c_per_usd": 2.2,
+  "usd_in_window": 21620
+ },
+ {
+  "build": "A Tokyo single host",
+  "trigger": "spot onset",
+  "hold_ms": 250,
+  "arrival_ms": 123.0,
+  "fill_after_T0_ms": 373.0,
+  "first_share": 0.207,
+  "edge_c_per_usd": 0.4,
+  "usd_in_window": 16616
+ },
+ {
+  "build": "A Tokyo single host",
+  "trigger": "perp 1 bp, median lead",
+  "hold_ms": 150,
+  "arrival_ms": 123.0,
+  "fill_after_T0_ms": 272.0,
+  "first_share": 0.293,
+  "edge_c_per_usd": 2.3,
+  "usd_in_window": 20403
+ },
+ {
+  "build": "A Tokyo single host",
+  "trigger": "perp 1 bp, median lead",
+  "hold_ms": 250,
+  "arrival_ms": 123.0,
+  "fill_after_T0_ms": 372.0,
+  "first_share": 0.207,
+  "edge_c_per_usd": 0.5,
+  "usd_in_window": 17649
+ },
+ {
+  "build": "A Tokyo single host",
+  "trigger": "perp 1 bp, top-quartile lead",
+  "hold_ms": 150,
+  "arrival_ms": 123.0,
+  "fill_after_T0_ms": 215.7,
+  "first_share": 0.453,
+  "edge_c_per_usd": 5.0,
+  "usd_in_window": 8397
+ },
+ {
+  "build": "A Tokyo single host",
+  "trigger": "perp 1 bp, top-quartile lead",
+  "hold_ms": 250,
+  "arrival_ms": 123.0,
+  "fill_after_T0_ms": 315.7,
+  "first_share": 0.233,
+  "edge_c_per_usd": 1.0,
+  "usd_in_window": 25838
+ },
+ {
+  "build": "A Tokyo single host",
+  "trigger": "maker cancel",
+  "hold_ms": 0,
+  "arrival_ms": 123.0,
+  "fill_after_T0_ms": 123.0,
+  "shield_share_usd": 0.861,
+  "shield_share_toxic_edge": 0.587
+ },
+ {
+  "build": "B Dublin single host",
+  "trigger": "spot onset",
+  "hold_ms": 150,
+  "arrival_ms": 112.7,
+  "fill_after_T0_ms": 262.7,
+  "first_share": 0.313,
+  "edge_c_per_usd": 2.6,
+  "usd_in_window": 19214
+ },
+ {
+  "build": "B Dublin single host",
+  "trigger": "spot onset",
+  "hold_ms": 250,
+  "arrival_ms": 112.7,
+  "fill_after_T0_ms": 362.7,
+  "first_share": 0.213,
+  "edge_c_per_usd": 0.6,
+  "usd_in_window": 18171
+ },
+ {
+  "build": "B Dublin single host",
+  "trigger": "perp 1 bp, median lead",
+  "hold_ms": 150,
+  "arrival_ms": 112.7,
+  "fill_after_T0_ms": 261.7,
+  "first_share": 0.32,
+  "edge_c_per_usd": 2.6,
+  "usd_in_window": 19031
+ },
+ {
+  "build": "B Dublin single host",
+  "trigger": "perp 1 bp, median lead",
+  "hold_ms": 250,
+  "arrival_ms": 112.7,
+  "fill_after_T0_ms": 361.7,
+  "first_share": 0.213,
+  "edge_c_per_usd": 0.9,
+  "usd_in_window": 18285
+ },
+ {
+  "build": "B Dublin single host",
+  "trigger": "perp 1 bp, top-quartile lead",
+  "hold_ms": 150,
+  "arrival_ms": 112.7,
+  "fill_after_T0_ms": 205.4,
+  "first_share": 0.487,
+  "edge_c_per_usd": 3.4,
+  "usd_in_window": 7733
+ },
+ {
+  "build": "B Dublin single host",
+  "trigger": "perp 1 bp, top-quartile lead",
+  "hold_ms": 250,
+  "arrival_ms": 112.7,
+  "fill_after_T0_ms": 305.4,
+  "first_share": 0.24,
+  "edge_c_per_usd": 1.8,
+  "usd_in_window": 25414
+ },
+ {
+  "build": "B Dublin single host",
+  "trigger": "maker cancel",
+  "hold_ms": 0,
+  "arrival_ms": 112.7,
+  "fill_after_T0_ms": 112.7,
+  "shield_share_usd": 0.863,
+  "shield_share_toxic_edge": 0.594
+ },
+ {
+  "build": "C London host, via Cloudflare",
+  "trigger": "spot onset",
+  "hold_ms": 150,
+  "arrival_ms": 115.9,
+  "fill_after_T0_ms": 265.9,
+  "first_share": 0.3,
+  "edge_c_per_usd": 2.3,
+  "usd_in_window": 20049
+ },
+ {
+  "build": "C London host, via Cloudflare",
+  "trigger": "spot onset",
+  "hold_ms": 250,
+  "arrival_ms": 115.9,
+  "fill_after_T0_ms": 365.9,
+  "first_share": 0.207,
+  "edge_c_per_usd": 0.6,
+  "usd_in_window": 16929
+ },
+ {
+  "build": "C London host, via Cloudflare",
+  "trigger": "perp 1 bp, median lead",
+  "hold_ms": 150,
+  "arrival_ms": 115.9,
+  "fill_after_T0_ms": 264.9,
+  "first_share": 0.3,
+  "edge_c_per_usd": 2.4,
+  "usd_in_window": 18959
+ },
+ {
+  "build": "C London host, via Cloudflare",
+  "trigger": "perp 1 bp, median lead",
+  "hold_ms": 250,
+  "arrival_ms": 115.9,
+  "fill_after_T0_ms": 364.9,
+  "first_share": 0.213,
+  "edge_c_per_usd": 0.6,
+  "usd_in_window": 17987
+ },
+ {
+  "build": "C London host, via Cloudflare",
+  "trigger": "perp 1 bp, top-quartile lead",
+  "hold_ms": 150,
+  "arrival_ms": 115.9,
+  "fill_after_T0_ms": 208.6,
+  "first_share": 0.473,
+  "edge_c_per_usd": 3.7,
+  "usd_in_window": 7997
+ },
+ {
+  "build": "C London host, via Cloudflare",
+  "trigger": "perp 1 bp, top-quartile lead",
+  "hold_ms": 250,
+  "arrival_ms": 115.9,
+  "fill_after_T0_ms": 308.6,
+  "first_share": 0.24,
+  "edge_c_per_usd": 1.6,
+  "usd_in_window": 25602
+ },
+ {
+  "build": "C London host, via Cloudflare",
+  "trigger": "maker cancel",
+  "hold_ms": 0,
+  "arrival_ms": 115.9,
+  "fill_after_T0_ms": 115.9,
+  "shield_share_usd": 0.863,
+  "shield_share_toxic_edge": 0.593
+ },
+ {
+  "build": "D London colo, no Cloudflare",
+  "trigger": "spot onset",
+  "hold_ms": 150,
+  "arrival_ms": 108.4,
+  "fill_after_T0_ms": 258.4,
+  "first_share": 0.327,
+  "edge_c_per_usd": 2.5,
+  "usd_in_window": 18706
+ },
+ {
+  "build": "D London colo, no Cloudflare",
+  "trigger": "spot onset",
+  "hold_ms": 250,
+  "arrival_ms": 108.4,
+  "fill_after_T0_ms": 358.4,
+  "first_share": 0.213,
+  "edge_c_per_usd": 1.2,
+  "usd_in_window": 18471
+ },
+ {
+  "build": "D London colo, no Cloudflare",
+  "trigger": "perp 1 bp, median lead",
+  "hold_ms": 150,
+  "arrival_ms": 108.4,
+  "fill_after_T0_ms": 257.4,
+  "first_share": 0.333,
+  "edge_c_per_usd": 2.1,
+  "usd_in_window": 18484
+ },
+ {
+  "build": "D London colo, no Cloudflare",
+  "trigger": "perp 1 bp, median lead",
+  "hold_ms": 250,
+  "arrival_ms": 108.4,
+  "fill_after_T0_ms": 357.4,
+  "first_share": 0.213,
+  "edge_c_per_usd": 1.4,
+  "usd_in_window": 18371
+ },
+ {
+  "build": "D London colo, no Cloudflare",
+  "trigger": "perp 1 bp, top-quartile lead",
+  "hold_ms": 150,
+  "arrival_ms": 108.4,
+  "fill_after_T0_ms": 201.1,
+  "first_share": 0.5,
+  "edge_c_per_usd": 3.3,
+  "usd_in_window": 7169
+ },
+ {
+  "build": "D London colo, no Cloudflare",
+  "trigger": "perp 1 bp, top-quartile lead",
+  "hold_ms": 250,
+  "arrival_ms": 108.4,
+  "fill_after_T0_ms": 301.1,
+  "first_share": 0.24,
+  "edge_c_per_usd": 1.8,
+  "usd_in_window": 25374
+ },
+ {
+  "build": "D London colo, no Cloudflare",
+  "trigger": "maker cancel",
+  "hold_ms": 0,
+  "arrival_ms": 108.4,
+  "fill_after_T0_ms": 108.4,
+  "shield_share_usd": 0.864,
+  "shield_share_toxic_edge": 0.599
+ },
+ {
+  "build": "E Tokyo + AWS backbone + Dublin",
+  "trigger": "spot onset",
+  "hold_ms": 150,
+  "arrival_ms": 113.3,
+  "fill_after_T0_ms": 263.3,
+  "first_share": 0.307,
+  "edge_c_per_usd": 2.3,
+  "usd_in_window": 18687
+ },
+ {
+  "build": "E Tokyo + AWS backbone + Dublin",
+  "trigger": "spot onset",
+  "hold_ms": 250,
+  "arrival_ms": 113.3,
+  "fill_after_T0_ms": 363.3,
+  "first_share": 0.213,
+  "edge_c_per_usd": 0.7,
+  "usd_in_window": 18202
+ },
+ {
+  "build": "E Tokyo + AWS backbone + Dublin",
+  "trigger": "perp 1 bp, median lead",
+  "hold_ms": 150,
+  "arrival_ms": 113.3,
+  "fill_after_T0_ms": 262.3,
+  "first_share": 0.313,
+  "edge_c_per_usd": 2.6,
+  "usd_in_window": 19214
+ },
+ {
+  "build": "E Tokyo + AWS backbone + Dublin",
+  "trigger": "perp 1 bp, median lead",
+  "hold_ms": 250,
+  "arrival_ms": 113.3,
+  "fill_after_T0_ms": 362.3,
+  "first_share": 0.213,
+  "edge_c_per_usd": 0.6,
+  "usd_in_window": 18171
+ },
+ {
+  "build": "E Tokyo + AWS backbone + Dublin",
+  "trigger": "perp 1 bp, top-quartile lead",
+  "hold_ms": 150,
+  "arrival_ms": 113.3,
+  "fill_after_T0_ms": 206.0,
+  "first_share": 0.487,
+  "edge_c_per_usd": 3.4,
+  "usd_in_window": 7720
+ },
+ {
+  "build": "E Tokyo + AWS backbone + Dublin",
+  "trigger": "perp 1 bp, top-quartile lead",
+  "hold_ms": 250,
+  "arrival_ms": 113.3,
+  "fill_after_T0_ms": 306.0,
+  "first_share": 0.24,
+  "edge_c_per_usd": 1.8,
+  "usd_in_window": 25611
+ },
+ {
+  "build": "E Tokyo + AWS backbone + Dublin",
+  "trigger": "maker cancel",
+  "hold_ms": 0,
+  "arrival_ms": 113.3,
+  "fill_after_T0_ms": 113.3,
+  "shield_share_usd": 0.863,
+  "shield_share_toxic_edge": 0.594
+ },
+ {
+  "build": "F Tokyo + McKay/BSO + Dublin",
+  "trigger": "spot onset",
+  "hold_ms": 150,
+  "arrival_ms": 78.3,
+  "fill_after_T0_ms": 228.3,
+  "first_share": 0.42,
+  "edge_c_per_usd": 2.0,
+  "usd_in_window": 10943
+ },
+ {
+  "build": "F Tokyo + McKay/BSO + Dublin",
+  "trigger": "spot onset",
+  "hold_ms": 250,
+  "arrival_ms": 78.3,
+  "fill_after_T0_ms": 328.3,
+  "first_share": 0.233,
+  "edge_c_per_usd": 1.7,
+  "usd_in_window": 24442
+ },
+ {
+  "build": "F Tokyo + McKay/BSO + Dublin",
+  "trigger": "perp 1 bp, median lead",
+  "hold_ms": 150,
+  "arrival_ms": 78.3,
+  "fill_after_T0_ms": 227.3,
+  "first_share": 0.427,
+  "edge_c_per_usd": 2.8,
+  "usd_in_window": 10433
+ },
+ {
+  "build": "F Tokyo + McKay/BSO + Dublin",
+  "trigger": "perp 1 bp, median lead",
+  "hold_ms": 250,
+  "arrival_ms": 78.3,
+  "fill_after_T0_ms": 327.3,
+  "first_share": 0.233,
+  "edge_c_per_usd": 1.5,
+  "usd_in_window": 24905
+ },
+ {
+  "build": "F Tokyo + McKay/BSO + Dublin",
+  "trigger": "perp 1 bp, top-quartile lead",
+  "hold_ms": 150,
+  "arrival_ms": 78.3,
+  "fill_after_T0_ms": 171.0,
+  "first_share": 0.567,
+  "edge_c_per_usd": 5.1,
+  "usd_in_window": 6296
+ },
+ {
+  "build": "F Tokyo + McKay/BSO + Dublin",
+  "trigger": "perp 1 bp, top-quartile lead",
+  "hold_ms": 250,
+  "arrival_ms": 78.3,
+  "fill_after_T0_ms": 271.0,
+  "first_share": 0.293,
+  "edge_c_per_usd": 2.3,
+  "usd_in_window": 20437
+ },
+ {
+  "build": "F Tokyo + McKay/BSO + Dublin",
+  "trigger": "maker cancel",
+  "hold_ms": 0,
+  "arrival_ms": 78.3,
+  "fill_after_T0_ms": 78.3,
+  "shield_share_usd": 0.872,
+  "shield_share_toxic_edge": 0.618
+ },
+ {
+  "build": "G Tokyo + McKay/BSO + London colo",
+  "trigger": "spot onset",
+  "hold_ms": 150,
+  "arrival_ms": 69.0,
+  "fill_after_T0_ms": 219.0,
+  "first_share": 0.433,
+  "edge_c_per_usd": 4.9,
+  "usd_in_window": 8974
+ },
+ {
+  "build": "G Tokyo + McKay/BSO + London colo",
+  "trigger": "spot onset",
+  "hold_ms": 250,
+  "arrival_ms": 69.0,
+  "fill_after_T0_ms": 319.0,
+  "first_share": 0.233,
+  "edge_c_per_usd": 0.9,
+  "usd_in_window": 25552
+ },
+ {
+  "build": "G Tokyo + McKay/BSO + London colo",
+  "trigger": "perp 1 bp, median lead",
+  "hold_ms": 150,
+  "arrival_ms": 69.0,
+  "fill_after_T0_ms": 218.0,
+  "first_share": 0.433,
+  "edge_c_per_usd": 4.9,
+  "usd_in_window": 8947
+ },
+ {
+  "build": "G Tokyo + McKay/BSO + London colo",
+  "trigger": "perp 1 bp, median lead",
+  "hold_ms": 250,
+  "arrival_ms": 69.0,
+  "fill_after_T0_ms": 318.0,
+  "first_share": 0.233,
+  "edge_c_per_usd": 0.9,
+  "usd_in_window": 25403
+ },
+ {
+  "build": "G Tokyo + McKay/BSO + London colo",
+  "trigger": "perp 1 bp, top-quartile lead",
+  "hold_ms": 150,
+  "arrival_ms": 69.0,
+  "fill_after_T0_ms": 161.7,
+  "first_share": 0.613,
+  "edge_c_per_usd": 4.9,
+  "usd_in_window": 5447
+ },
+ {
+  "build": "G Tokyo + McKay/BSO + London colo",
+  "trigger": "perp 1 bp, top-quartile lead",
+  "hold_ms": 250,
+  "arrival_ms": 69.0,
+  "fill_after_T0_ms": 261.7,
+  "first_share": 0.32,
+  "edge_c_per_usd": 2.6,
+  "usd_in_window": 19031
+ },
+ {
+  "build": "G Tokyo + McKay/BSO + London colo",
+  "trigger": "maker cancel",
+  "hold_ms": 0,
+  "arrival_ms": 69.0,
+  "fill_after_T0_ms": 69.0,
+  "shield_share_usd": 0.876,
+  "shield_share_toxic_edge": 0.629
+ },
+ {
+  "build": "H fiber great-circle floor + colo",
+  "trigger": "spot onset",
+  "hold_ms": 150,
+  "arrival_ms": 49.9,
+  "fill_after_T0_ms": 199.9,
+  "first_share": 0.507,
+  "edge_c_per_usd": 3.4,
+  "usd_in_window": 6967
+ },
+ {
+  "build": "H fiber great-circle floor + colo",
+  "trigger": "spot onset",
+  "hold_ms": 250,
+  "arrival_ms": 49.9,
+  "fill_after_T0_ms": 299.9,
+  "first_share": 0.24,
+  "edge_c_per_usd": 1.8,
+  "usd_in_window": 25034
+ },
+ {
+  "build": "H fiber great-circle floor + colo",
+  "trigger": "perp 1 bp, median lead",
+  "hold_ms": 150,
+  "arrival_ms": 49.9,
+  "fill_after_T0_ms": 198.9,
+  "first_share": 0.507,
+  "edge_c_per_usd": 3.4,
+  "usd_in_window": 6880
+ },
+ {
+  "build": "H fiber great-circle floor + colo",
+  "trigger": "perp 1 bp, median lead",
+  "hold_ms": 250,
+  "arrival_ms": 49.9,
+  "fill_after_T0_ms": 298.9,
+  "first_share": 0.24,
+  "edge_c_per_usd": 1.9,
+  "usd_in_window": 25059
+ },
+ {
+  "build": "H fiber great-circle floor + colo",
+  "trigger": "perp 1 bp, top-quartile lead",
+  "hold_ms": 150,
+  "arrival_ms": 49.9,
+  "fill_after_T0_ms": 142.6,
+  "first_share": 0.707,
+  "edge_c_per_usd": 9.3,
+  "usd_in_window": 4745
+ },
+ {
+  "build": "H fiber great-circle floor + colo",
+  "trigger": "perp 1 bp, top-quartile lead",
+  "hold_ms": 250,
+  "arrival_ms": 49.9,
+  "fill_after_T0_ms": 242.6,
+  "first_share": 0.373,
+  "edge_c_per_usd": 1.1,
+  "usd_in_window": 13175
+ },
+ {
+  "build": "H fiber great-circle floor + colo",
+  "trigger": "maker cancel",
+  "hold_ms": 0,
+  "arrival_ms": 49.9,
+  "fill_after_T0_ms": 49.9,
+  "shield_share_usd": 0.882,
+  "shield_share_toxic_edge": 0.652
+ }
+]

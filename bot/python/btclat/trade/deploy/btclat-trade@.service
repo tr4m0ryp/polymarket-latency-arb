@@ -1,0 +1,33 @@
+# Live test (btclat/trade): SENDS REAL ORDERS. Installed by setup-trade.sh, never enabled by it.
+# Instance = mode: btclat-trade@probe or btclat-trade@micro. Start only after the user's approval:
+#   sudo systemctl start btclat-trade@probe     (zero fill risk, 1 order per 30 s for HOURS h)
+#   sudo systemctl start btclat-trade@micro     (real 5-share taker orders for HOURS h, hard caps in code)
+# Stop: sudo -u btclat touch /opt/btclat/.config/btclat/KILL (cancel-all, blocks restarts) or systemctl stop.
+[Unit]
+Description=btclat live test (%i): real Polymarket orders, hard risk caps
+After=network-online.target chrony.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=btclat
+WorkingDirectory=/opt/btclat
+Environment=PYTHONUNBUFFERED=1
+Environment=BTCLAT_CONFIG=/opt/btclat/.config/btclat
+# run.env (written by setup-trade.sh, edit per run): HOURS=1 and TAG=<yyyymmdd>
+EnvironmentFile=/opt/btclat/.config/btclat/run.env
+ExecStart=/opt/btclat/.venv/bin/python -m btclat.trade %i --i-approve --hours ${HOURS} --ntp amazon --run dublin-%i-${TAG}
+Nice=0
+MemoryMax=1G
+# A stop is deliberate (kill file, loss cap, venue error): a human looks before the next start.
+Restart=no
+TimeoutStopSec=20
+KillSignal=SIGTERM
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/btclat/data/trade /opt/btclat/.config/btclat/state
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

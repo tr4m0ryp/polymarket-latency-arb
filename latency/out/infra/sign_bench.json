@@ -1,0 +1,64 @@
+{
+ "native": {
+  "backend": "NativeECCBackend",
+  "fast_path_matches_library_signature": true,
+  "n": 200,
+  "lib_build_order": {
+   "p50_us": 11553.837,
+   "p90_us": 11877.452,
+   "p99_us": 12149.142
+  },
+  "digest_only": {
+   "p50_us": 219.506,
+   "p90_us": 227.545,
+   "p99_us": 237.3
+  },
+  "sign_only": {
+   "p50_us": 5428.635,
+   "p90_us": 5541.08,
+   "p99_us": 5780.242
+  },
+  "fast_digest_plus_sign": {
+   "p50_us": 5642.273,
+   "p90_us": 5724.419,
+   "p99_us": 6116.678
+  },
+  "hmac_header_plus_json": {
+   "p50_us": 45.138,
+   "p90_us": 47.761,
+   "p99_us": 60.081
+  },
+  "python": "3.12.3"
+ },
+ "coincurve": {
+  "backend": "CoinCurveECCBackend",
+  "fast_path_matches_library_signature": true,
+  "n": 1000,
+  "lib_build_order": {
+   "p50_us": 1433.154,
+   "p90_us": 1711.834,
+   "p99_us": 3308.701
+  },
+  "digest_only": {
+   "p50_us": 130.675,
+   "p90_us": 223.441,
+   "p99_us": 555.155
+  },
+  "sign_only": {
+   "p50_us": 228.57,
+   "p90_us": 249.189,
+   "p99_us": 560.35
+  },
+  "fast_digest_plus_sign": {
+   "p50_us": 268.111,
+   "p90_us": 480.417,
+   "p99_us": 865.177
+  },
+  "hmac_header_plus_json": {
+   "p50_us": 24.307,
+   "p90_us": 44.492,
+   "p99_us": 70.287
+  },
+  "python": "3.12.3"
+ }
+}

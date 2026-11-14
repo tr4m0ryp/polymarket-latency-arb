@@ -1,0 +1,196 @@
+{
+ "frozen_utc": "2026-10-14 12:37:36",
+ "config": {
+  "model": "v1_L50",
+  "k": 2,
+  "xhold": 0.27,
+  "L_ms": [
+   50,
+   100,
+   150
+  ],
+  "sizes": [
+   [
+    60.0,
+    300.0
+   ],
+   [
+    5.0,
+    20.0
+   ]
+  ],
+  "rebate": 0.014,
+  "arms": [
+   {
+    "name": "base_lat2",
+    "rule": "vmaker",
+    "params": {
+     "half": 0.03,
+     "pull": -0.03,
+     "anchor": "fair"
+    },
+    "haircut": [
+     false,
+     true
+    ]
+   },
+   {
+    "name": "inside",
+    "rule": "vinside",
+    "params": {
+     "half": 0.04,
+     "pull": -0.02,
+     "h": 0.0
+    },
+    "haircut": [
+     true,
+     false
+    ]
+   },
+   {
+    "name": "inside_h0.005",
+    "rule": "vinside",
+    "params": {
+     "half": 0.04,
+     "pull": -0.02,
+     "h": 0.005
+    },
+    "haircut": [
+     true,
+     false
+    ]
+   }
+  ],
+  "sets": {
+   "dublin": {
+    "start_min": 1791842700,
+    "source": "data/paper/dublin-20261012 (Dublin paper recording), 5m markets starting >= 2026-10-12 22:05 UTC; earlier Dublin hours overlap the local recorder hours the fill-improve study selected on"
+   },
+   "dry": {
+    "start_min": 0,
+    "source": "data/trade/dublin-makerdry-20261014/raw (4 h dry run, 2026-10-14 08:18-12:18 UTC), every market with a table and an outcome"
+   }
+  },
+  "latency": "insert / cancel = min of k=2 draws from the warm Dublin probe quantiles (p50 56 / 50 ms) + (L - 50 ms); the cancel waits for the insert ack",
+  "haircut": "queue ahead = largest depth at our price from our decision to one insert latency after our order went live; eaten by crossing orders and prints at our price; prints through our price still fill",
+  "analysis": {
+   "boot": 2000,
+   "seed": 0,
+   "metric": "10 s venue-mid markout (mk10v), maker fee 0",
+   "baseline": {
+    "arm": "base_lat2",
+    "hc": false
+   },
+   "primary_set": "pooled",
+   "drop_top5": "remove the 5 markets with the largest paired gain"
+  },
+  "criteria": {
+   "P1_gain_ci": {
+    "primary": true,
+    "set": "pooled",
+    "size": 60.0,
+    "L": 50,
+    "arm": "inside",
+    "hc": true,
+    "col": "g_lo",
+    "gt": 0.0
+   },
+   "P2_markout_ci": {
+    "primary": true,
+    "set": "pooled",
+    "size": 60.0,
+    "L": 50,
+    "arm": "inside",
+    "hc": true,
+    "col": "lo",
+    "gt": 0.0
+   },
+   "P3_drop5": {
+    "primary": true,
+    "set": "pooled",
+    "size": 60.0,
+    "L": 50,
+    "arm": "inside",
+    "hc": true,
+    "col": "gain_drop5",
+    "gt": 0.0
+   },
+   "S1_L100": {
+    "set": "pooled",
+    "size": 60.0,
+    "L": 100,
+    "arm": "inside",
+    "hc": true,
+    "col": "gain_day",
+    "gt": 0.0
+   },
+   "S1_L150": {
+    "set": "pooled",
+    "size": 60.0,
+    "L": 150,
+    "arm": "inside",
+    "hc": true,
+    "col": "gain_day",
+    "gt": 0.0
+   },
+   "S2_dublin": {
+    "set": "dublin",
+    "size": 60.0,
+    "L": 50,
+    "arm": "inside",
+    "hc": true,
+    "col": "g_lo",
+    "gt": 0.0
+   },
+   "S2_dry": {
+    "set": "dry",
+    "size": 60.0,
+    "L": 50,
+    "arm": "inside",
+    "hc": true,
+    "col": "gain_day",
+    "gt": 0.0
+   },
+   "S3_live_size": {
+    "set": "pooled",
+    "size": 5.0,
+    "L": 50,
+    "arm": "inside",
+    "hc": true,
+    "col": "mk10_cpd",
+    "gt": 0.0
+   },
+   "S4_hyst_L50": {
+    "set": "pooled",
+    "size": 60.0,
+    "L": 50,
+    "arm": "inside_h0.005",
+    "hc": true,
+    "col": "gain_day",
+    "gt": 0.0
+   },
+   "S4_hyst_L150": {
+    "set": "pooled",
+    "size": 60.0,
+    "L": 150,
+    "arm": "inside_h0.005",
+    "hc": true,
+    "col": "gain_day",
+    "gt": 0.0
+   }
+  },
+  "incidence_before_freeze": "test 1 on the dry run (replay of every decision row, no fills or outcomes read): inside inserts 675 in 4.1 h (~166/h; full hours 154-224/h), h=0.005 ~139/h, above the ~130/h capacity line",
+  "decision_rule": "GO live 1 h (5 sh, --rule inside) if P1-P3 pass. CONDITIONAL GO (1 h at 5 sh as a fill-rate / haircut calibration, not as evidence of edge) if P2 and P3 pass and P1 fails. NO-GO if the pooled L=50 haircut markout point estimate <= 0. The h=0.005 arm replaces h=0 for the live test only if its gain beats h=0 at L=100 and L=150."
+ },
+ "config_sha256": "85df69edbd3d54913c5093642576775f7482f9f77a1312f80f2d22f7d0d1fabe",
+ "code": {
+  "research/predict/sim/rules.py": "efcc1a33ef257ecb1d847a1c9f9e3ecad1b0ec1c736366debd712dceffae66eb",
+  "research/predict/inside/engine.py": "db3ba219bd0d1d35c037a46515591755c9aac33cecc4fa5cfd9f4023e1dfa666",
+  "research/predict/inside/run.py": "ebc00abd089ddc5f8c035bd4a92ece1f55dcacdb92f1acbf24167cb7bf91f6e1",
+  "research/predict/inside/report.py": "469e40d9c9fb27cbc8ce8688caca360c0c8442fd23a009e2eca6e3728407683b",
+  "research/predict/inside/prereg.py": "24a1c51055782818cd1d51b27f7c852deec45769fcc060bb551382881e2fd102",
+  "research/strategy/sim/maker.py": "77bb2c681a91c9010af2741215f8c8a4e6accf5bd981d64b2972cab8f8c2b0b3",
+  "research/predict/sim/fills.py": "6c110aebeefdebf393a93192f6346427b1db8b7536c6610ed1d8035b33187e9f"
+ },
+ "model_sha256": "dc58889b5f201854002286dd46029f2df0c4dbc45fdcf2a2e4de5651933180f4"
+}

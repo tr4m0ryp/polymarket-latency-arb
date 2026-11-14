@@ -1,0 +1,63 @@
+{
+ "arm": "research.predict.improve.cand.c2_settlement_delta_margin_schedule_regime_scaled_margin_in_cents_per_bp_units_plus_a_delta_floor.arms:dm_veto",
+ "folds": {
+  "A": {
+   "chosen": "dmv_f3",
+   "key": "*|dmv_f3",
+   "retrained": false,
+   "criterion": "lcb",
+   "value": -1187.3522206903094,
+   "met_floor": true,
+   "variants": 3,
+   "choose": [
+    "select",
+    "dev3"
+   ],
+   "evaluate": [
+    "test3r1",
+    "ext"
+   ]
+  },
+  "B": {
+   "chosen": "dmv_f3",
+   "key": "*|dmv_f3",
+   "retrained": false,
+   "criterion": "lcb",
+   "value": -2130.8466951541454,
+   "met_floor": true,
+   "variants": 3,
+   "choose": [
+    "test3r1",
+    "ext"
+   ],
+   "evaluate": [
+    "select",
+    "dev3"
+   ]
+  }
+ },
+ "sets": {
+  "A:test3r1": 83,
+  "A:ext": 48,
+  "A:eval": 131,
+  "A:busy15": 12,
+  "A:busyQ": 47,
+  "B:select": 144,
+  "B:dev3": 120,
+  "B:eval": 264,
+  "B:busyQ": 60,
+  "CV:all": 395,
+  "CV:busyQ": 107,
+  "unseen251": 251
+ },
+ "secs_total": 634.5528392791748,
+ "secs_refs": 0.3700690269470215,
+ "secs_sim": 613.2962892055511,
+ "models": {
+  "v1_L0": "570a9c1015c555c5",
+  "v1_L-40": "8b1fd3f3662c7648"
+ },
+ "max_start": 1791744600.0,
+ "n_markets": 395,
+ "fold_invariant": true
+}

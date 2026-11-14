@@ -1,0 +1,33 @@
+[package]
+name = "btl_bot"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "btclat-bot"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+flate2.workspace = true
+crossbeam-channel.workspace = true
+tokio.workspace = true
+tokio-tungstenite.workspace = true
+futures-util.workspace = true
+reqwest.workspace = true
+clap.workspace = true
+libc.workspace = true
+rand.workspace = true
+btl_model.workspace = true
+btl_signal.workspace = true
+btl_venue.workspace = true
+btl_risk.workspace = true
+btl_log.workspace = true
+
+[dev-dependencies]

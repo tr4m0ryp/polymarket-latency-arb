@@ -1,0 +1,535 @@
+{
+ "when_utc": "2026-10-10 18:45",
+ "tcp": {
+  "tokyo": {
+   "binance_spot": [
+    {
+     "city": "Tokyo",
+     "asn": 16509,
+     "tags": [
+      "aws-ap-northeast-1",
+      "aws"
+     ],
+     "min": 0.443,
+     "avg": 0.606,
+     "max": 0.95,
+     "loss": 0,
+     "ip": "18.179.180.113"
+    },
+    {
+     "city": "Tokyo",
+     "asn": 16509,
+     "tags": [
+      "aws-ap-northeast-1",
+      "aws"
+     ],
+     "min": 2.01,
+     "avg": 2.251,
+     "max": 2.584,
+     "loss": 0,
+     "ip": "52.193.77.30"
+    }
+   ],
+   "binance_perp": [
+    {
+     "city": "Tokyo",
+     "asn": 16509,
+     "tags": [
+      "aws-ap-northeast-1",
+      "aws"
+     ],
+     "min": 2.004,
+     "avg": 2.262,
+     "max": 2.437,
+     "loss": 0,
+     "ip": "52.196.189.90"
+    },
+    {
+     "city": "Tokyo",
+     "asn": 16509,
+     "tags": [
+      "aws-ap-northeast-1",
+      "aws"
+     ],
+     "min": 0.41,
+     "avg": 0.617,
+     "max": 0.867,
+     "loss": 0,
+     "ip": "13.159.69.125"
+    }
+   ],
+   "clob_edge": [
+    {
+     "city": "Tokyo",
+     "asn": 16509,
+     "tags": [
+      "aws-ap-northeast-1",
+      "aws"
+     ],
+     "min": 1.213,
+     "avg": 1.856,
+     "max": 2.472,
+     "loss": 0,
+     "ip": "172.64.153.51"
+    },
+    {
+     "city": "Tokyo",
+     "asn": 16509,
+     "tags": [
+      "aws-ap-northeast-1",
+      "aws"
+     ],
+     "min": 1.705,
+     "avg": 2.196,
+     "max": 2.763,
+     "loss": 0,
+     "ip": "172.64.153.51"
+    }
+   ],
+   "aws_api_tokyo": [
+    {
+     "city": "Tokyo",
+     "asn": 16509,
+     "tags": [
+      "aws-ap-northeast-1",
+      "aws"
+     ],
+     "min": 0.898,
+     "avg": 1.078,
+     "max": 1.421,
+     "loss": 0,
+     "ip": "35.71.114.100"
+    },
+    {
+     "city": "Tokyo",
+     "asn": 16509,
+     "tags": [
+      "aws-ap-northeast-1",
+      "aws"
+     ],
+     "min": 1.102,
+     "avg": 1.349,
+     "max": 1.697,
+     "loss": 0,
+     "ip": "35.71.114.130"
+    }
+   ],
+   "aws_api_dublin": [
+    {
+     "city": "Tokyo",
+     "asn": 16509,
+     "tags": [
+      "aws-ap-northeast-1",
+      "aws"
+     ],
+     "min": 199.4,
+     "avg": 202.9,
+     "max": 207.1,
+     "loss": 0,
+     "ip": "35.71.74.124"
+    },
+    {
+     "city": "Tokyo",
+     "asn": 16509,
+     "tags": [
+      "aws-ap-northeast-1",
+      "aws"
+     ],
+     "min": 198.7,
+     "avg": 202.2,
+     "max": 205.7,
+     "loss": 0,
+     "ip": "35.71.73.115"
+    }
+   ],
+   "aws_api_london": [
+    {
+     "city": "Tokyo",
+     "asn": 16509,
+     "tags": [
+      "aws-ap-northeast-1",
+      "aws"
+     ],
+     "min": 210.2,
+     "avg": 214.8,
+     "max": 218.2,
+     "loss": 0,
+     "ip": "35.71.111.100"
+    },
+    {
+     "city": "Tokyo",
+     "asn": 16509,
+     "tags": [
+      "aws-ap-northeast-1",
+      "aws"
+     ],
+     "min": 210,
+     "avg": 214.1,
+     "max": 218.1,
+     "loss": 0,
+     "ip": "35.71.111.101"
+    }
+   ]
+  },
+  "dublin": {
+   "binance_spot": [
+    {
+     "city": "Dublin",
+     "asn": 16509,
+     "tags": [
+      "aws-eu-west-1",
+      "aws"
+     ],
+     "min": 199.3,
+     "avg": 202.1,
+     "max": 203.7,
+     "loss": 0,
+     "ip": "13.230.66.190"
+    },
+    {
+     "city": "Dublin",
+     "asn": 16509,
+     "tags": [
+      "aws-eu-west-1",
+      "aws"
+     ],
+     "min": 197.9,
+     "avg": 201.8,
+     "max": 206,
+     "loss": 0,
+     "ip": "54.250.39.37"
+    }
+   ],
+   "binance_perp": [
+    {
+     "city": "Dublin",
+     "asn": 16509,
+     "tags": [
+      "aws-eu-west-1",
+      "aws"
+     ],
+     "min": 200.9,
+     "avg": 203.6,
+     "max": 206,
+     "loss": 0,
+     "ip": "57.181.203.7"
+    },
+    {
+     "city": "Dublin",
+     "asn": 16509,
+     "tags": [
+      "aws-eu-west-1",
+      "aws"
+     ],
+     "min": 198.5,
+     "avg": 201.6,
+     "max": 206.4,
+     "loss": 0,
+     "ip": "13.159.139.238"
+    }
+   ],
+   "clob_edge": [
+    {
+     "city": "Dublin",
+     "asn": 16509,
+     "tags": [
+      "aws-eu-west-1",
+      "aws"
+     ],
+     "min": 1.051,
+     "avg": 1.478,
+     "max": 4.086,
+     "loss": 0,
+     "ip": "104.18.34.205"
+    },
+    {
+     "city": "Dublin",
+     "asn": 16509,
+     "tags": [
+      "aws-eu-west-1",
+      "aws"
+     ],
+     "min": 1.013,
+     "avg": 1.317,
+     "max": 1.824,
+     "loss": 0,
+     "ip": "172.64.153.51"
+    }
+   ],
+   "aws_api_tokyo": [
+    {
+     "city": "Dublin",
+     "asn": 16509,
+     "tags": [
+      "aws-eu-west-1",
+      "aws"
+     ],
+     "min": 199.8,
+     "avg": 202.8,
+     "max": 206.5,
+     "loss": 0,
+     "ip": "35.71.114.100"
+    },
+    {
+     "city": "Dublin",
+     "asn": 16509,
+     "tags": [
+      "aws-eu-west-1",
+      "aws"
+     ],
+     "min": 198.7,
+     "avg": 202.1,
+     "max": 206.4,
+     "loss": 0,
+     "ip": "35.71.114.102"
+    }
+   ],
+   "aws_api_dublin": [
+    {
+     "city": "Dublin",
+     "asn": 16509,
+     "tags": [
+      "aws-eu-west-1",
+      "aws"
+     ],
+     "min": 0.534,
+     "avg": 0.623,
+     "max": 0.742,
+     "loss": 0,
+     "ip": "35.71.73.117"
+    },
+    {
+     "city": "Dublin",
+     "asn": 16509,
+     "tags": [
+      "aws-eu-west-1",
+      "aws"
+     ],
+     "min": 0.89,
+     "avg": 1.007,
+     "max": 1.134,
+     "loss": 0,
+     "ip": "35.71.74.115"
+    }
+   ],
+   "aws_api_london": [
+    {
+     "city": "Dublin",
+     "asn": 16509,
+     "tags": [
+      "aws-eu-west-1",
+      "aws"
+     ],
+     "min": 8.79,
+     "avg": 9.194,
+     "max": 9.771,
+     "loss": 0,
+     "ip": "35.71.111.130"
+    },
+    {
+     "city": "Dublin",
+     "asn": 16509,
+     "tags": [
+      "aws-eu-west-1",
+      "aws"
+     ],
+     "min": 10.88,
+     "avg": 12.73,
+     "max": 16.03,
+     "loss": 0,
+     "ip": "35.71.111.100"
+    }
+   ]
+  },
+  "london": {
+   "binance_spot": [
+    {
+     "city": "London",
+     "asn": 16509,
+     "tags": [
+      "aws-eu-west-2",
+      "aws"
+     ],
+     "min": 207.8,
+     "avg": 212.5,
+     "max": 216.2,
+     "loss": 0,
+     "ip": "18.179.180.113"
+    }
+   ],
+   "binance_perp": [
+    {
+     "city": "London",
+     "asn": 16509,
+     "tags": [
+      "aws-eu-west-2",
+      "aws"
+     ],
+     "min": 207.7,
+     "avg": 211.8,
+     "max": 214.4,
+     "loss": 0,
+     "ip": "18.180.111.13"
+    }
+   ],
+   "clob_edge": [
+    {
+     "city": "London",
+     "asn": 16509,
+     "tags": [
+      "aws-eu-west-2",
+      "aws"
+     ],
+     "min": 1.764,
+     "avg": 2.625,
+     "max": 4.774,
+     "loss": 0,
+     "ip": "172.64.153.51"
+    }
+   ],
+   "aws_api_tokyo": [
+    {
+     "city": "London",
+     "asn": 16509,
+     "tags": [
+      "aws-eu-west-2",
+      "aws"
+     ],
+     "min": 208.8,
+     "avg": 212.5,
+     "max": 216.1,
+     "loss": 0,
+     "ip": "35.71.114.128"
+    }
+   ],
+   "aws_api_dublin": [
+    {
+     "city": "London",
+     "asn": 16509,
+     "tags": [
+      "aws-eu-west-2",
+      "aws"
+     ],
+     "min": 10.91,
+     "avg": 11.25,
+     "max": 12.17,
+     "loss": 0,
+     "ip": "35.71.73.118"
+    }
+   ],
+   "aws_api_london": [
+    {
+     "city": "London",
+     "asn": 16509,
+     "tags": [
+      "aws-eu-west-2",
+      "aws"
+     ],
+     "min": 0.52,
+     "avg": 0.616,
+     "max": 0.686,
+     "loss": 0,
+     "ip": "35.71.111.0"
+    }
+   ]
+  }
+ },
+ "https": {
+  "tokyo": [
+   {
+    "city": "Tokyo",
+    "asn": 16509,
+    "tags": [
+     "aws-ap-northeast-1",
+     "aws"
+    ],
+    "timings": {
+     "total": 250,
+     "dns": 1,
+     "tcp": 1,
+     "tls": 6,
+     "firstByte": 242,
+     "download": 0
+    },
+    "status": 200,
+    "cf_pop": "NRT"
+   },
+   {
+    "city": "Tokyo",
+    "asn": 16509,
+    "tags": [
+     "aws-ap-northeast-1",
+     "aws"
+    ],
+    "timings": {
+     "total": 256,
+     "dns": 3,
+     "tcp": 2,
+     "tls": 6,
+     "firstByte": 245,
+     "download": 0
+    },
+    "status": 200,
+    "cf_pop": "NRT"
+   }
+  ],
+  "dublin": [
+   {
+    "city": "Dublin",
+    "asn": 16509,
+    "tags": [
+     "aws-eu-west-1",
+     "aws"
+    ],
+    "timings": {
+     "total": 44,
+     "dns": 8,
+     "tcp": 1,
+     "tls": 12,
+     "firstByte": 23,
+     "download": 0
+    },
+    "status": 200,
+    "cf_pop": "DUB"
+   },
+   {
+    "city": "Dublin",
+    "asn": 16509,
+    "tags": [
+     "aws-eu-west-1",
+     "aws"
+    ],
+    "timings": {
+     "total": 31,
+     "dns": 1,
+     "tcp": 1,
+     "tls": 6,
+     "firstByte": 22,
+     "download": 1
+    },
+    "status": 200,
+    "cf_pop": "DUB"
+   }
+  ],
+  "london": [
+   {
+    "city": "London",
+    "asn": 16509,
+    "tags": [
+     "aws-eu-west-2",
+     "aws"
+    ],
+    "timings": {
+     "total": 31,
+     "dns": 1,
+     "tcp": 2,
+     "tls": 8,
+     "firstByte": 19,
+     "download": 1
+    },
+    "status": 200,
+    "cf_pop": "LHR"
+   }
+  ]
+ }
+}

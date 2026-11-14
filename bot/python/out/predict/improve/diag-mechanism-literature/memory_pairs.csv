@@ -1,0 +1,4 @@
+pairs,n,mkts,P(alive | prev alive),P(alive | prev gone),diff [CI],our L0 1s c: prev alive - prev gone [CI],Spearman requote ms
+all pairs,2203,307,0.25,0.2,"+0.05 [+0.01, +0.10]","+0.7 [+0.0, +1.4]",0.04
+same side,1564,297,0.25,0.21,"+0.04 [-0.02, +0.09]","+0.4 [-0.2, +1.1]",0.02
+opposite side,639,184,0.26,0.16,"+0.10 [+0.02, +0.17]","+1.1 [-0.5, +2.7]",0.08

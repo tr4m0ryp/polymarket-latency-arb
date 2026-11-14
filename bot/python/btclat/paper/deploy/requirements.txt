@@ -1,0 +1,6 @@
+# Pinned to the research environment: the value-model pickles need the same scikit-learn.
+numpy==1.26.4
+scipy==1.11.4
+pandas==3.0.6
+scikit-learn==1.9.1
+websockets==17.2

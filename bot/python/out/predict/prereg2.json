@@ -1,0 +1,15 @@
+{
+ "registered_utc": "2026-10-11 22:15",
+ "purpose": "second pre-registered test of the two arms that survived reports/predict.md; no model, threshold or arm changes after this file",
+ "test_segment": "run-3 5m markets starting at or after 2026-10-11 18:55 UTC (start >= 1791744900, the first market the extension did not use) through the end of run 3 (2026-10-12 22:03 UTC), every complete market, simulated once",
+ "primary_arms": {
+  "vt_v1_m0.03_any": "predictive taker: 1 s value model, margin 3 c, 60 sh, limit seen ask + 2 c, >= 0.2 s between orders",
+  "vt_v1_m0.02_trigger": "predictive veto: leaders' microprice trigger kept only when the 1 s model predicts >= 2 c value"
+ },
+ "baselines": ["micf", "theirs_micro", "leader A actual fills", "leader B actual fills"],
+ "models_sha256_16": {"v1_L-40.pkl": "8b1fd3f3662c7648", "v1_L0.pkl": "570a9c1015c555c5", "v1_L50.pkl": "dc58889b5f201854"},
+ "criterion_taker": "at L = 0: 10 s markout c/$ > 0 AND paired 10 s markout $/day gain vs micf with 95% market-bootstrap CI lower bound > 0",
+ "criterion_veto": "at L = -40: paired 10 s markout $/day gain vs micf with CI lower bound > 0 (L = 0 reported, not required)",
+ "also_reported": "L = 50; resolution PnL (not a criterion); fills/day; drawdown",
+ "pooled_read": "also report pooled with the 251 earlier unseen markets, labelled as pooled"
+}

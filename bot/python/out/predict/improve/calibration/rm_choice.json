@@ -1,0 +1,126 @@
+{
+ "made_utc": "2026-10-12 12:14:58",
+ "rule": "Rule: per L, among the rm_* arms and the frozen m3, the highest 10 s markout $/day on select\nwith markout c/$ > 0. Reads OUT/sim/agg-rm-select.pkl only.",
+ "pick": {
+  "-40": {
+   "arm": "vt_v1_rm_2.5_3",
+   "select_mk10_day": 3176.855504292147,
+   "table": [
+    {
+     "arm": "vt_v1_rm_2.5_3",
+     "fills_day": 2034.0,
+     "mk10_c": 6.97,
+     "mk10_day": 3176.86
+    },
+    {
+     "arm": "vt_v1_m3",
+     "fills_day": 1658.0,
+     "mk10_c": 8.92,
+     "mk10_day": 3174.31
+    },
+    {
+     "arm": "vt_v1_rm_2_3",
+     "fills_day": 2598.0,
+     "mk10_c": 5.03,
+     "mk10_day": 3113.01
+    },
+    {
+     "arm": "vt_v1_rm_2.5_3.5",
+     "fills_day": 1948.0,
+     "mk10_c": 6.93,
+     "mk10_day": 3060.09
+    },
+    {
+     "arm": "vt_v1_rm_3_3.5",
+     "fills_day": 1572.0,
+     "mk10_c": 8.95,
+     "mk10_day": 3057.54
+    },
+    {
+     "arm": "vt_v1_rm_2_3.5",
+     "fills_day": 2512.0,
+     "mk10_c": 4.95,
+     "mk10_day": 2996.24
+    },
+    {
+     "arm": "vt_v1_rm_2.5_4",
+     "fills_day": 1864.0,
+     "mk10_c": 6.79,
+     "mk10_day": 2873.78
+    },
+    {
+     "arm": "vt_v1_rm_3_4",
+     "fills_day": 1488.0,
+     "mk10_c": 8.87,
+     "mk10_day": 2871.24
+    },
+    {
+     "arm": "vt_v1_rm_2_4",
+     "fills_day": 2428.0,
+     "mk10_c": 4.79,
+     "mk10_day": 2809.93
+    }
+   ]
+  },
+  "0": {
+   "arm": "vt_v1_rm_2.5_3.5",
+   "select_mk10_day": 2462.7266714519974,
+   "table": [
+    {
+     "arm": "vt_v1_rm_2.5_3.5",
+     "fills_day": 728.0,
+     "mk10_c": 13.12,
+     "mk10_day": 2462.73
+    },
+    {
+     "arm": "vt_v1_rm_2.5_3",
+     "fills_day": 752.0,
+     "mk10_c": 12.5,
+     "mk10_day": 2419.46
+    },
+    {
+     "arm": "vt_v1_rm_2.5_4",
+     "fills_day": 706.0,
+     "mk10_c": 13.35,
+     "mk10_day": 2416.09
+    },
+    {
+     "arm": "vt_v1_rm_2_3.5",
+     "fills_day": 1022.0,
+     "mk10_c": 8.7,
+     "mk10_day": 2370.75
+    },
+    {
+     "arm": "vt_v1_rm_2_3",
+     "fills_day": 1046.0,
+     "mk10_c": 8.36,
+     "mk10_day": 2327.48
+    },
+    {
+     "arm": "vt_v1_rm_2_4",
+     "fills_day": 1000.0,
+     "mk10_c": 8.75,
+     "mk10_day": 2324.11
+    },
+    {
+     "arm": "vt_v1_rm_3_3.5",
+     "fills_day": 550.0,
+     "mk10_c": 15.19,
+     "mk10_day": 2125.18
+    },
+    {
+     "arm": "vt_v1_m3",
+     "fills_day": 574.0,
+     "mk10_c": 14.28,
+     "mk10_day": 2081.91
+    },
+    {
+     "arm": "vt_v1_rm_3_4",
+     "fills_day": 528.0,
+     "mk10_c": 15.62,
+     "mk10_day": 2078.54
+    }
+   ]
+  }
+ }
+}

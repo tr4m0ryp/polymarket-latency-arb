@@ -1,0 +1,11 @@
+[package]
+name = "btl_signal"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[dependencies]
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+btl_model.workspace = true

@@ -1,0 +1,11 @@
+- trees: 200
+- nodes: 5800
+- features: 98
+- max_abs_err: 0.000
+- sklearn_1row_us: 30853.555
+- c_ctypes_us: 21.555
+- c_linear_ctypes_us: 16.797
+- ctypes_call_floor_us: 16.797
+- c_tree_per_row_us: 3.616
+- py_state_update_per_msg_us: 5.276
+- msgs_timed: 200000

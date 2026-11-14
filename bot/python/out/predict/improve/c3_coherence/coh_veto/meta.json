@@ -1,0 +1,63 @@
+{
+ "arm": "research.predict.improve.cand.c3_identity_projected_firing_score_two_side_coherence_instead_of_independent_side_values_.arms:coh_veto",
+ "folds": {
+  "A": {
+   "chosen": "coh_trig_m0.015",
+   "key": "*|coh_trig_m0.015",
+   "retrained": false,
+   "criterion": "lcb",
+   "value": -1059.9028881860343,
+   "met_floor": true,
+   "variants": 3,
+   "choose": [
+    "select",
+    "dev3"
+   ],
+   "evaluate": [
+    "test3r1",
+    "ext"
+   ]
+  },
+  "B": {
+   "chosen": "coh_trig_m0.025",
+   "key": "*|coh_trig_m0.025",
+   "retrained": false,
+   "criterion": "lcb",
+   "value": -2467.8932729390576,
+   "met_floor": true,
+   "variants": 3,
+   "choose": [
+    "test3r1",
+    "ext"
+   ],
+   "evaluate": [
+    "select",
+    "dev3"
+   ]
+  }
+ },
+ "sets": {
+  "A:test3r1": 83,
+  "A:ext": 48,
+  "A:eval": 131,
+  "A:busy15": 12,
+  "A:busyQ": 47,
+  "B:select": 144,
+  "B:dev3": 120,
+  "B:eval": 264,
+  "B:busyQ": 60,
+  "CV:all": 395,
+  "CV:busyQ": 107,
+  "unseen251": 251
+ },
+ "secs_total": 637.9932732582092,
+ "secs_refs": 0.6269822120666504,
+ "secs_sim": 620.4631278514862,
+ "models": {
+  "v1_L0": "570a9c1015c555c5",
+  "v1_L-40": "8b1fd3f3662c7648"
+ },
+ "max_start": 1791744600.0,
+ "n_markets": 395,
+ "fold_invariant": true
+}

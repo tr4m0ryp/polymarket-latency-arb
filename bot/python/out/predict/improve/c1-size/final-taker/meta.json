@@ -1,0 +1,56 @@
+{
+ "arm": "c1 final-taker: ['ek_vstar_2000', 'ek_vstar_2000_d6', 'ek_vstar_2000_d8', 'ek_vstar_3000', 'ek_vstar_3000_d6', 'ek_vstar_3000_d8', 'ek_vstar_4000', 'ek_vstar_4000_d6', 'ek_vstar_4000_d8'] (choice: lcb of gain vs vt_any)",
+ "folds": {
+  "A": {
+   "chosen": "ek_vstar_4000_d8",
+   "key": "*|ek_vstar_4000_d8",
+   "retrained": false,
+   "criterion": "g_vt_lo",
+   "variants": 9,
+   "choose": [
+    "select",
+    "dev3"
+   ],
+   "evaluate": [
+    "test3r1",
+    "ext"
+   ]
+  },
+  "B": {
+   "chosen": "ek_vstar_2000_d6",
+   "key": "*|ek_vstar_2000_d6",
+   "retrained": false,
+   "criterion": "g_vt_lo",
+   "variants": 9,
+   "choose": [
+    "test3r1",
+    "ext"
+   ],
+   "evaluate": [
+    "select",
+    "dev3"
+   ]
+  }
+ },
+ "sets": {
+  "A:test3r1": 83,
+  "A:ext": 48,
+  "A:eval": 131,
+  "A:busy15": 12,
+  "A:busyQ": 47,
+  "B:select": 144,
+  "B:dev3": 120,
+  "B:eval": 264,
+  "B:busyQ": 60,
+  "CV:all": 395,
+  "CV:busyQ": 107,
+  "unseen251": 251
+ },
+ "secs_total": 0.0,
+ "secs_refs": 0.0,
+ "secs_sim": 0.0,
+ "models": "v1_L0 570a9c1015c555c5, v1_L-40",
+ "max_start": 1791744600.0,
+ "n_markets": 395,
+ "fold_invariant": true
+}

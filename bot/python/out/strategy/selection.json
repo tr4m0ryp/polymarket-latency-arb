@@ -1,0 +1,96 @@
+{
+ "momentum, tuned known rule (60 sh)": {
+  "name": "mom_smid_w0.2_t0.3_b0.99_r2",
+  "kind": "momentum",
+  "params": {
+   "src": "smid",
+   "win": 0.2,
+   "thr": 0.3,
+   "refr": 2.0,
+   "band": [
+    0.01,
+    0.99
+   ],
+   "tleft": 30.0,
+   "fav_max": 0.9,
+   "shares": 60.0,
+   "slip": 0.01
+  },
+  "needs": null
+ },
+ "fair taker, 60-share clip (invention 1)": {
+  "name": "fair_pzx_m0.02_f0_r0.1_s60",
+  "kind": "fair",
+  "params": {
+   "model": "pzx",
+   "margin": 0.02,
+   "m_fill": 0.0,
+   "refr": 0.1,
+   "base": 60.0,
+   "max_sh": 60.0
+  },
+  "needs": "perp"
+ },
+ "fair taker, depth-sized (invention 1 + sizing)": {
+  "name": "fair_pz_m0.1_f0.02_r0.02_s300",
+  "kind": "fair",
+  "params": {
+   "model": "pz",
+   "margin": 0.1,
+   "m_fill": 0.02,
+   "refr": 0.02,
+   "base": 300.0,
+   "max_sh": 300.0
+  },
+  "needs": "perp"
+ },
+ "fair taker + perp imbalance (invention 3)": {
+  "name": "fair_pzxi_m0.03_f0_r0.1_s150",
+  "kind": "fair",
+  "params": {
+   "model": "pzxi",
+   "margin": 0.03,
+   "m_fill": 0.0,
+   "refr": 0.1,
+   "base": 150.0,
+   "max_sh": 150.0
+  },
+  "needs": "perp"
+ },
+ "maker, fair-value quotes (invention 2)": {
+  "name": "mk_pz_h0.05_t30_p0.1_w1",
+  "kind": "maker",
+  "params": {
+   "model": "pz",
+   "half": 0.05,
+   "band": [
+    0.1,
+    0.9
+   ],
+   "tleft": 30.0,
+   "pull_bp": 0.1,
+   "pull_win": 1.0,
+   "size": 60.0,
+   "max_open": 300.0
+  },
+  "needs": "perp"
+ },
+ "maker, book-anchored with perp pulls (invention 2b)": {
+  "name": "mkb_pz_p0_i0_t30_s60",
+  "kind": "maker",
+  "params": {
+   "model": "pz",
+   "anchor": "book",
+   "pull": 0.0,
+   "improve": false,
+   "band": [
+    0.1,
+    0.9
+   ],
+   "tleft": 30.0,
+   "size": 60.0,
+   "max_open": 180.0
+  },
+  "needs": "perp"
+ }
+}

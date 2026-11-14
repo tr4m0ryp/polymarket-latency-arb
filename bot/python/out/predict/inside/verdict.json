@@ -1,0 +1,63 @@
+{
+ "P1_gain_ci": {
+  "col": "g_lo",
+  "value": 201.237,
+  "threshold": 0.0,
+  "pass": true
+ },
+ "P2_markout_ci": {
+  "col": "lo",
+  "value": 5.31,
+  "threshold": 0.0,
+  "pass": true
+ },
+ "P3_drop5": {
+  "col": "gain_drop5",
+  "value": 214.63,
+  "threshold": 0.0,
+  "pass": true
+ },
+ "S1_L100": {
+  "col": "gain_day",
+  "value": 1502.549,
+  "threshold": 0.0,
+  "pass": true
+ },
+ "S1_L150": {
+  "col": "gain_day",
+  "value": 1226.415,
+  "threshold": 0.0,
+  "pass": true
+ },
+ "S2_dublin": {
+  "col": "g_lo",
+  "value": 149.432,
+  "threshold": 0.0,
+  "pass": true
+ },
+ "S2_dry": {
+  "col": "gain_day",
+  "value": 584.914,
+  "threshold": 0.0,
+  "pass": true
+ },
+ "S3_live_size": {
+  "col": "mk10_cpd",
+  "value": 15.255,
+  "threshold": 0.0,
+  "pass": true
+ },
+ "S4_hyst_L50": {
+  "col": "gain_day",
+  "value": 795.736,
+  "threshold": 0.0,
+  "pass": true
+ },
+ "S4_hyst_L150": {
+  "col": "gain_day",
+  "value": 1211.789,
+  "threshold": 0.0,
+  "pass": true
+ },
+ "primary_pass": true
+}

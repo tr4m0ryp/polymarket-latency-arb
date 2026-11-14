@@ -1,0 +1,68 @@
+series_id,slug,title,recurrence,horizon_min,vol24h,liquidity,n_closed_sampled,median_event_volume,volume_per_instance,markets_per_event,homogeneity,template,tier
+10684,btc-up-or-down-5m,BTC Up or Down 5m,5m,5,11176873.871022,3266602.90819,30,39415.510538,38808.589829937504,1.0,1.0,bitcoin up or down <mon> <n> <time> <time>,A
+10192,btc-up-or-down-15m,BTC Up or Down 15m,15m,15,3802815.4642899996,938023.7049,30,26758.179166500002,39612.661086354165,1.0,1.0,bitcoin up or down <mon> <n> <time> <time>,A
+10114,btc-up-or-down-hourly,BTC Up or Down Hourly,hourly,60,707574.5513159999,1380380.86984,30,27531.211808000007,29482.272971499995,1.0,1.0,bitcoin up or down <mon> <n> <time>,A
+10200,bitcoin-hit-price-daily,Bitcoin Hit Price Daily,daily,1440,394179.83524600003,291016.59799,30,248373.56477399997,394179.83524600003,16.0,1.0,what price will bitcoin hit on <mon> <n>?,A
+10816,elon-tweets-48h,Elon Tweets 48H,daily,1440,175321.318166,32065.26323,30,617120.424273,175321.318166,10.0,1.0,elon musk # tweets <mon> <n> <mon> <n> <n>?,A
+10331,btc-up-or-down-4h,BTC Up or Down 4h,4h,240,137669.43708899998,65948.6021,30,17984.460376500003,22944.9061815,1.0,1.0,bitcoin up or down <mon> <n> <time> <time>,A
+11312,hong-kong-daily-weather,Hong Kong Daily Weather,daily,1440,119193.75499,231772.22622,30,112072.290507,119193.75499000002,11.0,1.0,highest temperature in hong kong on <mon> <n>?,A
+41,btc-up-or-down-daily,BTC Up or Down Daily,daily,1440,117317.87543,37783.2256,30,145788.449798,117317.87543,1.0,1.0,bitcoin up or down on <mon> <n>?,A
+11297,ethereum-hit-price-daily,Ethereum Hit Price Daily,daily,1440,94306.353547,123905.58869,30,64014.785942999995,94306.35354700002,14.0,1.0,what price will ethereum hit on <mon> <n>?,A
+10006,london-daily-weather,London Daily Weather,daily,1440,82290.784717,199655.28079,30,72638.325751,82290.784717,11.0,1.0,highest temperature in london on <mon> <n>?,A
+11345,madrid-daily-weather,Madrid Daily Weather,daily,1440,79342.112549,60524.50254,30,55457.135433999996,79342.112549,11.0,1.0,highest temperature in madrid on <mon> <n>?,A
+11342,warsaw-daily-weather,Warsaw Daily Weather,daily,1440,76262.155424,85668.55589,30,40330.332693000004,76262.155424,11.0,1.0,highest temperature in warsaw on <mon> <n>?,A
+11508,helsinki-daily-weather,Helsinki Daily Weather,daily,1440,73060.054705,72765.78276,30,32392.373718500006,73060.054705,11.0,1.0,highest temperature in helsinki on <mon> <n>?,A
+10743,toronto-daily-weather,Toronto Daily Weather,daily,1440,67233.268967,163230.65236,30,39437.702474499994,67233.268967,11.0,1.0,highest temperature in toronto on <mon> <n>?,A
+11169,sao-paulo-daily-weather,Sao Paulo Daily Weather,daily,1440,63259.691867999994,153489.51881,30,38559.5550985,63259.691867999994,11.0,1.0,highest temperature in sao paulo on <mon> <n>?,A
+11168,paris-daily-weather,Paris Daily Weather,daily,1440,59658.567158,87042.3298,30,69005.99759950001,59658.567158,11.0,1.0,highest temperature in paris on <mon> <n>?,A
+11514,jeddah-daily-weather,Jeddah Daily Weather,daily,1440,58069.69569000002,103469.60909,30,22425.0819405,58069.69569000003,11.0,1.0,highest temperature in jeddah on <mon> <n>?,A
+11343,milan-daily-weather,Milan Daily Weather,daily,1440,56991.299607,78535.9629,30,44419.547225,56991.299607,11.0,1.0,highest temperature in milan on <mon> <n>?,A
+11272,munich-daily-weather,Munich Daily Weather,daily,1440,56611.39587100001,76400.70639,30,51974.35435,56611.395871000015,11.0,1.0,highest temperature in munich on <mon> <n>?,A
+10005,nyc-daily-weather,NYC Daily Weather,daily,1440,53498.046992,216858.57605,30,57087.105037500005,53498.046992,11.0,1.0,highest temperature in nyc on <mon> <n>?,A
+11365,chengdu-daily-weather,Chengdu Daily Weather,daily,1440,51309.88265099999,124494.81035,30,40172.614481,51309.88265099999,11.0,1.0,highest temperature in chengdu on <mon> <n>?,A
+11370,los-angeles-daily-weather,Los Angeles Daily Weather,daily,1440,50996.539505999994,108582.64934,30,56479.023284,50996.539505999994,11.0,1.0,highest temperature in los angeles on <mon> <n>?,A
+10902,wellington-daily-weather,Wellington Daily Weather,daily,1440,50660.049048,88656.87462,30,48796.919967500005,50660.04904800001,11.0,1.0,highest temperature in wellington on <mon> <n>?,A
+10742,seoul-daily-weather,Seoul Daily Weather,daily,1440,50295.557904999994,66176.78138,30,63270.42696049999,50295.557904999994,11.0,1.0,highest temperature in seoul (incheon) on <mon> <n>?,A
+10309,dota-2,Dota 2,daily,1440,12522849.560403,380830.48298,30,772386.64932,12522849.560403,34.0,0.067,dota <n>: legion vs blasterbl (bo<n>) pari universe closed qualifier playoffs,B
+10365,atp,ATP,daily,1440,12333738.603125999,6860282.753,30,194989.893965,12333738.603125999,16.0,0.033,antofagasta: joaquin aguilar vs lautaro midon,B
+10311,league-of-legends,League of Legends,daily,1440,5598926.779477,2180135.40527,30,856232.6305249999,5598926.779477,39.0,0.033,lol: natus vincere vs jd gaming (bo<n>) demacia cup global invitational group stage,B
+10310,counter-strike,Counter Strike,daily,1440,4206120.828568,2485980.18376,30,13884.426268,4206120.828568,11.0,0.033,counter strike: turma do pagode vs largadosypelados (bo<n>) esl challenger league south america cup #<n> playoffs,B
+10359,brazil-serie-a,Brazil Serie A,daily,1440,2788371.3907689997,9576315.66987,30,16501.445185000004,2788371.3907689997,10.0,0.033,cruzeiro ec vs. são paulo fc more markets,B
+12756,cfb-2026,CFB 2026,daily,1440,2693405.334904,38198358.80499,30,479200.71245,2693405.334904,11.0,0.033,new mexico state vs. florida international exact margin,B
+3,mlb,MLB,daily,1440,2684466.76128,835253.9298,30,927975.2047155,2684466.76128,29.0,0.2,milwaukee brewers vs. san diego padres <n>th inning winner,B
+10346,nhl-2026,NHL 2026,daily,1440,2644077.919953,4229906.03193,30,207199.18792000003,2644077.919953,8.0,0.033,oilers vs. ducks,B
+12185,nfl-2026,NFL 2026,daily,1440,2570403.897022,60969902.43736,30,227805.700782,2570403.897022,30.5,0.033,falcons vs. saints first touchdown scorer,B
+10366,wta,WTA,daily,1440,2529467.7034710003,1400510.1554,30,147384.8387565,2529467.7034710003,16.0,0.033,samsun: simona waltert vs linda klimovicova,B
+10369,valorant,Valorant,daily,1440,2409651.902290999,515434.76937,30,1060143.6861920003,2409651.902290999,38.0,0.033,valorant: bbl esports vs pcific esports (bo<n>) monsters reloaded closed qualifier playoffs,B
+10345,nba-2026,NBA 2026,daily,1440,2232521.987058,1315673.36798,30,310773.7304925001,2232521.987058,19.0,0.1,knicks vs. spurs,B
+10105,wnba,WNBA,daily,1440,1294497.0872670016,141211.8417,30,464844.8657974999,1294497.0872670016,28.5,0.067,las vegas aces vs. golden state valkyries,B
+11864,fin1-games,Veikkausliiga,daily,1440,1016528.9833940002,1015775.72008,30,4292.447794000001,1016528.9833940002,3.0,0.033,kuopion palloseura vs. ac oulu more markets,B
+11634,itf,ITF,daily,1440,881084.848846,1041700.07282,30,2417.444163,881084.8488460002,3.0,0.033,w<n> cipolletti: leyla fiorella britez risso vs gabriela kawano cho,B
+10371,euroleague-basketball,Euroleague Basketball,daily,1440,485480.259327,81631.7841,30,41109.653451499995,485480.25932700007,1.0,0.033,real madrid vs. partizan,B
+10973,brazil-serie-b,Brazil Serie B,daily,1440,446475.399883,771694.48916,30,14437.634316,446475.39988299995,3.0,0.033,vila nova fc vs. cuiabá ec more markets,B
+12355,qat1-games,Qatar Stars League,daily,1440,288724.83844799997,695827.33441,30,3666.3779805000004,288724.83844799997,3.0,0.033,al wakrah sc vs. al gharafa sc more markets,B
+10967,liga-1,Liga 1,daily,1440,211354.349113,771827.8332,30,4036.0324910000004,211354.34911300003,3.0,0.033,cd moquegua vs. cs cienciano more markets,B
+10971,romania-1,Romania 1,daily,1440,200138.738407,931975.97015,30,3267.8463485,200138.738407,3.0,0.033,fc cfr <n> cluj vs. fc universitatea cluj more markets,B
+11866,irl1-games,Premier Division (Ireland),daily,1440,188196.57445,504201.77809,30,2481.433834,188196.57445000001,3.0,0.033,shamrock rovers vs. drogheda united fc more markets,B
+10968,morocco-1,Morocco 1,daily,1440,181812.551043,29462.6118,30,4608.5803510000005,181812.551043,3.0,0.033,maghreb as de fès vs. raja club athletic exact score,B
+10204,ucl-2025,UEFA Champions League 2025,daily,1440,180180.178168,3650167.21347,30,12073.521017500001,180180.178168,14.5,0.033,manchester united fc vs. sabah fk player props,B
+11846,uefa-womens-world-cup-qualification,UEFA Women’s World Cup Qualification,daily,1440,170233.211009,1514963.30788,30,3652.0195654999998,170233.211009,11.0,0.033,iceland vs. spain first team to score,B
+10964,primera-a,Primera A,daily,1440,148141.223837,1803199.37888,30,17451.281453,148141.223837,3.0,0.033,independiente medellín vs. independiente santa fe more markets,B
+10528,international-cricket,International Cricket,daily,1440,141789.825383,280780.37564,30,19518.669726500004,141789.825383,3.0,0.033,t<n> world cup asia sub regional qualifier b: saudi arabia vs singapore team top batter,B
+11480,chess,chess,daily,1440,111464.009772,0.0,30,940.7833765,111464.009772,3.0,0.033,hans moke niemann vs. vladimir fedoseev gct: super rapid & blitz poland <n> | blitz (round <n>),B
+12548,aze2-games,Azerbaijan First Division,daily,1440,105603.003431,59071.33676,30,1037.8065609999999,105603.003431,3.0,0.033,sabail fk vs. fk karvan yevlakh more markets,B
+10361,saudi-professional-league,Saudi Professional League,daily,1440,90034.603617,4305789.9487,30,913.9329565,90034.603617,3.0,0.033,al diraiyah saudi club vs. abha saudi club more markets,B
+10193,la-liga-2025,La Liga 2025,daily,1440,82275.451275,14735185.60744,30,5317.0677375,82275.451275,6.0,0.033,valencia cf vs. real sociedad de fútbol player props,B
+10188,premier-league-2025,Premier League 2025,daily,1440,62209.647072,15637422.53633,30,11256.005232,62209.64707200001,9.0,0.033,fulham fc vs. manchester united fc player props,B
+11881,col2-games,Primera B (Colombia),daily,1440,59732.14229,1060757.57677,30,5442.430686,59732.14229,3.0,0.033,boca juniors de cali vs. union magdalena more markets,B
+10194,bundesliga-2025,Bundesliga 2025,daily,1440,53717.961002000004,10513622.36127,30,12050.781584499999,53717.96100200001,16.5,0.033,sc paderborn <n> vs. tsg <n> hoffenheim player props,B
+10683,eth-up-or-down-5m,ETH Up or Down 5m,5m,5,599528.402584,2173243.23177,30,2662.8229244999993,2081.6958423055557,1.0,1.0,ethereum up or down <mon> <n> <time> <time>,C
+10191,eth-up-or-down-15m,ETH Up or Down 15m,15m,15,394024.453773,647926.9269,30,3477.8255890000005,4104.42139346875,1.0,1.0,ethereum up or down <mon> <n> <time> <time>,C
+10686,sol-up-or-down-5m,SOL Up or Down 5m,5m,5,151882.262078,1064390.63538,30,1007.3687385,527.3689655486111,1.0,1.0,solana up or down <mon> <n> <time> <time>,C
+10423,sol-up-or-down-15m,SOL Up or Down 15m,15m,15,134445.161349,307909.44014,30,1406.6983260000002,1400.47043071875,1.0,1.0,solana up or down <mon> <n> <time> <time>,C
+10117,eth-up-or-down-hourly,ETH Up or Down Hourly,hourly,60,133067.79569199999,1059721.42178,30,3709.0935019999997,5544.491487166666,1.0,1.0,ethereum up or down <mon> <n> <time>,C
+10422,xrp-up-or-down-15m,XRP Up or Down 15m,15m,15,112611.408318,231298.77,30,1183.9104000000002,1173.0355033125002,1.0,1.0,xrp up or down <mon> <n> <time> <time>,C
+10685,xrp-up-or-down-5m,XRP Up or Down 5m,5m,5,73475.097159,945799.94216,30,443.90971799999994,255.12186513541667,1.0,1.0,xrp up or down <mon> <n> <time> <time>,C
+11372,bitcoin-multi-strikes-hourly,Bitcoin Multi Strikes Hourly,hourly,60,70246.524012,322636.20151,30,356.0359975,2926.9385004999995,20.0,1.0,bitcoin above ___ on <mon> <n> <time> ?,C
+10122,solana-up-or-down-hourly,Solana Up or Down Hourly,hourly,60,55299.645807,202689.85174,30,383.8716975,2304.151908625,1.0,1.0,solana up or down <mon> <n> <time>,C
+11328,doge-up-or-down-15m,DOGE Up or Down 15m,15m,15,54634.091489,177023.2808,30,372.6697995,569.1051196770833,1.0,1.0,dogecoin up or down <mon> <n> <time> <time>,C

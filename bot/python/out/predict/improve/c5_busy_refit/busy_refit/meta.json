@@ -1,0 +1,63 @@
+{
+ "arm": "c5:main:busy_refit ['rf_plain_m3', 'rf_bal_m3', 'rf_bal_coh_m3']",
+ "folds": {
+  "A": {
+   "chosen": "rf_plain_m3",
+   "key": "A|rf_plain_m3",
+   "retrained": true,
+   "criterion": "lcb",
+   "value": -988.537999550886,
+   "met_floor": true,
+   "variants": 3,
+   "choose": [
+    "select",
+    "dev3"
+   ],
+   "evaluate": [
+    "test3r1",
+    "ext"
+   ]
+  },
+  "B": {
+   "chosen": "rf_plain_m3",
+   "key": "B|rf_plain_m3",
+   "retrained": true,
+   "criterion": "lcb",
+   "value": -2036.9531886188624,
+   "met_floor": true,
+   "variants": 3,
+   "choose": [
+    "test3r1",
+    "ext"
+   ],
+   "evaluate": [
+    "select",
+    "dev3"
+   ]
+  }
+ },
+ "sets": {
+  "A:test3r1": 83,
+  "A:ext": 48,
+  "A:eval": 131,
+  "A:busy15": 12,
+  "A:busyQ": 47,
+  "B:select": 144,
+  "B:dev3": 120,
+  "B:eval": 264,
+  "B:busyQ": 60,
+  "CV:all": 395,
+  "CV:busyQ": 107,
+  "unseen251": 251
+ },
+ "secs_total": 11.20736289024353,
+ "secs_refs": 0.0,
+ "secs_sim": 986.8044166564941,
+ "models": {
+  "v1_L0": "570a9c1015c555c5",
+  "v1_L-40": "8b1fd3f3662c7648"
+ },
+ "max_start": 1791744600.0,
+ "n_markets": 395,
+ "fold_invariant": false
+}

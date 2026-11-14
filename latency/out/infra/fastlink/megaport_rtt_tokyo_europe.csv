@@ -1,0 +1,1105 @@
+source,api,month,src,dst,dst_metro,median_rtt_ms
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,NYI-Sirius,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Lunar Digital Lunar 1,London,226.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,KAO Data Center,London,219.25
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Equinix Singapore SG1,Singapore,78.82000000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Equinix Singapore SG2,Singapore,79.04249999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Equinix Singapore SG3,Singapore,78.82
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Global Switch Singapore (Tai Seng),Singapore,78.5525
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Digital Realty Singapore SIN10,Singapore,79.05999999999997
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Sabey Intergate Seattle Building 4,Seattle,88.42500000000003
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Digital Realty New York JFK13 (NYC3),New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Equinix Seattle SE2,Seattle,87.75
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Evocative Seattle SEA1,Seattle,88.43500000000003
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Equinix New York NY9,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Digital Realty New York JFK12 (NYC1),New York,149.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,CoreSite NY1,New York,149.95
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Wowrack Seattle,Seattle,88.47500000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Digital Realty New York JFK10 (NYC2),New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Global Switch London East,London,218.075
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Digital Realty London LHR20,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Digital Realty Singapore SIN12,Singapore,79.915
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Equinix London LD5,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Digital Realty LON2,London,219.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Equinix Dublin DB1,Dublin,228.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Equinix Stockholm SK1,Stockholm,245.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Digital Realty Dublin DUB2,Dublin,228.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Digital Realty STO5,Stockholm,245.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Telia Stockholm,Stockholm,246.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Csquare Secaucus EWR5,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Digital Realty New York EWR21 (NJR3),New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Digital Realty FRA13,Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Equinix Frankfurt FR5,Frankfurt,229.85
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Telehouse New York Teleport Campus,New York,151.375
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Digital Realty Seattle SEA10 (Westin Building),Seattle,87.725
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Csquare Piscataway EWR3,New York,150.175
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,CyrusOne Totowa,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Racks Central Singapore,Singapore,78.55999999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,365 Data Centers Bridgewater,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,NTT Frankfurt 1 Data Center (FRA1),Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,NTT Global Data Centers London YewTree,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Templus Data Centres Leeds,London,223.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Templus Data Centres London City,London,218.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Telehouse London North,London,218.8
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,NTT Singapore,Singapore,79.07500000000002
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Opti9 Data Center,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Iron Mountain New Jersey,New York,150.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Digital Realty London LHR26,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,"Csquare New York EWR2-C,D",New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Colt Data Centre London 2,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Verne Data Centre London,London,218.175
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Digital Realty London LGW14,London,219.125
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,STT Singapore 5,Singapore,78.965
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Telehouse New York Chelsea Campus,New York,149.3
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,DataVerge,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Equinix London LD8,London,218.3
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Vaultica Data Centers Stockholm STO01A,Stockholm,246.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Equinix Stockholm SK2,Stockholm,245.225
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Evocative New Jersey EWR1,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,NTT London Slough2,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,NTT London Hemel Hempstead 3,London,220.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,nLighten Data Centres Milton Keynes,London,223.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Phocea Data Center Marseille,Marseille,215.025
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,QTS Piscataway,New York,150.92857142857142
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,TierPoint Seattle,Seattle,88.40000000000002
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,SGX Singapore,Singapore,79.545
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Maincubes Frankfurt,Frankfurt,229.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,CyrusOne London,London,219.85
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Csquare Frankfurt FRA2,Frankfurt,229.9
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Sabey Intergate Quincy,Seattle,93.09499999999998
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Digital Realty MRS2,Marseille,216.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Global Switch Frankfurt South,Frankfurt,230.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Equinix Manchester MA4,London,224.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Csquare Seattle SEA3,Seattle,88.775
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,165 Halsey Building,New York,149.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Telehouse Frankfurt,Frankfurt,229.45
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,TierPoint Spokane,Seattle,95.25999999999996
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Pulsant Data Centres South London,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Pulsant Data Centres Milton Keynes,London,221.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,TierPoint Hawthorne,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Redcentric Data Centres Woking,London,219.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Equinix New York NY2,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,365 Data Centers Carlstadt,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Redcentric Data Centres London City,London,218.925
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Redcentric Data Centres London West,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,CoreSite NY2,New York,149.9
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Csquare Wokingham LHR3,London,219.25
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,H5 Data Centers Quincy,Seattle,91.56
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Long Island Interconnect,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Equinix Dublin DB3,Dublin,228.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Equinix Frankfurt FR2,Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Equinix London LD4,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Equinix London LD9,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=7,2026-07,AtTokyo Data Centre - Alpha Route,Equinix Singapore SG4,Singapore,78.57
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,NYI-Sirius,New York,149.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Lunar Digital Lunar 1,London,226.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,KAO Data Center,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Equinix Singapore SG1,Singapore,67.035
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Equinix Singapore SG2,Singapore,67.2125
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Equinix Singapore SG3,Singapore,66.9825
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Global Switch Singapore (Tai Seng),Singapore,66.72250000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Digital Realty Singapore SIN10,Singapore,67.22999999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Sabey Intergate Seattle Building 4,Seattle,88.07999999999998
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Digital Realty New York JFK13 (NYC3),New York,150.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Equinix Seattle SE2,Seattle,87.70250000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Evocative Seattle SEA1,Seattle,88.145
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Equinix New York NY9,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Digital Realty New York JFK12 (NYC1),New York,149.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,CoreSite NY1,New York,149.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Wowrack Seattle,Seattle,88.10999999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Digital Realty New York JFK10 (NYC2),New York,149.61666666666667
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Global Switch London East,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Digital Realty London LHR20,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Digital Realty Singapore SIN12,Singapore,68.07749999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Equinix London LD5,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Digital Realty LON2,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Equinix Dublin DB1,Dublin,228.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Equinix Stockholm SK1,Stockholm,245.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Digital Realty Dublin DUB2,Dublin,228.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Digital Realty STO5,Stockholm,245.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Telia Stockholm,Stockholm,246.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Csquare Secaucus EWR5,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Digital Realty New York EWR21 (NJR3),New York,150.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Digital Realty FRA13,Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Equinix Frankfurt FR5,Frankfurt,229.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Telehouse New York Teleport Campus,New York,151.475
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Digital Realty Seattle SEA10 (Westin Building),Seattle,87.6825
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Csquare Piscataway EWR3,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,CyrusOne Totowa,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Racks Central Singapore,Singapore,66.725
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,365 Data Centers Bridgewater,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,NTT Frankfurt 1 Data Center (FRA1),Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,NTT Global Data Centers London YewTree,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Templus Data Centres Leeds,London,223.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Templus Data Centres London City,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Telehouse London North,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,NTT Singapore,Singapore,67.26
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Opti9 Data Center,New York,150.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Iron Mountain New Jersey,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Digital Realty London LHR26,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,"Csquare New York EWR2-C,D",New York,149.7
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Colt Data Centre London 2,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Verne Data Centre London,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Digital Realty London LGW14,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,STT Singapore 5,Singapore,67.145
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Telehouse New York Chelsea Campus,New York,149.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,DataVerge,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Equinix London LD8,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Vaultica Data Centers Stockholm STO01A,Stockholm,245.2
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Equinix Stockholm SK2,Stockholm,245.025
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Evocative New Jersey EWR1,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,NTT London Slough2,London,219.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,NTT London Hemel Hempstead 3,London,220.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,nLighten Data Centres Milton Keynes,London,223.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Phocea Data Center Marseille,Marseille,204.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,QTS Piscataway,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,TierPoint Seattle,Seattle,88.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,SGX Singapore,Singapore,67.74499999999998
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Maincubes Frankfurt,Frankfurt,229.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,CyrusOne London,London,219.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Csquare Frankfurt FRA2,Frankfurt,229.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Sabey Intergate Quincy,Seattle,92.8
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Digital Realty MRS2,Marseille,204.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Global Switch Frankfurt South,Frankfurt,229.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Equinix Manchester MA4,London,224.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Csquare Seattle SEA3,Seattle,88.485
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,165 Halsey Building,New York,149.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Telehouse Frankfurt,Frankfurt,229.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,TierPoint Spokane,Seattle,95.0375
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Pulsant Data Centres South London,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Pulsant Data Centres Milton Keynes,London,220.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,TierPoint Hawthorne,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Redcentric Data Centres Woking,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Equinix New York NY2,New York,149.85
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,365 Data Centers Carlstadt,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Redcentric Data Centres London City,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Redcentric Data Centres London West,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,CoreSite NY2,New York,149.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Csquare Wokingham LHR3,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,H5 Data Centers Quincy,Seattle,91.47000000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Long Island Interconnect,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Equinix Dublin DB3,Dublin,228.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Equinix London LD4,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Equinix London LD9,London,218.775
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Equinix Singapore SG4,Singapore,66.7375
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=8,2026-08,AtTokyo Data Centre - Alpha Route,Csquare - Seattle SEA2-A,Seattle,88.12749999999998
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,NYI-Sirius,New York,149.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Lunar Digital Lunar 1,London,226.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,KAO Data Center,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Equinix Singapore SG1,Singapore,67.05999999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Equinix Singapore SG2,Singapore,72.6575
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Equinix Singapore SG3,Singapore,67.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Global Switch Singapore (Tai Seng),Singapore,66.735
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Digital Realty Singapore SIN10,Singapore,67.4
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Sabey Intergate Seattle Building 4,Seattle,88.06999999999998
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Digital Realty New York JFK13 (NYC3),New York,150.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Equinix Seattle SE2,Seattle,87.6825
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Evocative Seattle SEA1,Seattle,88.14499999999997
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Equinix New York NY9,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Digital Realty New York JFK12 (NYC1),New York,149.03333333333333
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,CoreSite NY1,New York,149.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Digital Realty New York JFK10 (NYC2),New York,149.6
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Global Switch London East,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Digital Realty London LHR20,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Digital Realty Singapore SIN12,Singapore,66.87750000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Equinix London LD5,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Digital Realty LON2,London,218.95
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Equinix Dublin DB1,Dublin,228.025
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Equinix Stockholm SK1,Stockholm,245.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Digital Realty Dublin DUB2,Dublin,227.95
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Digital Realty STO5,Stockholm,245.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Csquare Secaucus EWR5,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Digital Realty New York EWR21 (NJR3),New York,149.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Digital Realty FRA13,Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Equinix Frankfurt FR5,Frankfurt,229.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Telehouse New York Teleport Campus,New York,151.2
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Digital Realty Seattle SEA10 (Westin Building),Seattle,87.67
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Csquare Piscataway EWR3,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,CyrusOne Totowa,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Racks Central Singapore,Singapore,66.75250000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,365 Data Centers Bridgewater,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,NTT Frankfurt 1 Data Center (FRA1),Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,NTT Global Data Centers London YewTree,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Templus Data Centres Leeds,London,223.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Templus Data Centres London City,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Telehouse London North,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,NTT Singapore,Singapore,67.41
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Opti9 Data Center,New York,150.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Iron Mountain New Jersey,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Digital Realty London LHR26,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,"Csquare New York EWR2-C,D",New York,149.475
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Colt Data Centre London 2,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Verne Data Centre London,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Digital Realty London LGW14,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,STT Singapore 5,Singapore,67.28
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Telehouse New York Chelsea Campus,New York,149.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,DataVerge,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Equinix London LD8,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Vaultica Data Centers Stockholm STO01A,Stockholm,245.2
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Equinix Stockholm SK2,Stockholm,245.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Evocative New Jersey EWR1,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,NTT London Slough2,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,NTT London Hemel Hempstead 3,London,220.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,nLighten Data Centres Milton Keynes,London,223.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Phocea Data Center Marseille,Marseille,204.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,QTS Piscataway,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,TierPoint Seattle,Seattle,88.09499999999998
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,SGX Singapore,Singapore,67.87000000000002
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Maincubes Frankfurt,Frankfurt,229.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,CyrusOne London,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Csquare Frankfurt FRA2,Frankfurt,229.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Sabey Intergate Quincy,Seattle,92.79
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Digital Realty MRS2,Marseille,204.2
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Global Switch Frankfurt South,Frankfurt,229.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Equinix Manchester MA4,London,224.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Csquare Seattle SEA3,Seattle,88.49000000000002
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,165 Halsey Building,New York,149.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Telehouse Frankfurt,Frankfurt,229.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,TierPoint Spokane,Seattle,95.02499999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Pulsant Data Centres South London,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Pulsant Data Centres Milton Keynes,London,220.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,TierPoint Hawthorne,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Redcentric Data Centres Woking,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Equinix New York NY2,New York,149.75
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,365 Data Centers Carlstadt,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Redcentric Data Centres London City,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Redcentric Data Centres London West,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,CoreSite NY2,New York,149.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,TDF Data Center Aix Marseille,Marseille,204.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Csquare Wokingham LHR3,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,H5 Data Centers Quincy,Seattle,91.45
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Long Island Interconnect,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Equinix Dublin DB3,Dublin,228.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Equinix Frankfurt FR2,Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Equinix London LD4,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Equinix London LD9,London,218.7
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Equinix Singapore SG4,Singapore,66.75750000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=558&year=2026&month=9,2026-09,AtTokyo Data Centre - Alpha Route,Csquare - Seattle SEA2-A,Seattle,88.08499999999998
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,NYI-Sirius,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Lunar Digital Lunar 1,London,226.125
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,KAO Data Center,London,219.85
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Equinix Singapore SG1,Singapore,78.72
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Equinix Singapore SG2,Singapore,78.94500000000002
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Equinix Singapore SG3,Singapore,78.72
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Global Switch Singapore (Tai Seng),Singapore,78.46000000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Digital Realty Singapore SIN10,Singapore,78.96500000000002
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Sabey Intergate Seattle Building 4,Seattle,88.53999999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Digital Realty New York JFK13 (NYC3),New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Equinix Seattle SE2,Seattle,87.83250000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Evocative Seattle SEA1,Seattle,88.53500000000003
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Equinix New York NY9,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Digital Realty New York JFK12 (NYC1),New York,149.3
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,CoreSite NY1,New York,149.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Wowrack Seattle,Seattle,88.57
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Digital Realty New York JFK10 (NYC2),New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Global Switch London East,London,218.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Digital Realty London LHR20,London,218.025
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Digital Realty Singapore SIN12,Singapore,79.8175
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Equinix London LD5,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Digital Realty LON2,London,219.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Equinix Dublin DB1,Dublin,228.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Equinix Stockholm SK1,Stockholm,245.025
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Digital Realty Dublin DUB2,Dublin,228.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Digital Realty STO5,Stockholm,245.35
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Telia Stockholm,Stockholm,246.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Csquare Secaucus EWR5,New York,150.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Digital Realty New York EWR21 (NJR3),New York,151.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Digital Realty FRA13,Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Equinix Frankfurt FR5,Frankfurt,229.95
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Telehouse New York Teleport Campus,New York,151.8
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Digital Realty Seattle SEA10 (Westin Building),Seattle,87.81
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Csquare Piscataway EWR3,New York,150.425
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,CyrusOne Totowa,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Racks Central Singapore,Singapore,78.47
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,365 Data Centers Bridgewater,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,NTT Frankfurt 1 Data Center (FRA1),Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,NTT Global Data Centers London YewTree,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Templus Data Centres Leeds,London,223.45
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Templus Data Centres London City,London,218.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Telehouse London North,London,218.025
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,NTT Singapore,Singapore,78.98
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Opti9 Data Center,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Iron Mountain New Jersey,New York,150.75
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Digital Realty London LHR26,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,"Csquare New York EWR2-C,D",New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Colt Data Centre London 2,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Verne Data Centre London,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Digital Realty London LGW14,London,219.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,STT Singapore 5,Singapore,78.86999999999998
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Telehouse New York Chelsea Campus,New York,149.95
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,DataVerge,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Equinix London LD8,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Vaultica Data Centers Stockholm STO01A,Stockholm,246.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Equinix Stockholm SK2,Stockholm,246.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Evocative New Jersey EWR1,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,NTT London Slough2,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,NTT London Hemel Hempstead 3,London,220.3
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,nLighten Data Centres Milton Keynes,London,223.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Phocea Data Center Marseille,Marseille,215.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,QTS Piscataway,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,TierPoint Seattle,Seattle,88.50999999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,SGX Singapore,Singapore,79.44999999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Maincubes Frankfurt,Frankfurt,229.55
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,CyrusOne London,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Csquare Frankfurt FRA2,Frankfurt,230.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Sabey Intergate Quincy,Seattle,93.20000000000002
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Digital Realty MRS2,Marseille,215.95
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Global Switch Frankfurt South,Frankfurt,230.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Equinix Manchester MA4,London,224.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Csquare Seattle SEA3,Seattle,88.87000000000002
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,165 Halsey Building,New York,149.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Telehouse Frankfurt,Frankfurt,230.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,TierPoint Spokane,Seattle,95.16499999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Pulsant Data Centres South London,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Pulsant Data Centres Milton Keynes,London,221.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,TierPoint Hawthorne,New York,150.225
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Redcentric Data Centres Woking,London,219.125
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Equinix New York NY2,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,365 Data Centers Carlstadt,New York,150.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Redcentric Data Centres London City,London,218.075
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Redcentric Data Centres London West,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,CoreSite NY2,New York,149.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Csquare Wokingham LHR3,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,H5 Data Centers Quincy,Seattle,91.94000000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Long Island Interconnect,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Equinix Dublin DB3,Dublin,228.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Equinix Frankfurt FR2,Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Equinix London LD4,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Equinix London LD9,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=7,2026-07,Equinix Tokyo TY2,Equinix Singapore SG4,Singapore,78.475
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,NYI-Sirius,New York,149.3
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Lunar Digital Lunar 1,London,226.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,KAO Data Center,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Equinix Singapore SG1,Singapore,66.795
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Equinix Singapore SG2,Singapore,66.99249999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Equinix Singapore SG3,Singapore,66.7425
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Global Switch Singapore (Tai Seng),Singapore,66.4875
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Digital Realty Singapore SIN10,Singapore,67.005
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Sabey Intergate Seattle Building 4,Seattle,88.19000000000003
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Digital Realty New York JFK13 (NYC3),New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Equinix Seattle SE2,Seattle,87.8125
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Evocative Seattle SEA1,Seattle,88.26000000000002
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Equinix New York NY9,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Digital Realty New York JFK12 (NYC1),New York,149.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,CoreSite NY1,New York,149.075
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Wowrack Seattle,Seattle,88.22500000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Digital Realty New York JFK10 (NYC2),New York,149.93333333333334
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Global Switch London East,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Digital Realty London LHR20,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Digital Realty Singapore SIN12,Singapore,67.83999999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Equinix London LD5,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Digital Realty LON2,London,219.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Equinix Dublin DB1,Dublin,228.425
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Equinix Stockholm SK1,Stockholm,245.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Digital Realty Dublin DUB2,Dublin,228.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Digital Realty STO5,Stockholm,245.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Telia Stockholm,Stockholm,246.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Csquare Secaucus EWR5,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Digital Realty New York EWR21 (NJR3),New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Digital Realty FRA13,Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Equinix Frankfurt FR5,Frankfurt,229.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Telehouse New York Teleport Campus,New York,151.925
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Digital Realty Seattle SEA10 (Westin Building),Seattle,87.795
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Csquare Piscataway EWR3,New York,150.3
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,CyrusOne Totowa,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Racks Central Singapore,Singapore,66.48500000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,365 Data Centers Bridgewater,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,NTT Frankfurt 1 Data Center (FRA1),Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,NTT Global Data Centers London YewTree,London,218.35
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Templus Data Centres Leeds,London,223.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Templus Data Centres London City,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Telehouse London North,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,NTT Singapore,Singapore,67.025
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Opti9 Data Center,New York,150.7
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Iron Mountain New Jersey,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Digital Realty London LHR26,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,"Csquare New York EWR2-C,D",New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Colt Data Centre London 2,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Verne Data Centre London,London,218.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Digital Realty London LGW14,London,219.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,STT Singapore 5,Singapore,66.91
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Telehouse New York Chelsea Campus,New York,149.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,DataVerge,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Equinix London LD8,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Vaultica Data Centers Stockholm STO01A,Stockholm,246.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Equinix Stockholm SK2,Stockholm,245.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Evocative New Jersey EWR1,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,NTT London Slough2,London,219.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,NTT London Hemel Hempstead 3,London,220.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,nLighten Data Centres Milton Keynes,London,223.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Phocea Data Center Marseille,Marseille,204.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,QTS Piscataway,New York,150.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,TierPoint Seattle,Seattle,88.225
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,SGX Singapore,Singapore,67.53
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Maincubes Frankfurt,Frankfurt,229.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,CyrusOne London,London,219.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Csquare Frankfurt FRA2,Frankfurt,229.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Sabey Intergate Quincy,Seattle,92.91499999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Digital Realty MRS2,Marseille,204.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Global Switch Frankfurt South,Frankfurt,229.65
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Equinix Manchester MA4,London,224.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Csquare Seattle SEA3,Seattle,88.595
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,165 Halsey Building,New York,149.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Telehouse Frankfurt,Frankfurt,229.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,TierPoint Spokane,Seattle,95.14750000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Pulsant Data Centres South London,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Pulsant Data Centres Milton Keynes,London,220.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,TierPoint Hawthorne,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Redcentric Data Centres Woking,London,219.075
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Equinix New York NY2,New York,150.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,365 Data Centers Carlstadt,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Redcentric Data Centres London City,London,218.025
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Redcentric Data Centres London West,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,CoreSite NY2,New York,149.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Csquare Wokingham LHR3,London,219.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,H5 Data Centers Quincy,Seattle,91.58250000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Long Island Interconnect,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Equinix Dublin DB3,Dublin,228.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Equinix London LD4,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Equinix London LD9,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Equinix Singapore SG4,Singapore,66.4975
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=8,2026-08,Equinix Tokyo TY2,Csquare - Seattle SEA2-A,Seattle,88.22
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,NYI-Sirius,New York,149.3
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Lunar Digital Lunar 1,London,226.175
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,KAO Data Center,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Equinix Singapore SG1,Singapore,66.83999999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Equinix Singapore SG2,Singapore,72.40499999999997
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Equinix Singapore SG3,Singapore,66.76
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Global Switch Singapore (Tai Seng),Singapore,66.515
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Digital Realty Singapore SIN10,Singapore,67.2
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Sabey Intergate Seattle Building 4,Seattle,88.2
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Digital Realty New York JFK13 (NYC3),New York,150.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Equinix Seattle SE2,Seattle,87.825
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Evocative Seattle SEA1,Seattle,88.275
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Equinix New York NY9,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Digital Realty New York JFK12 (NYC1),New York,149.08333333333334
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,CoreSite NY1,New York,149.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Digital Realty New York JFK10 (NYC2),New York,149.98333333333332
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Global Switch London East,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Digital Realty London LHR20,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Digital Realty Singapore SIN12,Singapore,66.6525
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Equinix London LD5,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Digital Realty LON2,London,219.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Equinix Dublin DB1,Dublin,228.5
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Equinix Stockholm SK1,Stockholm,245.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Digital Realty Dublin DUB2,Dublin,228.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Digital Realty STO5,Stockholm,245.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Csquare Secaucus EWR5,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Digital Realty New York EWR21 (NJR3),New York,149.4
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Digital Realty FRA13,Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Equinix Frankfurt FR5,Frankfurt,229.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Telehouse New York Teleport Campus,New York,151.9
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Digital Realty Seattle SEA10 (Westin Building),Seattle,87.81500000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Csquare Piscataway EWR3,New York,150.25
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,CyrusOne Totowa,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Racks Central Singapore,Singapore,66.5075
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,365 Data Centers Bridgewater,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,NTT Frankfurt 1 Data Center (FRA1),Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,NTT Global Data Centers London YewTree,London,218.45
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Templus Data Centres Leeds,London,223.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Templus Data Centres London City,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Telehouse London North,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,NTT Singapore,Singapore,67.19000000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Opti9 Data Center,New York,150.75
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Iron Mountain New Jersey,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Digital Realty London LHR26,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,"Csquare New York EWR2-C,D",New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Colt Data Centre London 2,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Verne Data Centre London,London,218.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Digital Realty London LGW14,London,219.075
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,STT Singapore 5,Singapore,67.06999999999998
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Telehouse New York Chelsea Campus,New York,149.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,DataVerge,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Equinix London LD8,London,218.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Vaultica Data Centers Stockholm STO01A,Stockholm,246.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Equinix Stockholm SK2,Stockholm,245.2
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Evocative New Jersey EWR1,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,NTT London Slough2,London,219.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,NTT London Hemel Hempstead 3,London,220.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,nLighten Data Centres Milton Keynes,London,223.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Phocea Data Center Marseille,Marseille,203.725
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,QTS Piscataway,New York,150.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,TierPoint Seattle,Seattle,88.24
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,SGX Singapore,Singapore,67.68499999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Maincubes Frankfurt,Frankfurt,229.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,CyrusOne London,London,219.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Csquare Frankfurt FRA2,Frankfurt,229.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Sabey Intergate Quincy,Seattle,92.935
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Digital Realty MRS2,Marseille,204.2
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Global Switch Frankfurt South,Frankfurt,229.7
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Equinix Manchester MA4,London,224.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Csquare Seattle SEA3,Seattle,88.63
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,165 Halsey Building,New York,149.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Telehouse Frankfurt,Frankfurt,229.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,TierPoint Spokane,Seattle,95.16499999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Pulsant Data Centres South London,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Pulsant Data Centres Milton Keynes,London,220.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,TierPoint Hawthorne,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Redcentric Data Centres Woking,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Equinix New York NY2,New York,150.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,365 Data Centers Carlstadt,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Redcentric Data Centres London City,London,218.025
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Redcentric Data Centres London West,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,CoreSite NY2,New York,149.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,TDF Data Center Aix Marseille,Marseille,209.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Csquare Wokingham LHR3,London,219.025
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,H5 Data Centers Quincy,Seattle,91.5925
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Long Island Interconnect,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Equinix Dublin DB3,Dublin,228.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Equinix Frankfurt FR2,Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Equinix London LD4,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Equinix London LD9,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Equinix Singapore SG4,Singapore,66.52000000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=560&year=2026&month=9,2026-09,Equinix Tokyo TY2,Csquare - Seattle SEA2-A,Seattle,88.225
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,NYI-Sirius,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Lunar Digital Lunar 1,London,227.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,KAO Data Center,London,220.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Equinix Singapore SG1,Singapore,78.89000000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Equinix Singapore SG2,Singapore,79.11
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Equinix Singapore SG3,Singapore,78.89000000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Global Switch Singapore (Tai Seng),Singapore,78.625
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Digital Realty Singapore SIN10,Singapore,79.13999999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Sabey Intergate Seattle Building 4,Seattle,89.04499999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Digital Realty New York JFK13 (NYC3),New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Equinix Seattle SE2,Seattle,88.66999999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Evocative Seattle SEA1,Seattle,89.04499999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Equinix New York NY9,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Digital Realty New York JFK12 (NYC1),New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,CoreSite NY1,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Wowrack Seattle,Seattle,89.08499999999998
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Digital Realty New York JFK10 (NYC2),New York,150.2
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Global Switch London East,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Digital Realty London LHR20,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Digital Realty Singapore SIN12,Singapore,79.985
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Equinix London LD5,London,219.65
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Digital Realty LON2,London,219.7
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Equinix Dublin DB1,Dublin,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Equinix Stockholm SK1,Stockholm,246.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Digital Realty Dublin DUB2,Dublin,228.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Digital Realty STO5,Stockholm,246.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Telia Stockholm,Stockholm,246.8
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Csquare Secaucus EWR5,New York,151.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Digital Realty New York EWR21 (NJR3),New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Digital Realty FRA13,Frankfurt,229.95
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Equinix Frankfurt FR5,Frankfurt,230.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Telehouse New York Teleport Campus,New York,152.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Digital Realty Seattle SEA10 (Westin Building),Seattle,88.63499999999996
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Csquare Piscataway EWR3,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,CyrusOne Totowa,New York,152.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Racks Central Singapore,Singapore,78.63
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,365 Data Centers Bridgewater,New York,152.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,NTT Frankfurt 1 Data Center (FRA1),Frankfurt,229.6
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,NTT Global Data Centers London YewTree,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Templus Data Centres Leeds,London,224.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Templus Data Centres London City,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Telehouse London North,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,NTT Singapore,Singapore,79.14499999999998
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Opti9 Data Center,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Iron Mountain New Jersey,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Digital Realty London LHR26,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,"Csquare New York EWR2-C,D",New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Colt Data Centre London 2,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Verne Data Centre London,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Digital Realty London LGW14,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,STT Singapore 5,Singapore,79.03999999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Telehouse New York Chelsea Campus,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,DataVerge,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Equinix London LD8,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Vaultica Data Centers Stockholm STO01A,Stockholm,246.2
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Equinix Stockholm SK2,Stockholm,246.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Evocative New Jersey EWR1,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,NTT London Slough2,London,220.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,NTT London Hemel Hempstead 3,London,221.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,nLighten Data Centres Milton Keynes,London,224.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Phocea Data Center Marseille,Marseille,215.175
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,QTS Piscataway,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,TierPoint Seattle,Seattle,89.01499999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,SGX Singapore,Singapore,79.615
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Maincubes Frankfurt,Frankfurt,230.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,CyrusOne London,London,220.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Csquare Frankfurt FRA2,Frankfurt,230.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Sabey Intergate Quincy,Seattle,93.70500000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Digital Realty MRS2,Marseille,216.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Global Switch Frankfurt South,Frankfurt,230.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Equinix Manchester MA4,London,225.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Csquare Seattle SEA3,Seattle,89.38
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,165 Halsey Building,New York,149.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Telehouse Frankfurt,Frankfurt,230.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,TierPoint Spokane,Seattle,96.005
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Pulsant Data Centres South London,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Pulsant Data Centres Milton Keynes,London,221.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,TierPoint Hawthorne,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Redcentric Data Centres Woking,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Equinix New York NY2,New York,150.7
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,365 Data Centers Carlstadt,New York,150.95
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Redcentric Data Centres London City,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Redcentric Data Centres London West,London,219.175
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,CoreSite NY2,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Csquare Wokingham LHR3,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,H5 Data Centers Quincy,Seattle,92.13499999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Long Island Interconnect,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Equinix Dublin DB3,Dublin,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Equinix Frankfurt FR2,Frankfurt,230.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Equinix London LD4,London,219.2
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Equinix London LD9,London,219.5
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=7,2026-07,Equinix Tokyo TY4,Equinix Singapore SG4,Singapore,78.64500000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,NYI-Sirius,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Lunar Digital Lunar 1,London,227.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,KAO Data Center,London,220.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Equinix Singapore SG1,Singapore,66.9475
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Equinix Singapore SG2,Singapore,67.1475
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Equinix Singapore SG3,Singapore,66.89500000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Global Switch Singapore (Tai Seng),Singapore,66.63999999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Digital Realty Singapore SIN10,Singapore,67.16000000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Sabey Intergate Seattle Building 4,Seattle,88.67999999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Digital Realty New York JFK13 (NYC3),New York,150.4
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Equinix Seattle SE2,Seattle,88.3
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Evocative Seattle SEA1,Seattle,88.74000000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Equinix New York NY9,New York,150.35
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Digital Realty New York JFK12 (NYC1),New York,149.9
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,CoreSite NY1,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Wowrack Seattle,Seattle,88.72000000000003
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Digital Realty New York JFK10 (NYC2),New York,150.06666666666666
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Global Switch London East,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Digital Realty London LHR20,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Digital Realty Singapore SIN12,Singapore,67.99000000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Equinix London LD5,London,219.35
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Digital Realty LON2,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Equinix Dublin DB1,Dublin,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Equinix Stockholm SK1,Stockholm,246.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Digital Realty Dublin DUB2,Dublin,228.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Digital Realty STO5,Stockholm,246.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Telia Stockholm,Stockholm,246.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Csquare Secaucus EWR5,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Digital Realty New York EWR21 (NJR3),New York,151.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Digital Realty FRA13,Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Equinix Frankfurt FR5,Frankfurt,230.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Telehouse New York Teleport Campus,New York,152.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Digital Realty Seattle SEA10 (Westin Building),Seattle,88.2825
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Csquare Piscataway EWR3,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,CyrusOne Totowa,New York,151.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Racks Central Singapore,Singapore,66.64
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,365 Data Centers Bridgewater,New York,151.2
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,NTT Frankfurt 1 Data Center (FRA1),Frankfurt,229.375
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,NTT Global Data Centers London YewTree,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Templus Data Centres Leeds,London,224.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Templus Data Centres London City,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Telehouse London North,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,NTT Singapore,Singapore,67.16999999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Opti9 Data Center,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Iron Mountain New Jersey,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Digital Realty London LHR26,London,219.2
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,"Csquare New York EWR2-C,D",New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Colt Data Centre London 2,London,219.2
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Verne Data Centre London,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Digital Realty London LGW14,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,STT Singapore 5,Singapore,67.05500000000002
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Telehouse New York Chelsea Campus,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,DataVerge,New York,150.875
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Equinix London LD8,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Vaultica Data Centers Stockholm STO01A,Stockholm,246.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Equinix Stockholm SK2,Stockholm,246.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Evocative New Jersey EWR1,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,NTT London Slough2,London,220.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,NTT London Hemel Hempstead 3,London,221.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,nLighten Data Centres Milton Keynes,London,223.975
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Phocea Data Center Marseille,Marseille,204.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,QTS Piscataway,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,TierPoint Seattle,Seattle,88.71
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,SGX Singapore,Singapore,67.63999999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Maincubes Frankfurt,Frankfurt,230.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,CyrusOne London,London,220.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Csquare Frankfurt FRA2,Frankfurt,230.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Sabey Intergate Quincy,Seattle,93.4
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Digital Realty MRS2,Marseille,204.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Global Switch Frankfurt South,Frankfurt,230.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Equinix Manchester MA4,London,224.675
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Csquare Seattle SEA3,Seattle,89.08000000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,165 Halsey Building,New York,149.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Telehouse Frankfurt,Frankfurt,230.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,TierPoint Spokane,Seattle,95.63999999999996
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Pulsant Data Centres South London,London,219.65
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Pulsant Data Centres Milton Keynes,London,221.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,TierPoint Hawthorne,New York,150.75
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Redcentric Data Centres Woking,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Equinix New York NY2,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,365 Data Centers Carlstadt,New York,150.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Redcentric Data Centres London City,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Redcentric Data Centres London West,London,219.075
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,CoreSite NY2,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Csquare Wokingham LHR3,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,H5 Data Centers Quincy,Seattle,92.07249999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Long Island Interconnect,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Equinix Dublin DB3,Dublin,228.925
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Equinix London LD4,London,219.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Equinix London LD9,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Equinix Singapore SG4,Singapore,66.6525
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=8,2026-08,Equinix Tokyo TY4,Csquare - Seattle SEA2-A,Seattle,88.71000000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,NYI-Sirius,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Lunar Digital Lunar 1,London,227.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,KAO Data Center,London,220.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Equinix Singapore SG1,Singapore,66.98500000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Equinix Singapore SG2,Singapore,72.61500000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Equinix Singapore SG3,Singapore,66.91250000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Global Switch Singapore (Tai Seng),Singapore,66.66000000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Digital Realty Singapore SIN10,Singapore,67.345
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Sabey Intergate Seattle Building 4,Seattle,88.685
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Digital Realty New York JFK13 (NYC3),New York,150.4
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Equinix Seattle SE2,Seattle,88.31250000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Evocative Seattle SEA1,Seattle,88.765
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Equinix New York NY9,New York,150.4
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Digital Realty New York JFK12 (NYC1),New York,149.95
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,CoreSite NY1,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Digital Realty New York JFK10 (NYC2),New York,150.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Global Switch London East,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Digital Realty London LHR20,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Digital Realty Singapore SIN12,Singapore,66.80499999999998
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Equinix London LD5,London,219.425
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Digital Realty LON2,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Equinix Dublin DB1,Dublin,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Equinix Stockholm SK1,Stockholm,246.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Digital Realty Dublin DUB2,Dublin,228.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Digital Realty STO5,Stockholm,246.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Csquare Secaucus EWR5,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Digital Realty New York EWR21 (NJR3),New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Digital Realty FRA13,Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Equinix Frankfurt FR5,Frankfurt,230.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Telehouse New York Teleport Campus,New York,152.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Digital Realty Seattle SEA10 (Westin Building),Seattle,88.305
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Csquare Piscataway EWR3,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,CyrusOne Totowa,New York,151.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Racks Central Singapore,Singapore,66.66499999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,365 Data Centers Bridgewater,New York,151.2
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,NTT Frankfurt 1 Data Center (FRA1),Frankfurt,229.45
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,NTT Global Data Centers London YewTree,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Templus Data Centres Leeds,London,224.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Templus Data Centres London City,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Telehouse London North,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,NTT Singapore,Singapore,67.325
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Opti9 Data Center,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Iron Mountain New Jersey,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Digital Realty London LHR26,London,219.25
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,"Csquare New York EWR2-C,D",New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Colt Data Centre London 2,London,219.2
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Verne Data Centre London,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Digital Realty London LGW14,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,STT Singapore 5,Singapore,67.22
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Telehouse New York Chelsea Campus,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,DataVerge,New York,150.9
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Equinix London LD8,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Vaultica Data Centers Stockholm STO01A,Stockholm,246.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Equinix Stockholm SK2,Stockholm,246.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Evocative New Jersey EWR1,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,NTT London Slough2,London,220.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,NTT London Hemel Hempstead 3,London,221.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,nLighten Data Centres Milton Keynes,London,224.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Phocea Data Center Marseille,Marseille,204.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,QTS Piscataway,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,TierPoint Seattle,Seattle,88.73499999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,SGX Singapore,Singapore,67.78999999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Maincubes Frankfurt,Frankfurt,230.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,CyrusOne London,London,220.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Csquare Frankfurt FRA2,Frankfurt,230.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Sabey Intergate Quincy,Seattle,93.425
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Digital Realty MRS2,Marseille,204.2
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Global Switch Frankfurt South,Frankfurt,230.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Equinix Manchester MA4,London,224.75
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Csquare Seattle SEA3,Seattle,89.115
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,165 Halsey Building,New York,149.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Telehouse Frankfurt,Frankfurt,230.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,TierPoint Spokane,Seattle,95.655
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Pulsant Data Centres South London,London,219.7
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Pulsant Data Centres Milton Keynes,London,221.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,TierPoint Hawthorne,New York,150.8
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Redcentric Data Centres Woking,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Equinix New York NY2,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,365 Data Centers Carlstadt,New York,150.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Redcentric Data Centres London City,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Redcentric Data Centres London West,London,219.075
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,CoreSite NY2,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,TDF Data Center Aix Marseille,Marseille,204.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Csquare Wokingham LHR3,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,H5 Data Centers Quincy,Seattle,92.08250000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Long Island Interconnect,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Equinix Dublin DB3,Dublin,228.95
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Equinix Frankfurt FR2,Frankfurt,229.025
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Equinix London LD4,London,219.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Equinix London LD9,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Equinix Singapore SG4,Singapore,66.67500000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=561&year=2026&month=9,2026-09,Equinix Tokyo TY4,Csquare - Seattle SEA2-A,Seattle,88.71499999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,NYI-Sirius,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Lunar Digital Lunar 1,London,227.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,KAO Data Center,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Equinix Singapore SG1,Singapore,78.67000000000002
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Equinix Singapore SG2,Singapore,78.89500000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Equinix Singapore SG3,Singapore,78.66999999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Global Switch Singapore (Tai Seng),Singapore,78.4075
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Digital Realty Singapore SIN10,Singapore,78.92000000000002
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Sabey Intergate Seattle Building 4,Seattle,88.83499999999998
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Digital Realty New York JFK13 (NYC3),New York,150.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Equinix Seattle SE2,Seattle,88.11499999999998
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Evocative Seattle SEA1,Seattle,88.835
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Equinix New York NY9,New York,150.95
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Digital Realty New York JFK12 (NYC1),New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,CoreSite NY1,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Wowrack Seattle,Seattle,88.86500000000002
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Digital Realty New York JFK10 (NYC2),New York,150.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Global Switch London East,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Digital Realty London LHR20,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Digital Realty Singapore SIN12,Singapore,79.7625
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Equinix London LD5,London,219.025
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Digital Realty LON2,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Equinix Dublin DB1,Dublin,228.8
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Equinix Stockholm SK1,Stockholm,246.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Digital Realty Dublin DUB2,Dublin,228.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Digital Realty STO5,Stockholm,245.45
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Telia Stockholm,Stockholm,246.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Csquare Secaucus EWR5,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Digital Realty New York EWR21 (NJR3),New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Digital Realty FRA13,Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Equinix Frankfurt FR5,Frankfurt,230.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Telehouse New York Teleport Campus,New York,152.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Digital Realty Seattle SEA10 (Westin Building),Seattle,88.08999999999997
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Csquare Piscataway EWR3,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,CyrusOne Totowa,New York,151.6
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Racks Central Singapore,Singapore,78.41
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,365 Data Centers Bridgewater,New York,151.8
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,NTT Frankfurt 1 Data Center (FRA1),Frankfurt,229.95
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,NTT Global Data Centers London YewTree,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Templus Data Centres Leeds,London,224.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Templus Data Centres London City,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Telehouse London North,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,NTT Singapore,Singapore,78.92999999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Opti9 Data Center,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Iron Mountain New Jersey,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Digital Realty London LHR26,London,219.025
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,"Csquare New York EWR2-C,D",New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Colt Data Centre London 2,London,219.95
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Verne Data Centre London,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Digital Realty London LGW14,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,STT Singapore 5,Singapore,78.82
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Telehouse New York Chelsea Campus,New York,149.9
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,DataVerge,New York,150.025
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Equinix London LD8,London,218.95
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Vaultica Data Centers Stockholm STO01A,Stockholm,246.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Equinix Stockholm SK2,Stockholm,246.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Evocative New Jersey EWR1,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,NTT London Slough2,London,220.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,NTT London Hemel Hempstead 3,London,220.8
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,nLighten Data Centres Milton Keynes,London,224.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Phocea Data Center Marseille,Marseille,215.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,QTS Piscataway,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,TierPoint Seattle,Seattle,88.79999999999998
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,SGX Singapore,Singapore,79.39500000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Maincubes Frankfurt,Frankfurt,230.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,CyrusOne London,London,220.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Csquare Frankfurt FRA2,Frankfurt,230.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Sabey Intergate Quincy,Seattle,93.495
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Digital Realty MRS2,Marseille,215.55
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Global Switch Frankfurt South,Frankfurt,230.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Equinix Manchester MA4,London,225.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Csquare Seattle SEA3,Seattle,89.17
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,165 Halsey Building,New York,149.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Telehouse Frankfurt,Frankfurt,230.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,TierPoint Spokane,Seattle,95.78
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Pulsant Data Centres South London,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Pulsant Data Centres Milton Keynes,London,221.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,TierPoint Hawthorne,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Redcentric Data Centres Woking,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Equinix New York NY2,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,365 Data Centers Carlstadt,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Redcentric Data Centres London City,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Redcentric Data Centres London West,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,CoreSite NY2,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Csquare Wokingham LHR3,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,H5 Data Centers Quincy,Seattle,91.93000000000002
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Long Island Interconnect,New York,150.575
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Equinix Dublin DB3,Dublin,228.075
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Equinix Frankfurt FR2,Frankfurt,229.3
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Equinix London LD4,London,219.675
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Equinix London LD9,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=7,2026-07,Equinix Tokyo TY15,Equinix Singapore SG4,Singapore,78.42
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,NYI-Sirius,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Lunar Digital Lunar 1,London,227.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,KAO Data Center,London,219.45
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Equinix Singapore SG1,Singapore,66.72749999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Equinix Singapore SG2,Singapore,66.92750000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Equinix Singapore SG3,Singapore,66.67750000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Global Switch Singapore (Tai Seng),Singapore,66.41999999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Digital Realty Singapore SIN10,Singapore,66.94500000000002
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Sabey Intergate Seattle Building 4,Seattle,88.465
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Digital Realty New York JFK13 (NYC3),New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Equinix Seattle SE2,Seattle,88.08249999999998
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Evocative Seattle SEA1,Seattle,88.53500000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Equinix New York NY9,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Digital Realty New York JFK12 (NYC1),New York,149.4
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,CoreSite NY1,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Wowrack Seattle,Seattle,88.5
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Digital Realty New York JFK10 (NYC2),New York,150.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Global Switch London East,London,218.6
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Digital Realty London LHR20,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Digital Realty Singapore SIN12,Singapore,67.77250000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Equinix London LD5,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Digital Realty LON2,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Equinix Dublin DB1,Dublin,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Equinix Stockholm SK1,Stockholm,246.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Digital Realty Dublin DUB2,Dublin,228.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Digital Realty STO5,Stockholm,245.225
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Telia Stockholm,Stockholm,246.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Csquare Secaucus EWR5,New York,150.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Digital Realty New York EWR21 (NJR3),New York,150.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Digital Realty FRA13,Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Equinix Frankfurt FR5,Frankfurt,230.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Telehouse New York Teleport Campus,New York,152.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Digital Realty Seattle SEA10 (Westin Building),Seattle,88.0625
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Csquare Piscataway EWR3,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,CyrusOne Totowa,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Racks Central Singapore,Singapore,66.415
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,365 Data Centers Bridgewater,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,NTT Frankfurt 1 Data Center (FRA1),Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,NTT Global Data Centers London YewTree,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Templus Data Centres Leeds,London,223.075
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Templus Data Centres London City,London,218.95
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Telehouse London North,London,218.9
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,NTT Singapore,Singapore,66.955
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Opti9 Data Center,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Iron Mountain New Jersey,New York,150.3
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Digital Realty London LHR26,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,"Csquare New York EWR2-C,D",New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Colt Data Centre London 2,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Verne Data Centre London,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Digital Realty London LGW14,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,STT Singapore 5,Singapore,66.84
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Telehouse New York Chelsea Campus,New York,149.525
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,DataVerge,New York,150.025
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Equinix London LD8,London,218.675
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Vaultica Data Centers Stockholm STO01A,Stockholm,246.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Equinix Stockholm SK2,Stockholm,246.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Evocative New Jersey EWR1,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,NTT London Slough2,London,220.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,NTT London Hemel Hempstead 3,London,220.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,nLighten Data Centres Milton Keynes,London,223.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Phocea Data Center Marseille,Marseille,204.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,QTS Piscataway,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,TierPoint Seattle,Seattle,88.49500000000003
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,SGX Singapore,Singapore,67.42499999999998
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Maincubes Frankfurt,Frankfurt,229.35
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,CyrusOne London,London,220.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Csquare Frankfurt FRA2,Frankfurt,230.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Sabey Intergate Quincy,Seattle,93.18499999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Digital Realty MRS2,Marseille,204.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Global Switch Frankfurt South,Frankfurt,230.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Equinix Manchester MA4,London,224.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Csquare Seattle SEA3,Seattle,88.86500000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,165 Halsey Building,New York,149.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Telehouse Frankfurt,Frankfurt,229.9
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,TierPoint Spokane,Seattle,95.4175
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Pulsant Data Centres South London,London,219.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Pulsant Data Centres Milton Keynes,London,221.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,TierPoint Hawthorne,New York,150.025
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Redcentric Data Centres Woking,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Equinix New York NY2,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,365 Data Centers Carlstadt,New York,150.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Redcentric Data Centres London City,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Redcentric Data Centres London West,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,CoreSite NY2,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Csquare Wokingham LHR3,London,219.75
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,H5 Data Centers Quincy,Seattle,91.8525
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Long Island Interconnect,New York,150.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Equinix Dublin DB3,Dublin,228.025
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Equinix London LD4,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Equinix London LD9,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Equinix Singapore SG4,Singapore,66.42999999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=8,2026-08,Equinix Tokyo TY15,Csquare - Seattle SEA2-A,Seattle,88.49000000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,NYI-Sirius,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Lunar Digital Lunar 1,London,227.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,KAO Data Center,London,219.5
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Equinix Singapore SG1,Singapore,66.76750000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Equinix Singapore SG2,Singapore,72.51000000000002
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Equinix Singapore SG3,Singapore,66.69500000000002
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Global Switch Singapore (Tai Seng),Singapore,66.44500000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Digital Realty Singapore SIN10,Singapore,67.13499999999999
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Sabey Intergate Seattle Building 4,Seattle,88.46500000000002
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Digital Realty New York JFK13 (NYC3),New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Equinix Seattle SE2,Seattle,88.09499999999998
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Evocative Seattle SEA1,Seattle,88.55000000000003
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Equinix New York NY9,New York,150.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Digital Realty New York JFK12 (NYC1),New York,149.41666666666666
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,CoreSite NY1,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Digital Realty New York JFK10 (NYC2),New York,150.03333333333333
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Global Switch London East,London,218.65
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Digital Realty London LHR20,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Digital Realty Singapore SIN12,Singapore,66.58500000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Equinix London LD5,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Digital Realty LON2,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Equinix Dublin DB1,Dublin,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Equinix Stockholm SK1,Stockholm,246.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Digital Realty Dublin DUB2,Dublin,228.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Digital Realty STO5,Stockholm,245.25
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Csquare Secaucus EWR5,New York,150.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Digital Realty New York EWR21 (NJR3),New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Digital Realty FRA13,Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Equinix Frankfurt FR5,Frankfurt,230.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Telehouse New York Teleport Campus,New York,152.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Digital Realty Seattle SEA10 (Westin Building),Seattle,88.08250000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Csquare Piscataway EWR3,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,CyrusOne Totowa,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Racks Central Singapore,Singapore,66.4325
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,365 Data Centers Bridgewater,New York,151.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,NTT Frankfurt 1 Data Center (FRA1),Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,NTT Global Data Centers London YewTree,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Templus Data Centres Leeds,London,223.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Templus Data Centres London City,London,218.95
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Telehouse London North,London,218.95
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,NTT Singapore,Singapore,67.115
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Opti9 Data Center,New York,151.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Iron Mountain New Jersey,New York,150.35
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Digital Realty London LHR26,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,"Csquare New York EWR2-C,D",New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Colt Data Centre London 2,London,219.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Verne Data Centre London,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Digital Realty London LGW14,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,STT Singapore 5,Singapore,67.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Telehouse New York Chelsea Campus,New York,149.575
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,DataVerge,New York,150.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Equinix London LD8,London,218.75
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Vaultica Data Centers Stockholm STO01A,Stockholm,246.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Equinix Stockholm SK2,Stockholm,246.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Evocative New Jersey EWR1,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,NTT London Slough2,London,220.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,NTT London Hemel Hempstead 3,London,220.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,nLighten Data Centres Milton Keynes,London,223.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Phocea Data Center Marseille,Marseille,203.4
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,QTS Piscataway,New York,151.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,TierPoint Seattle,Seattle,88.51000000000002
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,SGX Singapore,Singapore,67.56999999999998
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Maincubes Frankfurt,Frankfurt,229.35
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,CyrusOne London,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Csquare Frankfurt FRA2,Frankfurt,230.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Sabey Intergate Quincy,Seattle,93.20499999999998
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Digital Realty MRS2,Marseille,204.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Global Switch Frankfurt South,Frankfurt,230.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Equinix Manchester MA4,London,224.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Csquare Seattle SEA3,Seattle,88.89500000000001
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,165 Halsey Building,New York,149.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Telehouse Frankfurt,Frankfurt,229.95
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,TierPoint Spokane,Seattle,95.43250000000003
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Pulsant Data Centres South London,London,219.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Pulsant Data Centres Milton Keynes,London,221.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,TierPoint Hawthorne,New York,150.025
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Redcentric Data Centres Woking,London,220.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Equinix New York NY2,New York,150.1
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,365 Data Centers Carlstadt,New York,150.15
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Redcentric Data Centres London City,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Redcentric Data Centres London West,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,CoreSite NY2,New York,150.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,TDF Data Center Aix Marseille,Marseille,209.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Csquare Wokingham LHR3,London,219.8
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,H5 Data Centers Quincy,Seattle,91.8625
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Long Island Interconnect,New York,150.05
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Equinix Dublin DB3,Dublin,228.025
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Equinix Frankfurt FR2,Frankfurt,229.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Equinix London LD4,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Equinix London LD9,London,219.0
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Equinix Singapore SG4,Singapore,66.4525
+megaport,api.megaport.com/v2/locations/rtt?locationId=1748&year=2026&month=9,2026-09,Equinix Tokyo TY15,Csquare - Seattle SEA2-A,Seattle,88.49249999999999

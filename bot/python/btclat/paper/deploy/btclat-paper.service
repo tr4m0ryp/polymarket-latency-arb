@@ -1,0 +1,24 @@
+# Read-only paper bot (btclat/paper). Installed by setup.sh to /etc/systemd/system/.
+[Unit]
+Description=btclat paper bot (read-only, logs would-be orders, sends nothing)
+After=network-online.target chrony.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=btclat
+WorkingDirectory=/opt/btclat
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/btclat/.venv/bin/python -m btclat.paper --hours 48 --ntp amazon --conns 4 --latency-ms 0 --model-L 0 --run dublin-%i
+Nice=10
+MemoryMax=1G
+Restart=on-failure
+RestartSec=30
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/btclat/data/paper
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

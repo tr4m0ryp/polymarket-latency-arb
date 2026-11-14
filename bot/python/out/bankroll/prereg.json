@@ -1,0 +1,141 @@
+{
+ "start": 100.0,
+ "objective": "max median log(E_24h / start), E = cash + open cost after every market of the day is paid",
+ "constraints": {
+  "p_below_50_24h": 0.05,
+  "p_below_25_7d": 0.01
+ },
+ "tie_break": "higher p10 of 24 h log growth",
+ "choose_on": "selection hours (before 2026-10-13 00:00 UTC), arm v1_frozen, hold `old` (195 live orders of 2026-10-13), redeem 120 s after the market end",
+ "stage1": "every grid point, 200 bootstrap 24 h paths; keep the 100 best medians among points with P(<$50 in 24 h) <= 0.08 on the screen",
+ "stage2": "finalists: 2000 bootstrap 24 h paths + all 288-market rotations (24 h) + 1000 bootstrap 7 d paths; constraints must hold on bootstrap and rotations; winner = best bootstrap median",
+ "report_only": "test hours (both arms), hold `new` (bot run 2026-10-14) and `fast50`, redeem 1 h, $26 start, ablation of each cap from the winner, live config (60 sh, no caps, no fit)",
+ "fixed": {
+  "max_sh": 500,
+  "fit": 1,
+  "refractory_s": 0.2,
+  "i": 0
+ },
+ "frozen_utc": "2026-10-14 17:28:06",
+ "n_grid": 69120,
+ "grid": {
+  "sizing": [
+   [
+    0,
+    5
+   ],
+   [
+    0,
+    10
+   ],
+   [
+    0,
+    20
+   ],
+   [
+    0,
+    30
+   ],
+   [
+    0,
+    60
+   ],
+   [
+    1,
+    0.01
+   ],
+   [
+    1,
+    0.02
+   ],
+   [
+    1,
+    0.03
+   ],
+   [
+    1,
+    0.05
+   ],
+   [
+    1,
+    0.08
+   ],
+   [
+    1,
+    0.12
+   ],
+   [
+    2,
+    0.1
+   ],
+   [
+    2,
+    0.25
+   ],
+   [
+    2,
+    0.5
+   ],
+   [
+    2,
+    1.0
+   ]
+  ],
+  "market_frac": [
+   0.05,
+   0.1,
+   0.15,
+   0.25,
+   0.4,
+   1e+18
+  ],
+  "open_frac": [
+   0.25,
+   0.5,
+   1e+18
+  ],
+  "one_side": null,
+  "max_fills": [
+   1,
+   2,
+   3,
+   1e+18
+  ],
+  "dd_stop": [
+   0.15,
+   0.25,
+   0.4,
+   1e+18
+  ],
+  "min_edge": [
+   0.0,
+   0.005,
+   0.01,
+   0.02
+  ],
+  "side_policy": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "floor": [
+   1e+18,
+   0.5,
+   0.6,
+   0.7
+  ]
+ },
+ "amendments": [
+  {
+   "utc": "2026-10-14 17:30:59",
+   "what": "side policies (b) per-side fill cap, opposite side free and (c) hedge only (an opposite order is capped at the net share imbalance, so it never raises the market's worst-case loss) added to (a) one direction and (d) none, on the coordinator's request, before any path was scored",
+   "scored_before": false
+  },
+  {
+   "utc": "2026-10-14 17:42:32",
+   "what": "stage 2 found no grid point meeting P(ever < $25 in 7 d) <= 1% (best 5.4%): a daily drawdown pause cannot stop a run of bad days. Added an all-time-peak floor halt (0.5 / 0.6 / 0.7, the 'never lose everything' mechanism) to the whole grid; stage 1b = 200 7 d bootstrap paths on the 2,000 best stage-1 points per floor, stage 2 = the 100 best 24 h medians among points with stage-1b P(< $25 in 7 d) <= 2%; the user's update (sizing must compound) restricts the winner to fraction / Kelly sizing, the best fixed-size point is reported beside it. Test hours still unscored.",
+   "scored_before": "selection hours only (stage 1 + 2); test hours unscored"
+  }
+ ]
+}

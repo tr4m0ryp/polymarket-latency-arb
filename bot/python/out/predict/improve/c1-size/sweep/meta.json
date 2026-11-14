@@ -1,0 +1,63 @@
+{
+ "arm": "research.predict.improve.cand.c1_conviction_keyed_size_value_keyed_size_on_the_identity_projected_value_with_a_low_delta_busy_cap.arms:size_sweep",
+ "folds": {
+  "A": {
+   "chosen": "ek_vstar_4000",
+   "key": "*|ek_vstar_4000",
+   "retrained": false,
+   "criterion": "lcb",
+   "value": 1109.5264147733249,
+   "met_floor": true,
+   "variants": 26,
+   "choose": [
+    "select",
+    "dev3"
+   ],
+   "evaluate": [
+    "test3r1",
+    "ext"
+   ]
+  },
+  "B": {
+   "chosen": "ek_flat_75",
+   "key": "*|ek_flat_75",
+   "retrained": false,
+   "criterion": "lcb",
+   "value": -106.26228883054996,
+   "met_floor": true,
+   "variants": 26,
+   "choose": [
+    "test3r1",
+    "ext"
+   ],
+   "evaluate": [
+    "select",
+    "dev3"
+   ]
+  }
+ },
+ "sets": {
+  "A:test3r1": 83,
+  "A:ext": 48,
+  "A:eval": 131,
+  "A:busy15": 12,
+  "A:busyQ": 47,
+  "B:select": 144,
+  "B:dev3": 120,
+  "B:eval": 264,
+  "B:busyQ": 60,
+  "CV:all": 395,
+  "CV:busyQ": 107,
+  "unseen251": 251
+ },
+ "secs_total": 1281.7945790290833,
+ "secs_refs": 0.313030481338501,
+ "secs_sim": 1257.480669260025,
+ "models": {
+  "v1_L0": "570a9c1015c555c5",
+  "v1_L-40": "8b1fd3f3662c7648"
+ },
+ "max_start": 1791744600.0,
+ "n_markets": 395,
+ "fold_invariant": true
+}

@@ -1,0 +1,42 @@
+[workspace]
+resolver = "2"
+members = ["crates/model", "crates/signal", "crates/venue", "crates/risk", "crates/tlog", "crates/bot"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license-file = "../../LICENSE"
+publish = false
+
+[workspace.dependencies]
+anyhow = "1"
+thiserror = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["float_roundtrip"] }
+sha2 = "0.10"
+hex = "0.4"
+flate2 = "1"
+crossbeam-channel = "0.5"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "net", "time", "sync", "signal", "fs", "io-util"] }
+tokio-tungstenite = { version = "0.24", default-features = false, features = ["connect", "rustls-tls-webpki-roots"] }
+futures-util = { version = "0.3", default-features = false, features = ["sink", "std"] }
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls-webpki-roots", "http2", "json"] }
+k256 = { version = "0.13", features = ["ecdsa"] }
+sha3 = "0.10"
+hmac = "0.12"
+base64 = "0.22"
+rand = "0.8"
+clap = { version = "4", features = ["derive", "env"] }
+libc = "0.2"
+btl_model = { path = "crates/model" }
+btl_signal = { path = "crates/signal" }
+btl_venue = { path = "crates/venue" }
+btl_risk = { path = "crates/risk" }
+btl_log = { path = "crates/tlog" }
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "unwind"
+debug = 1
