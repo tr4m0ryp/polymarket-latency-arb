@@ -67,7 +67,11 @@ Net per 30 days, for the order flow that would trade $5.8M if everything filled.
 
 The sample is small: 48 hours from one site, and every filled-order edge has a 95% interval that includes zero. Only the gap between filled and missed orders is statistically clear. Code and numbers: `backrun/`.
 
-## The limitation
+## The limitations
+
+Two things have to hold at once: the fee tier and the order delay.
+
+**1. The fee tier.**
 
 The tiers are 3, 8, 18, 32, 44 and 50% of the fee returned. The top tier needs **$10M of weighted volume per 30 days**, where each share counts as `(1 - p) * 2.3`. At `p = 0.57` that is about **$5.8M traded per month**, the volume used in the table.
 
@@ -79,13 +83,13 @@ That is volume, not capital. A 5-minute market pays out when it ends, so the sam
 
 About 55 clips of $12 in each market, reinvested 8,640 times. A working balance of a few thousand dollars covers it, with room for payouts that arrive a few minutes late.
 
-The capital is small. The cost is the climb: a new account starts at 0% and has to trade its way up at a loss, about $32,900 for a month at full volume. Our own live result at that tier was about zero.
+The capital is small. The cost is the climb: a new account starts at 0% and has to trade its way up at a loss, about $32,900 for a month at full volume, and that is with every order filled.
 
-Two smaller obstacles remain: a 150 ms hold that Polymarket applies to taker orders, and a median of 4 rival bots chasing each move.
+**2. The order delay.** Polymarket holds a taker order for about 150 ms before matching it, and a median of 4 rival bots chase each move. The fastest incumbents are matched 110 to 170 ms before us. In that gap the good asks are taken, and what is left for a slower order loses money before fees, as the replay shows. A top-tier refund on a losing trade is still a loss.
 
 ## Status
 
-We have not found a way to reach that volume without losing money on the way up, so the gap stays locked for us. If you are rich, congratulations: this makes you richer.
+We have solved neither. We cannot reach the volume without losing money on the way up, and we do not match the incumbents' order delay. Money buys the first: if you are rich, you can pay for the climb. It does not buy the second.
 
 Reproduce the figure and the table with `python figures/make.py`.
 
