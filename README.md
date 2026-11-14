@@ -8,19 +8,50 @@ Polymarket settles its BTC up/down markets on the Chainlink BTC/USD price. That 
 
 We read the move at the source instead. Binance (hosted in AWS Tokyo) and Deribit feed one fused fair value, computed on a server in AWS London, the same region as Polymarket's matching engine. Polymarket approved our wallets for its co-location programme, which puts an order 15 ms from the engine. A small prediction model filters out the moves that will not carry through.
 
-The wallets that already run this buy the side of the latest 1 to 3 s exchange move in small fixed clips and hold to resolution. They earn **2.44 cents per dollar traded** before fees, and **10.7 cents** right after a clear move of more than 1 basis point.
+The trade itself is simple: buy the side of the latest 1 to 3 s exchange move in a small fixed clip and hold to resolution. Measured on the 5-minute markets, it earns **2.44 cents per dollar traded** before fees.
+
+## What it earns after fees
+
+Polymarket charges a taker `0.07 * p * (1 - p)` per share bought at price `p`, and returns a share `r` of that fee depending on the account's volume tier.
+
+A dollar buys `1 / p` shares, so the fee per dollar traded is
+
+```
+f = 0.07 * p * (1 - p) / p = 0.07 * (1 - p)
+```
+
+With a gross edge of `g` per dollar, the net result per dollar is
+
+```
+net(r) = g - f * (1 - r)
+```
+
+At the typical price `p = 0.57` the fee is `f = 0.07 * 0.43 = 3.01` cents per dollar. That is more than the edge of `g = 2.44` cents, so the trade loses without a refund. It breaks even when `r = 1 - g / f = 1 - 2.44 / 3.01 = 19%`.
+
+![Net result per dollar traded at each fee tier](figures/net_vs_rebate.png)
+
+| Fee returned | Net per dollar traded | Per 30 days at $5.8M traded |
+|---|---|---|
+| 0% (new account) | -0.57 c | -$32,900 |
+| 18% | -0.03 c | -$1,600 |
+| 32% | +0.39 c | +$22,700 |
+| 50% (top tier) | +0.93 c | +$53,900 |
+
+The same trade, at the same speed, loses $32,900 a month on a new account and earns $53,900 at the top tier.
 
 ## The limitation
 
-The taker fee is `0.07 * p * (1 - p)` per share, about 3% of the amount traded near even odds. That is larger than the average edge.
+The tiers are 3, 8, 18, 32, 44 and 50% of the fee returned. The top tier needs **$10M of weighted volume per 30 days**, where each share counts as `(1 - p) * 2.3`. At `p = 0.57` that is about **$5.8M traded per month**, the volume used in the table.
 
-Polymarket returns part of the fee by volume tier: 3, 8, 18, 32, 44 or 50%. The top tier, 50% back, needs about **$10M of weighted trading volume per 30 days**. Every profitable bot we measured sits there. Over two days the second-best one made $12,074 at that tier and would have made $2,713 without it. A new account starts at 0%, where our own live result was about zero.
+A new account starts at 0% and has to trade its way up at a loss. Our own live result at that tier was about zero.
 
 Two smaller obstacles remain: a 150 ms hold that Polymarket applies to taker orders, and a median of 4 rival bots chasing each move.
 
 ## Status
 
 We have not found a way to reach that volume without losing money on the way up, so the gap stays locked for us. If you are rich, congratulations: this makes you richer.
+
+Reproduce the figure and the table with `python figures/make.py`.
 
 ## License
 
