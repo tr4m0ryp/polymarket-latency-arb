@@ -43,7 +43,15 @@ The same trade, at the same speed, loses $32,900 a month on a new account and ea
 
 The tiers are 3, 8, 18, 32, 44 and 50% of the fee returned. The top tier needs **$10M of weighted volume per 30 days**, where each share counts as `(1 - p) * 2.3`. At `p = 0.57` that is about **$5.8M traded per month**, the volume used in the table.
 
-A new account starts at 0% and has to trade its way up at a loss. Our own live result at that tier was about zero.
+That is volume, not capital. A 5-minute market pays out when it ends, so the same money is used again in the next one. There are `12 * 24 * 30 = 8,640` such markets in 30 days, which gives
+
+```
+5,760,000 / 8,640 = 667 dollars traded per market
+```
+
+About 55 clips of $12 in each market, reinvested 8,640 times. A working balance of a few thousand dollars covers it, with room for payouts that arrive a few minutes late.
+
+The capital is small. The cost is the climb: a new account starts at 0% and has to trade its way up at a loss, about $32,900 for a month at full volume. Our own live result at that tier was about zero.
 
 Two smaller obstacles remain: a 150 ms hold that Polymarket applies to taker orders, and a median of 4 rival bots chasing each move.
 
