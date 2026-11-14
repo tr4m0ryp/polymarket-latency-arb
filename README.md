@@ -39,33 +39,9 @@ At the typical price `p = 0.57` the fee is `f = 0.07 * 0.43 = 3.01` cents per do
 
 The same trade, at the same speed, loses $32,900 a month on a new account and earns $53,900 at the top tier.
 
-## What a replay says about fills
+## Before you rely on these numbers
 
-The numbers above assume every order fills at the price we saw. That is the upper bound. To test it we replayed the trade on 48 hours of our own recording: 575 markets, 34,577 orders of $12, each sent on the side of the last 3 s exchange move. An order counts as filled only if the ask is still there after the order delay.
-
-| Order delay | Dollars filled | Edge of all orders | Edge of the filled orders | Edge of the missed orders |
-|---|---|---|---|---|
-| 0 ms | 78% | +1.33 c | -0.97 c | +12.44 c |
-| 165 ms (London) | 69% | +1.33 c | -1.33 c | +10.92 c |
-| 330 ms (Dublin) | 64% | +1.33 c | -1.25 c | +10.55 c |
-
-Edges are cents per dollar traded, before fees, held to resolution. The orders that fill are the ones where the move did not carry through; the profitable ones are gone before we arrive. That gap of 2.67 cents per dollar at 165 ms (95% interval 1.76 to 3.58) is the cost of being late, and it is larger than the whole edge.
-
-Our 4 hour live run was worse on fills and about the same on edge: 22 of 155 orders filled (14%), at -0.03 cents per dollar before fees.
-
-![Lower and upper bound of the monthly result](figures/bounds.png)
-
-| Scenario | Dollars filled | Edge before fees | New account (0%) | Top tier (50%) |
-|---|---|---|---|---|
-| Upper: every order fills | 100% | +2.44 c | -$32,800 | +$53,900 |
-| Live run | 13% | -0.03 c | -$23,300 | -$11,700 |
-| Replay at 165 ms | 69% | -0.23 c | -$128,000 | -$68,500 |
-
-Net per 30 days, for the order flow that would trade $5.8M if everything filled. The replay row takes the measured edge of 2.44 cents and subtracts the measured cost of being late.
-
-**The lower bound is a loss at every fee tier, the top one included.** The upper bound is reached only by an account that also fills like the fastest incumbents, whose orders are matched 110 to 170 ms before ours. The fee tier is necessary, and it is not sufficient.
-
-The sample is small: 48 hours from one site, and every filled-order edge has a 95% interval that includes zero. Only the gap between filled and missed orders is statistically clear. Code and numbers: `backrun/`.
+The numbers above assume every order fills at the price you saw. Test that first. We believe that by default not all orders fill, because the supply at that price is limited. Expect to tune the order size and the way you place orders before the numbers hold.
 
 ## The limitations
 
@@ -85,7 +61,7 @@ About 55 clips of $12 in each market, reinvested 8,640 times. A working balance 
 
 The capital is small. The cost is the climb: a new account starts at 0% and has to trade its way up at a loss, about $32,900 for a month at full volume, and that is with every order filled.
 
-**2. The order delay.** Polymarket holds a taker order for about 150 ms before matching it, and a median of 4 rival bots chase each move. The fastest incumbents are matched 110 to 170 ms before us. In that gap the good asks are taken, and what is left for a slower order loses money before fees, as the replay shows. A top-tier refund on a losing trade is still a loss.
+**2. The order delay.** Polymarket holds a taker order for about 150 ms before matching it, and a median of 4 rival bots chase each move. The fastest incumbents are matched 110 to 170 ms before us. In that gap the good asks can be taken before a slower order arrives.
 
 ## Status
 
