@@ -67,6 +67,8 @@ The capital is small. The cost is the climb: a new account starts at 0% and has 
 
 We have solved neither. We cannot reach the volume without losing money on the way up, and we do not match the incumbents' order delay. Money buys the first: if you are rich, you can pay for the climb. It does not buy the second.
 
+Make the most of it while it is here. Know that most is not defined in tokens, since that will not be for eternity. Vision saw there are about ten years left. After that the token may no longer be a need.
+
 Reproduce the figure and the table with `python figures/make.py`.
 
 ## What is in this repository
